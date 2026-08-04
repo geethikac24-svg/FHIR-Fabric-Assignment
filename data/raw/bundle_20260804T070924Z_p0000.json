@@ -1,0 +1,3143 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4/Encounter?_count=50&_lastUpdated=ge2026-08-01",
+  "api_call_timestamp": "2026-08-04T07:09:24.493382+00:00",
+  "saved_timestamp": "2026-08-04T07:09:26.388627+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:25.959-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4/Encounter?_count=50&_lastUpdated=ge2026-08-01"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137265112",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137265112",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T07:27:17.520-04:00",
+            "source": "#VDqDwudChe4YtSPI"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137265111"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137265124",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137265124",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:29:19.464-04:00",
+            "source": "#2Sd3YXPVZxVDpO4z"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137265123"
+          },
+          "period": {
+            "start": "2026-07-05T10:00:00Z",
+            "end": "2026-07-05T10:30:00Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137265132",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137265132",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:29:21.742-04:00",
+            "source": "#u0nYxsv6tbuxVaxN"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137265131"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137265134",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137265134",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:30:35.998-04:00",
+            "source": "#nxyY285u9H74UaBU"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137265133"
+          },
+          "period": {
+            "start": "2026-07-05T10:00:00Z",
+            "end": "2026-07-05T10:30:00Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137265142",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137265142",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:30:37.781-04:00",
+            "source": "#5xxmZIOODVqFW8tm"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137265141"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137265161",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137265161",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T09:04:27.063-04:00",
+            "source": "#Mr9XmtCmWVFGEmfJ"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137265160"
+          },
+          "period": {
+            "start": "2026-07-05T10:00:00Z",
+            "end": "2026-07-05T10:30:00Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137265169",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137265169",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T09:04:30.018-04:00",
+            "source": "#GbapWSfAE5jq97Vn"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137265168"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137265676",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137265676",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T13:23:34.492-04:00",
+            "source": "#Yyt725DxzHGfVNC6"
+          },
+          "status": "in-progress",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "IMP"
+          },
+          "subject": {
+            "reference": "Patient/137265610"
+          },
+          "period": {
+            "start": "2026-07-31T17:23:34.848491Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137271390",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137271390",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T19:08:56.956-04:00",
+            "source": "#Vw5VCGg8BASB3ZW8",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "1e043d72-bf62-4e61-803e-a6716afeaed0"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137271392",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137271392",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T19:09:15.899-04:00",
+            "source": "#64tjmf1qiyhgKvya",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "c458fed8-4644-4f5a-bf07-2fd022035895"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137271394",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137271394",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T19:09:33.223-04:00",
+            "source": "#6SrDDwvkrSlVXvGS",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "1f69e20a-b547-41b8-b3ee-e7bec0f05c2d"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137271396",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137271396",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T19:09:50.803-04:00",
+            "source": "#OzMHPXTriaTbhymU",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "bcc71b47-6396-49bb-a873-417d6754fc8d"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137271400",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137271400",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T19:10:50.565-04:00",
+            "source": "#68f4UCESc7Q82ri6",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "fdc779ed-3d01-40eb-9292-3fe3530dff9e"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137272345",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137272345",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-07-31T20:13:06.531-04:00",
+            "source": "#QVhDHS9W3Tp4CYsJ"
+          },
+          "status": "in-progress",
+          "subject": {
+            "reference": "Patient/137272344"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137272373",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137272373",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T20:18:16.897-04:00",
+            "source": "#8PC4AHGx82W6O1y6"
+          },
+          "identifier": [
+            {
+              "system": "http://cityhosp.example.org/visit",
+              "value": "MRN1001-1002001"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "IMP"
+          },
+          "subject": {
+            "reference": "Patient/137272344"
+          },
+          "period": {
+            "start": "2026-07-29T08:55:00Z",
+            "end": "2026-07-29T15:25:00Z"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137272471",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137272471",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T00:50:20.302-04:00",
+            "source": "#0UD3LgkNiy49NRIs",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "9b6e89ae-0b7f-4377-a910-bf2cdd9bb4d3"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137272473",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137272473",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T00:51:00.801-04:00",
+            "source": "#hqkgddli7NwUt3LK",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "171df343-7ee8-41e9-a357-33c67c616e53"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137272475",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137272475",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T00:51:22.313-04:00",
+            "source": "#69kiakfz2vYSF0BK",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "debd84d5-6618-43d4-b710-c0efe407f038"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137272477",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137272477",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T00:51:41.247-04:00",
+            "source": "#MzPgXzDcgzmAERjE",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "62bc8ef8-bb93-4f1b-9bc0-6e91ace996fb"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137272481",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137272481",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T00:52:32.484-04:00",
+            "source": "#lbvL0tKyxejZCxhN",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "c302965d-db00-44df-874b-d14fd394fe2a"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137272788",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137272788",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T05:59:25.948-04:00",
+            "source": "#oRs0wdicgtajoVW2"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/encounter",
+              "value": "CB-64D2676F-2026-08-01"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137272484"
+          },
+          "period": {
+            "start": "2026-08-01",
+            "end": "2026-08-01"
+          },
+          "reasonCode": [
+            {
+              "text": "咳嗽"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137273158",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137273158",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T08:46:57.685-04:00",
+            "source": "#FlP9wPlZG3qQ75V7"
+          },
+          "status": "arrived",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137273154"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137273153"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137273156"
+            }
+          ],
+          "period": {
+            "start": "2026-08-01T09:46:00+08:00",
+            "end": "2026-08-01T10:46:00+08:00"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137273151"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137273279",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137273279",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T10:13:46.666-04:00",
+            "source": "#kB4jcHXS39aDWi7k"
+          },
+          "status": "arrived",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137273277"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137273276"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137273278"
+            }
+          ],
+          "period": {
+            "start": "2026-08-01T00:13:00+08:00",
+            "end": "2026-08-01T13:13:00+08:00"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137273275"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137273284",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137273284",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T10:16:12.172-04:00",
+            "source": "#B2sG9Z7Knti9cNrr"
+          },
+          "status": "arrived",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137273282"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137273281"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137273283"
+            }
+          ],
+          "period": {
+            "start": "2026-08-01T00:15:00+08:00",
+            "end": "2026-08-01T13:15:00+08:00"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137273280"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137273290",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137273290",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T10:25:32.645-04:00",
+            "source": "#MaCsOT0s0UyRNqZT"
+          },
+          "status": "arrived",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137273288"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137273287"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137273289"
+            }
+          ],
+          "period": {
+            "start": "2026-08-01T09:24:00+08:00",
+            "end": "2026-08-01T10:24:00+08:00"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137273286"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137273295",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137273295",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T10:32:58.805-04:00",
+            "source": "#pB6F9q7O361C442J"
+          },
+          "status": "arrived",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137273293"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137273292"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137273294"
+            }
+          ],
+          "period": {
+            "start": "2026-08-01T10:32:00+08:00",
+            "end": "2026-08-01T11:32:00+08:00"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137273291"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137273304",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137273304",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T11:23:31.643-04:00",
+            "source": "#TZ3ssQKgFBZd8jWQ"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/encounter",
+              "value": "CB-199D9EB0-2026-08-01"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137273300"
+          },
+          "period": {
+            "start": "2026-08-01",
+            "end": "2026-08-01"
+          },
+          "reasonCode": [
+            {
+              "text": "濫用健保資源"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137273311",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137273311",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T11:51:06.349-04:00",
+            "source": "#l5qnXoRxfmeA0kas"
+          },
+          "status": "arrived",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/137273308"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/137273307"
+              }
+            }
+          ],
+          "appointment": [
+            {
+              "reference": "Appointment/137273309"
+            }
+          ],
+          "period": {
+            "start": "2026-08-01T23:50:00+08:00",
+            "end": "2026-08-01T00:50:00+08:00"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137273306"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274339",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274339",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T19:12:32.960-04:00",
+            "source": "#3Uojy5wbvvj45u89",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "f2958a97-8a3a-4369-b72f-a8bebe7d3e1a"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274341",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274341",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T19:12:51.538-04:00",
+            "source": "#V5gJ54uu8WzHZl8s",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "7b558f7e-47f3-4f0f-a163-12d6a0034e49"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274343",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274343",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T19:13:09.126-04:00",
+            "source": "#HlDvjDedVjGb1TcJ",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "3c20d725-9204-4897-a946-088b2113cc05"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274345",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274345",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T19:13:26.847-04:00",
+            "source": "#AHTjEe0fATCdXjeF",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "b322d374-c7ff-460c-a45a-a3900c53ae9b"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274349",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274349",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T19:14:17.526-04:00",
+            "source": "#MdxhUxeW5K8969eY",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "85de80dc-c0d4-4fd1-ab53-5415a2ea59ba"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274375",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274375",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T23:37:09.214-04:00",
+            "source": "#RCj78YnwZzVm80vs",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "a7be1059-a6d6-4311-8dd0-c889e8a10f14"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274377",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274377",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T23:37:27.413-04:00",
+            "source": "#itWLmncLAFFvUNeJ",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "7ef60faf-8531-4f22-91f8-795cf2efff5a"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274379",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274379",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T23:37:46.983-04:00",
+            "source": "#1Gi6Wn1t7hsPWIuE",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "df070b72-ad82-47a3-b6b9-3276ab4abe0f"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274381",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274381",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T23:38:16.818-04:00",
+            "source": "#b88Aopw5rlQBkQMX",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "c3440c2c-36a8-4cab-8221-6e2e5276d7f0"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274385",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274385",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T23:39:21.797-04:00",
+            "source": "#nHffohqjLOJZCFtY",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "477a0cfa-e4f9-4204-ae58-19fb2cb7094d"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274461",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274461",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:42.300-04:00",
+            "source": "#mO0gk5kF2TnJF693"
+          },
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274431"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274426"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274499",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274499",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:50.013-04:00",
+            "source": "#rXFLsLXG7vrwaH4M"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:5464bb5d-7364-4998-9048-fdef39ec2302"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274469"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274500",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274500",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:50.786-04:00",
+            "source": "#UvVQ6zuADWdmu1pO"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:4164a61e-10da-40ff-8689-d43870fc5257"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274469"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274501",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274501",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:51.481-04:00",
+            "source": "#mDD8p128SavuQkOP"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:9eedbc23-c019-4d56-92dd-ffd24ffc4a0b"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274470"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274502",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274502",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:52.206-04:00",
+            "source": "#uPT5vr6MybmK9ioc"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:295b6a7c-ad32-4d25-95ae-dbfa21fbd3d0"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274470"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274503",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274503",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:52.937-04:00",
+            "source": "#PaxfLx0CILTczcia"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:02748658-7bd5-4f3c-824b-9f874ca50e44"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274471"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274504",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274504",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:53.695-04:00",
+            "source": "#KffHOR0IFiuYTVZM"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:47dd96da-d9d1-4c5e-8b9a-b7215dc45c92"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274471"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274505",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274505",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:54.437-04:00",
+            "source": "#TaZvgbQn5qgi8BFs"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:864682b5-110c-474a-8f67-273e4ee8c74a"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274472"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274506",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274506",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:55.182-04:00",
+            "source": "#SUVvH5KTz1srTdnk"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:a7304569-8996-444f-bc97-be20a67b8b7b"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274472"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274581",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274581",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:29:11.621-04:00",
+            "source": "#Z1zpeV5WTLPd3O6Z"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:4b537679-da08-4f4c-9e3b-89a3f82a07da"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274551"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274546"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274582",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274582",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:29:12.343-04:00",
+            "source": "#wYUsUe8dx8PBhNMM"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:21284fac-1129-466b-81d4-b0d78bad4a32"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274551"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274546"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137274583",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137274583",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:29:13.094-04:00",
+            "source": "#wLNMmXIDCnUDYWBg"
+          },
+          "identifier": [
+            {
+              "system": "urn:ietf:rfc:3986",
+              "value": "urn:uuid:4667f504-1792-4baf-9c7b-c34efca62f16"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137274552"
+          },
+          "serviceProvider": {
+            "reference": "Organization/137274546"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}
