@@ -1,0 +1,2070 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=884b74c4-152a-4bd5-8a47-bb5acdbe5939&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:10:27.580829+00:00",
+  "saved_timestamp": "2026-08-04T07:10:29.562351+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "884b74c4-152a-4bd5-8a47-bb5acdbe5939",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:10:29.047-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=884b74c4-152a-4bd5-8a47-bb5acdbe5939&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=884b74c4-152a-4bd5-8a47-bb5acdbe5939&_getpagesoffset=100&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=884b74c4-152a-4bd5-8a47-bb5acdbe5939&_getpagesoffset=0&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265649",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265649",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 24"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265675",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265675",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T13:08:43.689-04:00",
+            "source": "#xZhnhWeq6TG5arhI"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-B2BD7F50"
+            }
+          ],
+          "code": {
+            "text": "無"
+          },
+          "subject": {
+            "reference": "Patient/137240567"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265625",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265625",
+          "meta": {
+            "versionId": "3",
+            "lastUpdated": "2026-07-31T14:23:29.354-04:00",
+            "source": "#llMYPYvAUvKWbR8p"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 0"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265721",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265721",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T16:27:19.038-04:00",
+            "source": "#9sdLOSsXe9fp1IS3"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "L89.153",
+                "display": "Pressure ulcer of sacral region, stage 3"
+              }
+            ],
+            "text": "Sacral pressure ulcer, stage 3"
+          },
+          "subject": {
+            "reference": "Patient/137265720"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137271397",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137271397",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T19:09:51.507-04:00",
+            "source": "#ppcW77ai8rdMcTXu",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEventDiagnosis"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "implicitRules": "14.0.10",
+          "extension": [
+            {
+              "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieLocation",
+              "valueIdentifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                "value": "000000012106-001"
+              }
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "U Pacjenta występują objawy kliniczne lub są inne aktualne dowody choroby"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.78",
+                  "code": "main",
+                  "display": "Główne"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.3",
+                "code": "C25.1",
+                "display": "Trzon trzustki"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137271396",
+            "type": "Encounter"
+          },
+          "recordedDate": "2024-10-09T09:43:41+02:00",
+          "asserter": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                  "code": "11"
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+              "value": "2698040"
+            },
+            "display": "Monika Lecznicza"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137272377",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137272377",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T20:26:59.658-04:00",
+            "source": "#7vYJyIlxhRsNyUGj"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "363346000",
+                "display": "Malignant neoplasm of prostate"
+              }
+            ],
+            "text": "cancer de prostata"
+          },
+          "onsetDateTime": "2020"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137272379",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137272379",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T20:26:59.658-04:00",
+            "source": "#7vYJyIlxhRsNyUGj"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "35489007",
+                "display": "Depressive disorder"
+              }
+            ],
+            "text": "depresion"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137272381",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137272381",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T20:26:59.658-04:00",
+            "source": "#7vYJyIlxhRsNyUGj"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "373123003",
+                "display": "Impotence"
+              }
+            ],
+            "text": "impotencia"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137272478",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137272478",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T00:51:41.976-04:00",
+            "source": "#dC3CIyj7f3oIhBu5",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEventDiagnosis"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "implicitRules": "14.0.10",
+          "extension": [
+            {
+              "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieLocation",
+              "valueIdentifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                "value": "000000012106-001"
+              }
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "U Pacjenta występują objawy kliniczne lub są inne aktualne dowody choroby"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.78",
+                  "code": "main",
+                  "display": "Główne"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.3",
+                "code": "C25.1",
+                "display": "Trzon trzustki"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137272477",
+            "type": "Encounter"
+          },
+          "recordedDate": "2024-10-09T09:43:41+02:00",
+          "asserter": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                  "code": "11"
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+              "value": "2698040"
+            },
+            "display": "Monika Lecznicza"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137272485",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137272485",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T02:05:05.026-04:00",
+            "source": "#QDNta8clxrYHUcCO"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-64D2676F"
+            }
+          ],
+          "code": {
+            "text": "高血壓"
+          },
+          "subject": {
+            "reference": "Patient/137272484"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137272789",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137272789",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T05:59:43.978-04:00",
+            "source": "#MD2NfuUrQinQ6HnT"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "3723001",
+                "display": "Glaucoma (disorder)"
+              }
+            ],
+            "text": "青光眼"
+          },
+          "subject": {
+            "reference": "Patient/137272783",
+            "display": "陳大明"
+          },
+          "onsetDateTime": "2026-07-25"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137272964",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137272964",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T07:14:58.814-04:00",
+            "source": "#IKwKmAQELknMt3l9"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "青光眼"
+          },
+          "subject": {
+            "reference": "Patient/137272963"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137272998",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137272998",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T07:21:14.033-04:00",
+            "source": "#A7EwSzITIMwSCuBQ"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "Test"
+              }
+            ],
+            "text": "Test"
+          },
+          "subject": {
+            "reference": "Patient/137272525"
+          },
+          "recordedDate": "2026-08-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137273003",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137273003",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T07:21:58.479-04:00",
+            "source": "#fx5wxDyS7DEQjwgQ"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "Continue current management"
+              }
+            ],
+            "text": "Continue current management"
+          },
+          "subject": {
+            "reference": "Patient/137272525"
+          },
+          "recordedDate": "2026-08-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137273296",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137273296",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T10:33:00.949-04:00",
+            "source": "#RKArqtwjva4E2HX9"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org",
+                "code": "J00",
+                "display": "急性鼻咽炎(感冒)"
+              }
+            ],
+            "text": "急性鼻咽炎(感冒)"
+          },
+          "subject": {
+            "reference": "Patient/137273293"
+          },
+          "encounter": {
+            "reference": "Encounter/137273295"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137273312",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137273312",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T11:51:08.968-04:00",
+            "source": "#JN2J03iW5SNDHUp7"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org",
+                "code": "J00",
+                "display": "急性鼻咽炎(感冒)"
+              }
+            ],
+            "text": "急性鼻咽炎(感冒)"
+          },
+          "subject": {
+            "reference": "Patient/137273308"
+          },
+          "encounter": {
+            "reference": "Encounter/137273311"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137273496",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137273496",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T12:43:27.868-04:00",
+            "source": "#3Mr49XC3ruy0rE2s"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "24484000",
+                "display": "Severe"
+              }
+            ],
+            "text": "Severe"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "44054006",
+                "display": "Type 2 diabetes mellitus"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137273317"
+          },
+          "onsetDateTime": "2019-03-10",
+          "recordedDate": "2019-03-15",
+          "note": [
+            {
+              "text": "Patient has poorly controlled Type 2 Diabetes mellitus. Currently monitoring HbA1c levels and undergoing peripheral neuropathy screening."
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137273503",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137273503",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T12:43:27.868-04:00",
+            "source": "#3Mr49XC3ruy0rE2s"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "severity": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "24484000",
+                "display": "Severe"
+              }
+            ],
+            "text": "Severe"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "396275006",
+                "display": "Osteoarthritis"
+              }
+            ],
+            "text": "Osteoarthritis of knee"
+          },
+          "bodySite": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "82169009",
+                  "display": "Left knee joint"
+                }
+              ],
+              "text": "Left Knee"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137273317"
+          },
+          "onsetDateTime": "2024-03-10",
+          "recordedDate": "2024-03-12",
+          "note": [
+            {
+              "text": "Patient reports significant pain and reduced mobility in the left knee."
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274346",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274346",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T19:13:27.552-04:00",
+            "source": "#AkKWvlhDFv4Zbfoy",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEventDiagnosis"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "implicitRules": "14.0.10",
+          "extension": [
+            {
+              "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieLocation",
+              "valueIdentifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                "value": "000000012106-001"
+              }
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "U Pacjenta występują objawy kliniczne lub są inne aktualne dowody choroby"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.78",
+                  "code": "main",
+                  "display": "Główne"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.3",
+                "code": "C25.1",
+                "display": "Trzon trzustki"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274345",
+            "type": "Encounter"
+          },
+          "recordedDate": "2024-10-09T09:43:41+02:00",
+          "asserter": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                  "code": "11"
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+              "value": "2698040"
+            },
+            "display": "Monika Lecznicza"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274382",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274382",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T23:38:17.487-04:00",
+            "source": "#8aeeAxaTXeS8WQrr",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEventDiagnosis"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "implicitRules": "14.0.10",
+          "extension": [
+            {
+              "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieLocation",
+              "valueIdentifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                "value": "000000012106-001"
+              }
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "U Pacjenta występują objawy kliniczne lub są inne aktualne dowody choroby"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.78",
+                  "code": "main",
+                  "display": "Główne"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.3",
+                "code": "C25.1",
+                "display": "Trzon trzustki"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274381",
+            "type": "Encounter"
+          },
+          "recordedDate": "2024-10-09T09:43:41+02:00",
+          "asserter": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                  "code": "11"
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+              "value": "2698040"
+            },
+            "display": "Monika Lecznicza"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274388",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274388",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-02T00:10:30.414-04:00",
+            "source": "#jnLS4l6gWNFLSvLm"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "E11.9",
+                "display": "Type 2 diabetes mellitus without complications"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137208839"
+          },
+          "onsetDateTime": "2024-01-15T00:00:00.000Z"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274437",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274437",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:24.447-04:00",
+            "source": "#w8NUGdzn2jyqWZbj"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 1"
+          },
+          "subject": {
+            "reference": "Patient/137274431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274438",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274438",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:25.168-04:00",
+            "source": "#z4L0cCNt7OZnfkiF"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 1"
+          },
+          "subject": {
+            "reference": "Patient/137274431"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274439",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274439",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:25.894-04:00",
+            "source": "#42zBCt5xN5N3Y6xO"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 2"
+          },
+          "subject": {
+            "reference": "Patient/137274432"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274440",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274440",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:26.662-04:00",
+            "source": "#J2HBEkdHCiP0z30U"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 2"
+          },
+          "subject": {
+            "reference": "Patient/137274432"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274441",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274441",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:27.415-04:00",
+            "source": "#1QfJCZlmD3zUPyTR"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 3"
+          },
+          "subject": {
+            "reference": "Patient/137274433"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274442",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274442",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:28.180-04:00",
+            "source": "#0nKkY7tBMAnlQH23"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 3"
+          },
+          "subject": {
+            "reference": "Patient/137274433"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274443",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274443",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:28.935-04:00",
+            "source": "#Tcc48db1sh7Tq4z9"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 4"
+          },
+          "subject": {
+            "reference": "Patient/137274434"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274444",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274444",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:29.630-04:00",
+            "source": "#jExedjUkIzJuj2Ww"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 4"
+          },
+          "subject": {
+            "reference": "Patient/137274434"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274475",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274475",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:32.069-04:00",
+            "source": "#s4iXK5vJAyYxFKfN"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 1"
+          },
+          "subject": {
+            "reference": "Patient/137274469"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274476",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274476",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:32.801-04:00",
+            "source": "#mlK109HyY99Z1b9N"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 1"
+          },
+          "subject": {
+            "reference": "Patient/137274469"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274477",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274477",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:33.559-04:00",
+            "source": "#00KUnjnOKfr7aSl2"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 2"
+          },
+          "subject": {
+            "reference": "Patient/137274470"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274478",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274478",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:34.344-04:00",
+            "source": "#PjetcgsGx64cWGGU"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 2"
+          },
+          "subject": {
+            "reference": "Patient/137274470"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274479",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274479",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:35.086-04:00",
+            "source": "#zhtRqoGq4isM5aHp"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 3"
+          },
+          "subject": {
+            "reference": "Patient/137274471"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274480",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274480",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:35.805-04:00",
+            "source": "#fiAcSRWBoIQk1TwJ"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 3"
+          },
+          "subject": {
+            "reference": "Patient/137274471"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274481",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274481",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:36.532-04:00",
+            "source": "#VEPLROxPILAKTJqj"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 4"
+          },
+          "subject": {
+            "reference": "Patient/137274472"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274482",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274482",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:37.288-04:00",
+            "source": "#fyFtXY7ut7E7ulJl"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 4"
+          },
+          "subject": {
+            "reference": "Patient/137274472"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274557",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274557",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:53.364-04:00",
+            "source": "#NA9m17JRqZsgTZmE"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 1"
+          },
+          "subject": {
+            "reference": "Patient/137274551"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274558",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274558",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:54.112-04:00",
+            "source": "#JFfmT3VUMIjNFM7I"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 1"
+          },
+          "subject": {
+            "reference": "Patient/137274551"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274559",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274559",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:54.839-04:00",
+            "source": "#lexC38B9IZjYhjjR"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 2"
+          },
+          "subject": {
+            "reference": "Patient/137274552"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274560",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274560",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:55.564-04:00",
+            "source": "#BsPRElvCe9D7bGrk"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 2"
+          },
+          "subject": {
+            "reference": "Patient/137274552"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274561",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274561",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:56.297-04:00",
+            "source": "#pFdfvugTUgzLIxVR"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 3"
+          },
+          "subject": {
+            "reference": "Patient/137274553"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274562",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274562",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:57.069-04:00",
+            "source": "#iCjV0aCfr2I2eZjX"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 3"
+          },
+          "subject": {
+            "reference": "Patient/137274553"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274563",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274563",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:58.282-04:00",
+            "source": "#Xm5DGswwbJ08ZykY"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition A for patient 4"
+          },
+          "subject": {
+            "reference": "Patient/137274554"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274564",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274564",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:59.040-04:00",
+            "source": "#IZXByOw5h55vE1XP"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "text": "Condition B for patient 4"
+          },
+          "subject": {
+            "reference": "Patient/137274554"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274674",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274674",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T10:19:08.504-04:00",
+            "source": "#pJQt3rFVKrCjzeQ2"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "H25.9",
+                "display": "両眼 白内障"
+              }
+            ],
+            "text": "両眼 白内障"
+          },
+          "subject": {
+            "reference": "Patient/137274673"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274675",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274675",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T10:19:09.153-04:00",
+            "source": "#Gn5kp0aaFM8cRZbt"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "I10",
+                "display": "高血圧症"
+              }
+            ],
+            "text": "高血圧症"
+          },
+          "subject": {
+            "reference": "Patient/137274673"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274693",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274693",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T10:29:05.662-04:00",
+            "source": "#57AZiHUKJ51jGcCy"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "CI Test Diagnosis"
+              }
+            ],
+            "text": "CI Test Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137274688"
+          },
+          "recordedDate": "2026-08-02"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274857",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274857",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T19:13:11.331-04:00",
+            "source": "#HLSAEOpiTiB47Ps1",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEventDiagnosis"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "implicitRules": "14.0.10",
+          "extension": [
+            {
+              "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieLocation",
+              "valueIdentifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                "value": "000000012106-001"
+              }
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "U Pacjenta występują objawy kliniczne lub są inne aktualne dowody choroby"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.78",
+                  "code": "main",
+                  "display": "Główne"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.3",
+                "code": "C25.1",
+                "display": "Trzon trzustki"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274856",
+            "type": "Encounter"
+          },
+          "recordedDate": "2024-10-09T09:43:41+02:00",
+          "asserter": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                  "code": "11"
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+              "value": "2698040"
+            },
+            "display": "Monika Lecznicza"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274874",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274874",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T23:23:39.476-04:00",
+            "source": "#Rd0tRigUz2CrR0al",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEventDiagnosis"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "implicitRules": "14.0.10",
+          "extension": [
+            {
+              "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieLocation",
+              "valueIdentifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                "value": "000000012106-001"
+              }
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "U Pacjenta występują objawy kliniczne lub są inne aktualne dowody choroby"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.78",
+                  "code": "main",
+                  "display": "Główne"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.3",
+                "code": "C25.1",
+                "display": "Trzon trzustki"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274873",
+            "type": "Encounter"
+          },
+          "recordedDate": "2024-10-09T09:43:41+02:00",
+          "asserter": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                  "code": "11"
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+              "value": "2698040"
+            },
+            "display": "Monika Lecznicza"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

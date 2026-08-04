@@ -1,0 +1,2219 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=884b74c4-152a-4bd5-8a47-bb5acdbe5939&_getpagesoffset=100&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:10:27.580829+00:00",
+  "saved_timestamp": "2026-08-04T07:10:29.576001+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "884b74c4-152a-4bd5-8a47-bb5acdbe5939",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:10:29.047-04:00"
+    },
+    "type": "searchset",
+    "total": 398,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=884b74c4-152a-4bd5-8a47-bb5acdbe5939&_getpagesoffset=100&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=884b74c4-152a-4bd5-8a47-bb5acdbe5939&_getpagesoffset=150&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=884b74c4-152a-4bd5-8a47-bb5acdbe5939&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274890",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274890",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T00:41:42.465-04:00",
+            "source": "#CKrioXbhp2et7v0Q"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-verstatus",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "I10",
+                "display": "Essential (primary) hypertension"
+              }
+            ],
+            "text": "Essential (primary) hypertension"
+          },
+          "subject": {
+            "reference": "Patient/137274886"
+          },
+          "encounter": {
+            "reference": "Encounter/137274887"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274891",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274891",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T00:41:42.465-04:00",
+            "source": "#CKrioXbhp2et7v0Q"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-verstatus",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E11.9",
+                "display": "Type 2 diabetes mellitus without complications"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus without complications"
+          },
+          "subject": {
+            "reference": "Patient/137274886"
+          },
+          "encounter": {
+            "reference": "Encounter/137274887"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274937",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274937",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T01:55:15.364-04:00",
+            "source": "#2tAEaXNyYpXvDoMF"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "Repro Diagnosis"
+              }
+            ],
+            "text": "Repro Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137274936"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274940",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274940",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T01:56:45.035-04:00",
+            "source": "#EwLMxoSWmHc1A0fG"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "Repro2 Diagnosis"
+              }
+            ],
+            "text": "Repro2 Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137274939"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274946",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274946",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T01:57:21.111-04:00",
+            "source": "#44cAGwiR3DuJHmct"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "Repro3 Diagnosis"
+              }
+            ],
+            "text": "Repro3 Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137274941"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274971",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274971",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:03:09.381-04:00",
+            "source": "#i3a0FE2yNue8LhOW"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "CI Test Diagnosis"
+              }
+            ],
+            "text": "CI Test Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137274966"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274983",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274983",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:04:20.669-04:00",
+            "source": "#HBbzUZ3lSwj1SauT"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "CI Test Diagnosis"
+              }
+            ],
+            "text": "CI Test Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137274978"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137274995",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137274995",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:06:52.763-04:00",
+            "source": "#oMXGooovjljMpste"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "CI Test Diagnosis"
+              }
+            ],
+            "text": "CI Test Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137274990"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275080",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275080",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:10:52.418-04:00",
+            "source": "#cNTprGr8aYfKhWcI"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "CI Test Diagnosis"
+              }
+            ],
+            "text": "CI Test Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137275075"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137247291",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137247291",
+          "meta": {
+            "versionId": "7",
+            "lastUpdated": "2026-08-03T02:15:38.378-04:00",
+            "source": "#7Z32t3z7NaJ3z7EL",
+            "profile": [
+              "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Condition"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://nrces.in/demo",
+              "value": "condition-3"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "65966004",
+                "display": "Fracture of right radius"
+              }
+            ],
+            "text": "Fracture of right radius"
+          },
+          "subject": {
+            "reference": "Patient/137247273"
+          },
+          "encounter": {
+            "reference": "Encounter/137247274"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275266",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275266",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:23:57.303-04:00",
+            "source": "#Vce3g263cyPNwtAZ"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "CI Test Diagnosis"
+              }
+            ],
+            "text": "CI Test Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137275261"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275282",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275282",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:36:24.494-04:00",
+            "source": "#7yQjGZRwhMUoQsl1"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org",
+                "code": "J00",
+                "display": "急性鼻咽炎(感冒)"
+              }
+            ],
+            "text": "急性鼻咽炎(感冒)"
+          },
+          "subject": {
+            "reference": "Patient/137275279"
+          },
+          "encounter": {
+            "reference": "Encounter/137275281"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275289",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275289",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:56:45.325-04:00",
+            "source": "#M1dxAzVHrsw14QOj"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org",
+                "code": "J00",
+                "display": "急性鼻咽炎(感冒)"
+              }
+            ],
+            "text": "急性鼻咽炎(感冒)"
+          },
+          "subject": {
+            "reference": "Patient/137275286"
+          },
+          "encounter": {
+            "reference": "Encounter/137275288"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275299",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275299",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:04:09.921-04:00",
+            "source": "#69RStxS9tNQFzqbQ"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org",
+                "code": "I10",
+                "display": "本態性(原發性)高血壓"
+              }
+            ],
+            "text": "本態性(原發性)高血壓"
+          },
+          "subject": {
+            "reference": "Patient/137275296"
+          },
+          "encounter": {
+            "reference": "Encounter/137275298"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275311",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275311",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:04:46.944-04:00",
+            "source": "#5EQUaCMi4rdtqdLY"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "CI Test Diagnosis"
+              }
+            ],
+            "text": "CI Test Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137275306"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275328",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275328",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:20:15.417-04:00",
+            "source": "#mJVHp2V2bSl5LQfd"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "Z99",
+                "display": "CI Test Diagnosis"
+              }
+            ],
+            "text": "CI Test Diagnosis"
+          },
+          "subject": {
+            "reference": "Patient/137275323"
+          },
+          "recordedDate": "2026-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275332",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275332",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:21:39.656-04:00",
+            "source": "#jpskFumAUwMkkVdg"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-D7460E01"
+            }
+          ],
+          "code": {
+            "text": "高血壓"
+          },
+          "subject": {
+            "reference": "Patient/137275319"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275378",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275378",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:55:05.681-04:00",
+            "source": "#p7KFPc0ViG4Zubal"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org",
+                "code": "J00",
+                "display": "急性鼻咽炎(感冒)"
+              }
+            ],
+            "text": "急性鼻咽炎(感冒)"
+          },
+          "subject": {
+            "reference": "Patient/137275372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275377"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275388",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275388",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:58:01.908-04:00",
+            "source": "#FcCzT8Wq7UsAU0Vf"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org",
+                "code": "J00",
+                "display": "急性鼻咽炎(感冒)"
+              }
+            ],
+            "text": "急性鼻咽炎(感冒)"
+          },
+          "subject": {
+            "reference": "Patient/137275385"
+          },
+          "encounter": {
+            "reference": "Encounter/137275387"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275402",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275402",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T05:06:22.992-04:00",
+            "source": "#v0jVuz4T8pb6EKDn"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org",
+                "code": "J00",
+                "display": "急性鼻咽炎(感冒)"
+              }
+            ],
+            "text": "急性鼻咽炎(感冒)"
+          },
+          "subject": {
+            "reference": "Patient/137275399"
+          },
+          "encounter": {
+            "reference": "Encounter/137275401"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275414",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275414",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T05:19:11.644-04:00",
+            "source": "#MRfIjmcrBNdgNSwR"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-D7460E01"
+            }
+          ],
+          "code": {
+            "text": "普通感冒"
+          },
+          "subject": {
+            "reference": "Patient/137275319"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275417",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275417",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T05:21:15.700-04:00",
+            "source": "#nxjZzxitVXzMsHPG"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "44054006",
+                "display": "Diabetes mellitus type 2"
+              }
+            ],
+            "text": "Type 2 Diabetes"
+          },
+          "subject": {
+            "reference": "Patient/137275315"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275422",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275422",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T05:34:16.606-04:00",
+            "source": "#MdnDuXqdvqo7V9s1"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-D7460E01"
+            }
+          ],
+          "code": {
+            "text": "喉嚨太乾"
+          },
+          "subject": {
+            "reference": "Patient/137275319"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/9569d839-a337-45ce-af7e-6fd369b7aee3",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "9569d839-a337-45ce-af7e-6fd369b7aee3",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:26:04.573-04:00",
+            "source": "#7Hw5y6PMoKuEG4Ww"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "161527007",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137238202"
+          },
+          "encounter": {
+            "reference": "Encounter/0fdeedfc-1506-4c9d-85ff-d0627662c63b"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/a0f388f5-cd61-45bd-aeec-8cc74cb56e95",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "a0f388f5-cd61-45bd-aeec-8cc74cb56e95",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:26:04.573-04:00",
+            "source": "#7Hw5y6PMoKuEG4Ww"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "13645005",
+                "display": "Chronic Lung Disease"
+              }
+            ],
+            "text": "Chronic Lung Disease"
+          },
+          "subject": {
+            "reference": "Patient/137238202"
+          },
+          "encounter": {
+            "reference": "Encounter/0fdeedfc-1506-4c9d-85ff-d0627662c63b"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/51c25268-b1a0-499a-be31-0a4dcf3c82a5",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "51c25268-b1a0-499a-be31-0a4dcf3c82a5",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:26:04.573-04:00",
+            "source": "#7Hw5y6PMoKuEG4Ww"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "35489007",
+                "display": "Depression"
+              }
+            ],
+            "text": "Depression"
+          },
+          "subject": {
+            "reference": "Patient/137238202"
+          },
+          "encounter": {
+            "reference": "Encounter/0fdeedfc-1506-4c9d-85ff-d0627662c63b"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/8ef02b2d-f001-4efd-9251-d3a7bde6c86b",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "8ef02b2d-f001-4efd-9251-d3a7bde6c86b",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:26:04.573-04:00",
+            "source": "#7Hw5y6PMoKuEG4Ww"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "161445009",
+                "display": "Diabetes"
+              }
+            ],
+            "text": "Diabetes"
+          },
+          "subject": {
+            "reference": "Patient/137238202"
+          },
+          "encounter": {
+            "reference": "Encounter/0fdeedfc-1506-4c9d-85ff-d0627662c63b"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/e17adda3-16e9-481e-bc60-61aaadbf4a48",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "e17adda3-16e9-481e-bc60-61aaadbf4a48",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:26:04.573-04:00",
+            "source": "#7Hw5y6PMoKuEG4Ww"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "161501007",
+                "display": "Hypertension"
+              }
+            ],
+            "text": "Hypertension"
+          },
+          "subject": {
+            "reference": "Patient/137238202"
+          },
+          "encounter": {
+            "reference": "Encounter/0fdeedfc-1506-4c9d-85ff-d0627662c63b"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/8edcd855-8d05-4056-bdfb-17504730bed8",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "8edcd855-8d05-4056-bdfb-17504730bed8",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:26:04.573-04:00",
+            "source": "#7Hw5y6PMoKuEG4Ww"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "56265001",
+                "display": "Heart disease"
+              }
+            ],
+            "text": "Heart disease"
+          },
+          "subject": {
+            "reference": "Patient/137238202"
+          },
+          "encounter": {
+            "reference": "Encounter/0fdeedfc-1506-4c9d-85ff-d0627662c63b"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/0c0fe183-0a53-4eed-895c-cfea79b7f02e",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "0c0fe183-0a53-4eed-895c-cfea79b7f02e",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:26:04.573-04:00",
+            "source": "#7Hw5y6PMoKuEG4Ww"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "161450003",
+                "display": "High blood lipids"
+              }
+            ],
+            "text": "High blood lipids"
+          },
+          "subject": {
+            "reference": "Patient/137238202"
+          },
+          "encounter": {
+            "reference": "Encounter/0fdeedfc-1506-4c9d-85ff-d0627662c63b"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275611",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275611",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T10:00:44.964-04:00",
+            "source": "#utWkp85jXn8nwAPN"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-A379325F"
+            }
+          ],
+          "code": {
+            "text": "糖尿病"
+          },
+          "subject": {
+            "reference": "Patient/137275608"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275624",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275624",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T10:14:44.775-04:00",
+            "source": "#QeqfEYqg5qnSbF8n"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-A379325F"
+            }
+          ],
+          "code": {
+            "text": "流感"
+          },
+          "subject": {
+            "reference": "Patient/137275608"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275729",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275729",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T12:14:58.847-04:00",
+            "source": "#W5VrholwqkI9X3i4"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-A379325F"
+            }
+          ],
+          "code": {
+            "text": "被醫生帥暈了"
+          },
+          "subject": {
+            "reference": "Patient/137275608"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275738",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275738",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T12:20:32.077-04:00",
+            "source": "#CNzt6YNsMwj2NdLe"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-D7460E01"
+            }
+          ],
+          "code": {
+            "text": "醫生和男友太閃，眼睛被閃瞎了"
+          },
+          "subject": {
+            "reference": "Patient/137275319"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137275739",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137275739",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T12:26:24.762-04:00",
+            "source": "#D12ooKKyWy55uyPr"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/chronic-condition",
+              "value": "CB-A379325F"
+            }
+          ],
+          "code": {
+            "text": "賴賴出國經驗太慘，哭太多了"
+          },
+          "subject": {
+            "reference": "Patient/137275608"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277301",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277301",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "224295006",
+                "display": "Only received primary school education (finding)"
+              }
+            ],
+            "text": "Only received primary school education (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277300"
+          },
+          "onsetDateTime": "2006-11-07T00:50:17+00:00",
+          "recordedDate": "2006-11-07T00:50:17+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277306",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277306",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "82423001",
+                "display": "Chronic pain (finding)"
+              }
+            ],
+            "text": "Chronic pain (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277305"
+          },
+          "onsetDateTime": "2014-02-06T00:08:48+00:00",
+          "recordedDate": "2014-02-06T00:08:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277307",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277307",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "278860009",
+                "display": "Chronic low back pain (finding)"
+              }
+            ],
+            "text": "Chronic low back pain (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277305"
+          },
+          "onsetDateTime": "2014-02-06T00:08:48+00:00",
+          "recordedDate": "2014-02-06T00:08:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277308",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277308",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1121000119107",
+                "display": "Chronic neck pain (finding)"
+              }
+            ],
+            "text": "Chronic neck pain (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277305"
+          },
+          "onsetDateTime": "2014-02-06T00:08:48+00:00",
+          "recordedDate": "2014-02-06T00:08:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277319",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277319",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "314529007",
+                "display": "Medication review due (situation)"
+              }
+            ],
+            "text": "Medication review due (situation)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277318"
+          },
+          "onsetDateTime": "2014-11-25T00:08:48+00:00",
+          "abatementDateTime": "2016-12-06T00:08:48+00:00",
+          "recordedDate": "2014-11-25T00:08:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277324",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277324",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73438004",
+                "display": "Unemployed (finding)"
+              }
+            ],
+            "text": "Unemployed (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277323"
+          },
+          "onsetDateTime": "2015-12-01T00:47:45+00:00",
+          "abatementDateTime": "2016-12-06T00:47:45+00:00",
+          "recordedDate": "2015-12-01T00:47:45+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277342",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277342",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "312608009",
+                "display": "Laceration - injury (disorder)"
+              }
+            ],
+            "text": "Laceration - injury (disorder)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277341"
+          },
+          "onsetDateTime": "2016-11-11T00:08:48+00:00",
+          "abatementDateTime": "2016-11-30T00:38:21+00:00",
+          "recordedDate": "2016-11-11T00:08:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277343",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277343",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "284551006",
+                "display": "Laceration of foot (disorder)"
+              }
+            ],
+            "text": "Laceration of foot (disorder)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277341"
+          },
+          "onsetDateTime": "2016-11-11T00:08:48+00:00",
+          "abatementDateTime": "2016-11-30T00:38:21+00:00",
+          "recordedDate": "2016-11-11T00:08:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277355",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277355",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "160903007",
+                "display": "Full-time employment (finding)"
+              }
+            ],
+            "text": "Full-time employment (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277354"
+          },
+          "onsetDateTime": "2016-12-06T00:47:45+00:00",
+          "abatementDateTime": "2017-12-12T00:57:48+00:00",
+          "recordedDate": "2016-12-06T00:47:45+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277356",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277356",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "423315002",
+                "display": "Limited social contact (finding)"
+              }
+            ],
+            "text": "Limited social contact (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277354"
+          },
+          "onsetDateTime": "2016-12-06T00:47:45+00:00",
+          "abatementDateTime": "2017-12-12T00:57:48+00:00",
+          "recordedDate": "2016-12-06T00:47:45+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277357",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277357",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73595000",
+                "display": "Stress (finding)"
+              }
+            ],
+            "text": "Stress (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277354"
+          },
+          "onsetDateTime": "2016-12-06T00:47:45+00:00",
+          "abatementDateTime": "2017-12-12T00:57:48+00:00",
+          "recordedDate": "2016-12-06T00:47:45+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277389",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277389",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "72892002",
+                "display": "Normal pregnancy (finding)"
+              }
+            ],
+            "text": "Normal pregnancy (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277388"
+          },
+          "onsetDateTime": "2017-01-31T00:08:48+00:00",
+          "abatementDateTime": "2017-08-29T00:08:48+00:00",
+          "recordedDate": "2017-01-31T00:08:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277465",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277465",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "444814009",
+                "display": "Viral sinusitis (disorder)"
+              }
+            ],
+            "text": "Viral sinusitis (disorder)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277464"
+          },
+          "onsetDateTime": "2017-08-21T07:08:48+00:00",
+          "abatementDateTime": "2017-09-02T07:08:48+00:00",
+          "recordedDate": "2017-08-21T07:08:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277482",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277482",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "314529007",
+                "display": "Medication review due (situation)"
+              }
+            ],
+            "text": "Medication review due (situation)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277481"
+          },
+          "onsetDateTime": "2017-12-12T00:08:48+00:00",
+          "abatementDateTime": "2017-12-12T00:08:48+00:00",
+          "recordedDate": "2017-12-12T00:08:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137277483",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137277483",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+            ]
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "resolved"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "encounter-diagnosis",
+                  "display": "Encounter Diagnosis"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73438004",
+                "display": "Unemployed (finding)"
+              }
+            ],
+            "text": "Unemployed (finding)"
+          },
+          "subject": {
+            "reference": "Patient/137277299"
+          },
+          "encounter": {
+            "reference": "Encounter/137277481"
+          },
+          "onsetDateTime": "2017-12-12T00:57:48+00:00",
+          "abatementDateTime": "2018-12-18T01:00:29+00:00",
+          "recordedDate": "2017-12-12T00:57:48+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}
