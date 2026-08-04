@@ -1,0 +1,2 @@
+{"built_at": "2026-08-04T07:10:30.240386+00:00", "dim_patient": 627, "dim_condition_code": 93, "fact_encounter": 343, "fact_observation": 1658, "fact_condition": 398, "gold_patient_summary": 627}
+{"built_at": "2026-08-04T07:10:46.312972+00:00", "dim_patient": 627, "dim_condition_code": 93, "fact_encounter": 343, "fact_observation": 1658, "fact_condition": 398, "gold_patient_summary": 627}
