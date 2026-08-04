@@ -1,0 +1,29 @@
+{
+  "name": "fhir_medallion_workflow",
+  "tasks": [
+    {
+      "task_key": "setup",
+      "notebook_task": { "notebook_path": "/fhir-lakehouse/00_setup_lakehouse" }
+    },
+    {
+      "task_key": "ingest_raw_bronze",
+      "depends_on": [{ "task_key": "setup" }],
+      "notebook_task": {
+        "notebook_path": "/fhir-lakehouse/01_ingest_raw_bronze",
+        "base_parameters": { "LOOKBACK_DAYS": "3", "PAGE_SIZE": "50" }
+      }
+    },
+    {
+      "task_key": "silver_scd2",
+      "depends_on": [{ "task_key": "ingest_raw_bronze" }],
+      "notebook_task": { "notebook_path": "/fhir-lakehouse/02_silver_scd2" }
+    },
+    {
+      "task_key": "gold_analytics",
+      "depends_on": [{ "task_key": "silver_scd2" }],
+      "notebook_task": { "notebook_path": "/fhir-lakehouse/03_gold_analytics" }
+    }
+  ],
+  "queue": { "enabled": true },
+  "notes": "Import as Databricks Job / Workflow. Order enforces Patient→Encounter→Observation→Condition inside ingest notebook."
+}

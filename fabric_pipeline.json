@@ -1,0 +1,65 @@
+{
+  "name": "FHIR_Medallion_Pipeline",
+  "description": "Orchestrates Patient → Encounter → Observation → Condition ingestion, then Silver SCD2 and Gold analytics.",
+  "activities": [
+    {
+      "name": "Setup_Lakehouse",
+      "type": "TridentNotebook",
+      "dependsOn": [],
+      "typeProperties": {
+        "notebookPath": "notebooks/00_setup_lakehouse"
+      }
+    },
+    {
+      "name": "Ingest_Raw_Bronze",
+      "type": "TridentNotebook",
+      "dependsOn": [
+        { "activity": "Setup_Lakehouse", "dependencyConditions": ["Succeeded"] }
+      ],
+      "typeProperties": {
+        "notebookPath": "notebooks/01_ingest_raw_bronze",
+        "parameters": {
+          "LOOKBACK_DAYS": { "value": 3, "type": "int" },
+          "PAGE_SIZE": { "value": 50, "type": "int" }
+        }
+      }
+    },
+    {
+      "name": "Silver_SCD2",
+      "type": "TridentNotebook",
+      "dependsOn": [
+        { "activity": "Ingest_Raw_Bronze", "dependencyConditions": ["Succeeded"] }
+      ],
+      "typeProperties": {
+        "notebookPath": "notebooks/02_silver_scd2"
+      }
+    },
+    {
+      "name": "Gold_Analytics",
+      "type": "TridentNotebook",
+      "dependsOn": [
+        { "activity": "Silver_SCD2", "dependencyConditions": ["Succeeded"] }
+      ],
+      "typeProperties": {
+        "notebookPath": "notebooks/03_gold_analytics"
+      }
+    },
+    {
+      "name": "Log_Metadata",
+      "type": "TridentNotebook",
+      "dependsOn": [
+        { "activity": "Gold_Analytics", "dependencyConditions": ["Succeeded"] }
+      ],
+      "typeProperties": {
+        "notebookPath": "notebooks/04_metadata_logging"
+      }
+    }
+  ],
+  "concurrency": 1,
+  "notes": [
+    "Import into Fabric Data Factory / Data Pipeline.",
+    "Attach all notebooks to the same Lakehouse.",
+    "Upload src/fhir_lakehouse to Files/libs/fhir_lakehouse.",
+    "Schedule daily for incremental SCD2 loads."
+  ]
+}
