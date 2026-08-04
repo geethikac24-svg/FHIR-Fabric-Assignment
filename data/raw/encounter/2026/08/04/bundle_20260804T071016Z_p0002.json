@@ -1,0 +1,4457 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3&_getpagesoffset=100&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:10:16.095837+00:00",
+  "saved_timestamp": "2026-08-04T07:10:17.602006+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:25.959-04:00"
+    },
+    "type": "searchset",
+    "total": 343,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3&_getpagesoffset=100&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3&_getpagesoffset=150&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277464",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277464",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-2f17-708d97baa79f"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185345009",
+                  "display": "Encounter for symptom (procedure)"
+                }
+              ],
+              "text": "Encounter for symptom (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2017-08-21T07:08:48+00:00",
+                "end": "2017-08-21T07:23:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Joanna347 Abbott774"
+              }
+            }
+          ],
+          "period": {
+            "start": "2017-08-21T07:08:48+00:00",
+            "end": "2017-08-21T07:23:48+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "444814009",
+                  "display": "Viral sinusitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277469",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277469",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-e0c3-a7335845e96c"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "EMER"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "183460006",
+                  "display": "Obstetric emergency hospital admission (procedure)"
+                }
+              ],
+              "text": "Obstetric emergency hospital admission (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2017-08-29T00:08:48+00:00",
+                "end": "2017-08-29T01:08:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Domonique463 Satterfield305"
+              }
+            }
+          ],
+          "period": {
+            "start": "2017-08-29T00:08:48+00:00",
+            "end": "2017-08-29T01:08:48+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "72892002",
+                  "display": "Normal pregnancy (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BLUEBERRY HILL REHABILITATION AND HEALTHCARE CTR"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BLUEBERRY HILL REHABILITATION AND HEALTHCARE CTR"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277475",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277475",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-2a0b-8a57ff822405"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "169762003",
+                  "display": "Postnatal visit (regime/therapy)"
+                }
+              ],
+              "text": "Postnatal visit (regime/therapy)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2017-10-10T00:08:48+00:00",
+                "end": "2017-10-10T00:23:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Joanna347 Abbott774"
+              }
+            }
+          ],
+          "period": {
+            "start": "2017-10-10T00:08:48+00:00",
+            "end": "2017-10-10T00:23:48+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277481",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277481",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-fd87-0d7810ec9775"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2017-12-12T00:08:48+00:00",
+                "end": "2017-12-12T00:57:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Sheryl275 Brekke496"
+              }
+            }
+          ],
+          "period": {
+            "start": "2017-12-12T00:08:48+00:00",
+            "end": "2017-12-12T00:57:48+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "EMTAR HEALTH CARE INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "EMTAR HEALTH CARE INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277515",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277515",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-4ff2-a4f3cc36fbdf"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2017-12-26T00:08:48+00:00",
+                "end": "2017-12-26T03:15:15+00:00"
+              },
+              "individual": {
+                "display": "Dr. Joanna347 Abbott774"
+              }
+            }
+          ],
+          "period": {
+            "start": "2017-12-26T00:08:48+00:00",
+            "end": "2017-12-26T03:15:15+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "66383009",
+                  "display": "Gingivitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277532",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277532",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-a3fc-424da8532874"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "424441002",
+                  "display": "Prenatal initial visit (regime/therapy)"
+                }
+              ],
+              "text": "Prenatal initial visit (regime/therapy)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-06-26T00:08:48+00:00",
+                "end": "2018-06-26T00:23:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Joanna347 Abbott774"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-06-26T00:08:48+00:00",
+            "end": "2018-06-26T00:23:48+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "72892002",
+                  "display": "Normal pregnancy (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277559",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277559",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-b0c1-70a707859a5c"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "424619006",
+                  "display": "Prenatal visit (regime/therapy)"
+                }
+              ],
+              "text": "Prenatal visit (regime/therapy)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-07-24T00:08:48+00:00",
+                "end": "2018-07-24T00:23:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Joanna347 Abbott774"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-07-24T00:08:48+00:00",
+            "end": "2018-07-24T00:23:48+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "72892002",
+                  "display": "Normal pregnancy (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277566",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277566",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-a0a6-3f5c38be91a1"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "424619006",
+                  "display": "Prenatal visit (regime/therapy)"
+                }
+              ],
+              "text": "Prenatal visit (regime/therapy)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-08-21T00:08:48+00:00",
+                "end": "2018-08-21T00:23:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Joanna347 Abbott774"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-08-21T00:08:48+00:00",
+            "end": "2018-08-21T00:23:48+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "72892002",
+                  "display": "Normal pregnancy (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277574",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277574",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-c215-50c287f8f101"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "424619006",
+                  "display": "Prenatal visit (regime/therapy)"
+                }
+              ],
+              "text": "Prenatal visit (regime/therapy)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-09-18T00:08:48+00:00",
+                "end": "2018-09-18T00:23:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Joanna347 Abbott774"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-09-18T00:08:48+00:00",
+            "end": "2018-09-18T00:23:48+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "72892002",
+                  "display": "Normal pregnancy (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277580",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277580",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-1033-e7dabd211312"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "424619006",
+                  "display": "Prenatal visit (regime/therapy)"
+                }
+              ],
+              "text": "Prenatal visit (regime/therapy)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-10-16T00:08:48+00:00",
+                "end": "2018-10-16T00:23:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Joanna347 Abbott774"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-10-16T00:08:48+00:00",
+            "end": "2018-10-16T00:23:48+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "72892002",
+                  "display": "Normal pregnancy (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277586",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277586",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-bc94-7b985685ed82"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "424619006",
+                  "display": "Prenatal visit (regime/therapy)"
+                }
+              ],
+              "text": "Prenatal visit (regime/therapy)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277299",
+            "display": "Ms. Aleida76 Cordie578 Terry864"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-11-13T00:08:48+00:00",
+                "end": "2018-11-13T00:23:48+00:00"
+              },
+              "individual": {
+                "display": "Dr. Joanna347 Abbott774"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-11-13T00:08:48+00:00",
+            "end": "2018-11-13T00:23:48+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "72892002",
+                  "display": "Normal pregnancy (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LAHEY HOSPITAL & MEDICAL CENTER, BURLINGTON"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277588",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277588",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-aacc-740f5573a39d"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "1969-04-11T07:38:35+00:00",
+                "end": "1969-04-11T08:38:15+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "1969-04-11T07:38:35+00:00",
+            "end": "1969-04-11T08:38:15+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277593",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277593",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-6430-4d8fbfc55d8a"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185345009",
+                  "display": "Encounter for symptom (procedure)"
+                }
+              ],
+              "text": "Encounter for symptom (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "1974-07-09T09:38:35+00:00",
+                "end": "1974-07-09T09:53:35+00:00"
+              },
+              "individual": {
+                "display": "Dr. Rudolf736 Vandervort697"
+              }
+            }
+          ],
+          "period": {
+            "start": "1974-07-09T09:38:35+00:00",
+            "end": "1974-07-09T09:53:35+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "36971009",
+                  "display": "Sinusitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277599",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277599",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-92de-3750346e27b4"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "1979-04-27T07:38:35+00:00",
+                "end": "1979-04-27T08:10:27+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "1979-04-27T07:38:35+00:00",
+            "end": "1979-04-27T08:10:27+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277607",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277607",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-895b-3f93bd5313ca"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "1982-04-30T07:38:35+00:00",
+                "end": "1982-04-30T08:32:50+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "1982-04-30T07:38:35+00:00",
+            "end": "1982-04-30T08:32:50+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277615",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277615",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-edb4-cf8aea2f7193"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2004-03-05T07:38:35+00:00",
+                "end": "2004-03-05T08:09:01+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "2004-03-05T07:38:35+00:00",
+            "end": "2004-03-05T08:09:01+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277635",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277635",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-75d3-2b37480b263e"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185347001",
+                  "display": "Encounter for problem (procedure)"
+                }
+              ],
+              "text": "Encounter for problem (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2004-03-14T15:37:58+00:00",
+                "end": "2004-03-14T19:44:01+00:00"
+              },
+              "individual": {
+                "display": "Dr. Gabriel934 Reilly981"
+              }
+            }
+          ],
+          "period": {
+            "start": "2004-03-14T15:37:58+00:00",
+            "end": "2004-03-14T19:44:01+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "414545008",
+                  "display": "Ischemic heart disease (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "Fitchburg Outpatient Clinic"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "Fitchburg Outpatient Clinic"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277640",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277640",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-1e21-defc0fc84560"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "32485007",
+                  "display": "Hospital admission (procedure)"
+                }
+              ],
+              "text": "Hospital admission (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2004-03-21T02:17:14+00:00",
+                "end": "2004-03-21T07:03:57+00:00"
+              },
+              "individual": {
+                "display": "Dr. Gabriel934 Reilly981"
+              }
+            }
+          ],
+          "period": {
+            "start": "2004-03-21T02:17:14+00:00",
+            "end": "2004-03-21T07:03:57+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "274531002",
+                  "display": "Abnormal findings diagnostic imaging heart+coronary circulat (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "Fitchburg Outpatient Clinic"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "Fitchburg Outpatient Clinic"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277645",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277645",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-8674-4878e058ae7f"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2009-04-03T07:38:35+00:00",
+                "end": "2009-04-03T08:17:16+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "2009-04-03T07:38:35+00:00",
+            "end": "2009-04-03T08:17:16+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277653",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277653",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-1b5e-49f88f9629bb"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2010-04-09T07:38:35+00:00",
+                "end": "2010-04-09T08:19:35+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "2010-04-09T07:38:35+00:00",
+            "end": "2010-04-09T08:19:35+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277702",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277702",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-425e-a7933125fae6"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2011-02-23T08:54:16+00:00",
+                "end": "2011-02-23T09:25:47+00:00"
+              },
+              "individual": {
+                "display": "Dr. Rudolf736 Vandervort697"
+              }
+            }
+          ],
+          "period": {
+            "start": "2011-02-23T08:54:16+00:00",
+            "end": "2011-02-23T09:25:47+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "275978004",
+                  "display": "Screening for malignant neoplasm of colon (procedure)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277707",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277707",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-fdd7-fdedae4a0f01"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2011-04-15T07:38:35+00:00",
+                "end": "2011-04-15T08:12:52+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "2011-04-15T07:38:35+00:00",
+            "end": "2011-04-15T08:12:52+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277743",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277743",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-3d96-3700eca36ed5"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2011-04-29T07:38:35+00:00",
+                "end": "2011-04-29T10:57:49+00:00"
+              },
+              "individual": {
+                "display": "Dr. Rudolf736 Vandervort697"
+              }
+            }
+          ],
+          "period": {
+            "start": "2011-04-29T07:38:35+00:00",
+            "end": "2011-04-29T10:57:49+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "66383009",
+                  "display": "Gingivitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277762",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277762",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-3333-c956fc9267e7"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185345009",
+                  "display": "Encounter for symptom (procedure)"
+                }
+              ],
+              "text": "Encounter for symptom (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2011-05-19T13:38:35+00:00",
+                "end": "2011-05-19T13:53:35+00:00"
+              },
+              "individual": {
+                "display": "Dr. Rudolf736 Vandervort697"
+              }
+            }
+          ],
+          "period": {
+            "start": "2011-05-19T13:38:35+00:00",
+            "end": "2011-05-19T13:53:35+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "444814009",
+                  "display": "Viral sinusitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277770",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277770",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-cfb7-b500ccdc23e1"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2012-04-20T07:38:35+00:00",
+                "end": "2012-04-20T08:14:44+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "2012-04-20T07:38:35+00:00",
+            "end": "2012-04-20T08:14:44+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277804",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277804",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-80f4-d045da8df770"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2013-04-26T07:38:35+00:00",
+                "end": "2013-04-26T08:21:15+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "2013-04-26T07:38:35+00:00",
+            "end": "2013-04-26T08:21:15+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277861",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277861",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-655d-163a7f0fbfbc"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2013-05-10T07:38:35+00:00",
+                "end": "2013-05-10T10:27:52+00:00"
+              },
+              "individual": {
+                "display": "Dr. Rudolf736 Vandervort697"
+              }
+            }
+          ],
+          "period": {
+            "start": "2013-05-10T07:38:35+00:00",
+            "end": "2013-05-10T10:27:52+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "66383009",
+                  "display": "Gingivitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277883",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277883",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-4ddf-bb62dcbdae46"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2014-05-02T07:38:35+00:00",
+                "end": "2014-05-02T08:21:00+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "2014-05-02T07:38:35+00:00",
+            "end": "2014-05-02T08:21:00+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277919",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277919",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-0357-7af177f7f9dd"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2014-05-16T07:38:35+00:00",
+                "end": "2014-05-16T11:51:10+00:00"
+              },
+              "individual": {
+                "display": "Dr. Rudolf736 Vandervort697"
+              }
+            }
+          ],
+          "period": {
+            "start": "2014-05-16T07:38:35+00:00",
+            "end": "2014-05-16T11:51:10+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "103697008",
+                  "display": "Patient referral for dental care (procedure)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BETH ISRAEL DEACONESS HOSPITAL MILTON INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137277940",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137277940",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-525f-aa3bc69cc801"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137277587",
+            "display": "Mr. Alfonso758 Luis Miguel102 Ulloa39"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2015-05-08T07:38:35+00:00",
+                "end": "2015-05-08T08:17:08+00:00"
+              },
+              "individual": {
+                "display": "Dr. Tyrone215 Huels583"
+              }
+            }
+          ],
+          "period": {
+            "start": "2015-05-08T07:38:35+00:00",
+            "end": "2015-05-08T08:17:08+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "SOUTH SHORE INTERNAL MEDICINE ASSOCIATES INC."
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137281941",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137281941",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-a048-67f33456f653"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2005-10-30T05:33:12+00:00",
+                "end": "2005-10-30T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2005-10-30T05:33:12+00:00",
+            "end": "2005-10-30T05:48:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137281970",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137281970",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-807b-5ab9161066c9"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2005-12-04T05:33:12+00:00",
+                "end": "2005-12-04T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2005-12-04T05:33:12+00:00",
+            "end": "2005-12-04T05:48:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137281986",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137281986",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-10ba-0be6a0a8a782"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185345009",
+                  "display": "Encounter for symptom (procedure)"
+                }
+              ],
+              "text": "Encounter for symptom (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2005-12-29T05:33:12+00:00",
+                "end": "2005-12-29T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Isabel214 Figueroa648"
+              }
+            }
+          ],
+          "period": {
+            "start": "2005-12-29T05:33:12+00:00",
+            "end": "2005-12-29T05:48:12+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "65363002",
+                  "display": "Otitis media (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BOSTON MEDICAL CENTER CORPORATION-"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BOSTON MEDICAL CENTER CORPORATION-"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137281997",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137281997",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-1832-833f64fd310e"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2006-02-05T05:33:12+00:00",
+                "end": "2006-02-05T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2006-02-05T05:33:12+00:00",
+            "end": "2006-02-05T05:48:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282016",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282016",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-c7a3-208ac490b16b"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "EMER"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "50849002",
+                  "display": "Emergency room admission (procedure)"
+                }
+              ],
+              "text": "Emergency room admission (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2006-02-12T05:33:12+00:00",
+                "end": "2006-02-12T08:24:22+00:00"
+              },
+              "individual": {
+                "display": "Dr. Clarence5 Robel940"
+              }
+            }
+          ],
+          "period": {
+            "start": "2006-02-12T05:33:12+00:00",
+            "end": "2006-02-12T08:24:22+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "128613002",
+                  "display": "Seizure disorder (disorder)"
+                }
+              ]
+            }
+          ],
+          "hospitalization": {
+            "dischargeDisposition": {
+              "coding": [
+                {
+                  "system": "http://www.nubc.org/patient-discharge",
+                  "code": "01",
+                  "display": "Discharged to home care or self care (routine discharge)"
+                }
+              ],
+              "text": "Discharged to home care or self care (routine discharge)"
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "display": "CHELSEA JEWISH VISITING NURSE AGENCY"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "CHELSEA JEWISH VISITING NURSE AGENCY"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282026",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282026",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-d58e-5a842d3db55b"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2006-04-09T05:33:12+00:00",
+                "end": "2006-04-09T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2006-04-09T05:33:12+00:00",
+            "end": "2006-04-09T05:48:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282046",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282046",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-108a-a45e54852870"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "EMER"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "50849002",
+                  "display": "Emergency room admission (procedure)"
+                }
+              ],
+              "text": "Emergency room admission (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2006-04-23T08:24:22+00:00",
+                "end": "2006-04-23T09:51:36+00:00"
+              },
+              "individual": {
+                "display": "Dr. Clarence5 Robel940"
+              }
+            }
+          ],
+          "period": {
+            "start": "2006-04-23T08:24:22+00:00",
+            "end": "2006-04-23T09:51:36+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "128613002",
+                  "display": "Seizure disorder (disorder)"
+                }
+              ]
+            }
+          ],
+          "hospitalization": {
+            "dischargeDisposition": {
+              "coding": [
+                {
+                  "system": "http://www.nubc.org/patient-discharge",
+                  "code": "01",
+                  "display": "Discharged to home care or self care (routine discharge)"
+                }
+              ],
+              "text": "Discharged to home care or self care (routine discharge)"
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "display": "CHELSEA JEWISH VISITING NURSE AGENCY"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "CHELSEA JEWISH VISITING NURSE AGENCY"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282052",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282052",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-e296-26581c4300db"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2006-07-09T05:33:12+00:00",
+                "end": "2006-07-09T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2006-07-09T05:33:12+00:00",
+            "end": "2006-07-09T05:48:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282071",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282071",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-4712-630363908b42"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2006-10-08T05:33:12+00:00",
+                "end": "2006-10-08T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2006-10-08T05:33:12+00:00",
+            "end": "2006-10-08T05:48:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282086",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282086",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-e836-c7c9314fd334"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2007-01-07T05:33:12+00:00",
+                "end": "2007-01-07T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2007-01-07T05:33:12+00:00",
+            "end": "2007-01-07T05:48:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282109",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282109",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-48ef-e76c59d159e5"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185345009",
+                  "display": "Encounter for symptom (procedure)"
+                }
+              ],
+              "text": "Encounter for symptom (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2007-04-01T05:33:12+00:00",
+                "end": "2007-04-01T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Isabel214 Figueroa648"
+              }
+            }
+          ],
+          "period": {
+            "start": "2007-04-01T05:33:12+00:00",
+            "end": "2007-04-01T05:48:12+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "65363002",
+                  "display": "Otitis media (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BOSTON MEDICAL CENTER CORPORATION-"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BOSTON MEDICAL CENTER CORPORATION-"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282120",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282120",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-5897-8ca338552e4c"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185345009",
+                  "display": "Encounter for symptom (procedure)"
+                }
+              ],
+              "text": "Encounter for symptom (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2007-03-28T14:33:12+00:00",
+                "end": "2007-03-28T14:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Isabel214 Figueroa648"
+              }
+            }
+          ],
+          "period": {
+            "start": "2007-03-28T14:33:12+00:00",
+            "end": "2007-03-28T14:48:12+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "195662009",
+                  "display": "Acute viral pharyngitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BOSTON MEDICAL CENTER CORPORATION-"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BOSTON MEDICAL CENTER CORPORATION-"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282127",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282127",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-90fa-b62d85d6abfa"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2007-04-08T05:33:12+00:00",
+                "end": "2007-04-08T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2007-04-08T05:33:12+00:00",
+            "end": "2007-04-08T05:48:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282143",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282143",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-1601-7aa904e937db"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2007-10-07T05:33:12+00:00",
+                "end": "2007-10-07T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2007-10-07T05:33:12+00:00",
+            "end": "2007-10-07T05:48:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282162",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282162",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-bb82-50129a393f62"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "HH"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "305336008",
+                  "display": "Admission to hospice (procedure)"
+                }
+              ],
+              "text": "Admission to hospice (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2008-02-10T05:33:12+00:00",
+                "end": "2008-03-09T05:33:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Hortensia953 Walker122"
+              }
+            }
+          ],
+          "period": {
+            "start": "2008-02-10T05:33:12+00:00",
+            "end": "2008-03-09T05:33:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "CHELSEA JEWISH HOSPICE AND PALLIATIVE CARE"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "CHELSEA JEWISH HOSPICE AND PALLIATIVE CARE"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282192",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282192",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-2fa5-7faf6b508a37"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "308646001",
+                  "display": "Death Certification"
+                }
+              ],
+              "text": "Death Certification"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137281940",
+            "display": "Ariadna374 Isabel214 Fernández399"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2008-03-09T05:33:12+00:00",
+                "end": "2008-03-09T05:48:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Evelin941 Ratke343"
+              }
+            }
+          ],
+          "period": {
+            "start": "2008-03-09T05:33:12+00:00",
+            "end": "2008-03-09T05:48:12+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "95281009",
+                  "display": "Sudden cardiac death (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "LYNN COMMUNITY HEALTH"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "LYNN COMMUNITY HEALTH"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282844",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282844",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:54.265-04:00",
+            "source": "#lWEfubc89bZQ4Cl6",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "139cd667-593c-c80f-fc52-62a6fa67ba39"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137282843",
+            "display": "Bethann490 McClure239"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2024-11-11T03:38:43+00:00",
+                "end": "2024-11-11T03:53:43+00:00"
+              },
+              "individual": {
+                "display": "Dr. Edwin773 Schultz619"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-11-11T03:38:43+00:00",
+            "end": "2024-11-11T03:53:43+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "BOSTON HEALTH CARE INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BOSTON HEALTH CARE INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282873",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282873",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:54.265-04:00",
+            "source": "#lWEfubc89bZQ4Cl6",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "139cd667-593c-c80f-6cf5-80000f24045c"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137282843",
+            "display": "Bethann490 McClure239"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2024-12-16T03:38:43+00:00",
+                "end": "2024-12-16T03:53:43+00:00"
+              },
+              "individual": {
+                "display": "Dr. Edwin773 Schultz619"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-12-16T03:38:43+00:00",
+            "end": "2024-12-16T03:53:43+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "BOSTON HEALTH CARE INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BOSTON HEALTH CARE INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282889",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282889",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:54.265-04:00",
+            "source": "#lWEfubc89bZQ4Cl6",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "139cd667-593c-c80f-671a-a502a80321a1"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137282843",
+            "display": "Bethann490 McClure239"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2025-02-17T03:38:43+00:00",
+                "end": "2025-02-17T03:53:43+00:00"
+              },
+              "individual": {
+                "display": "Dr. Edwin773 Schultz619"
+              }
+            }
+          ],
+          "period": {
+            "start": "2025-02-17T03:38:43+00:00",
+            "end": "2025-02-17T03:53:43+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "BOSTON HEALTH CARE INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BOSTON HEALTH CARE INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137282908",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137282908",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:54.265-04:00",
+            "source": "#lWEfubc89bZQ4Cl6",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "139cd667-593c-c80f-24f7-e5b191638239"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410620009",
+                  "display": "Well child visit (procedure)"
+                }
+              ],
+              "text": "Well child visit (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137282843",
+            "display": "Bethann490 McClure239"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2025-04-21T03:38:43+00:00",
+                "end": "2025-04-21T03:53:43+00:00"
+              },
+              "individual": {
+                "display": "Dr. Edwin773 Schultz619"
+              }
+            }
+          ],
+          "period": {
+            "start": "2025-04-21T03:38:43+00:00",
+            "end": "2025-04-21T03:53:43+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "BOSTON HEALTH CARE INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BOSTON HEALTH CARE INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

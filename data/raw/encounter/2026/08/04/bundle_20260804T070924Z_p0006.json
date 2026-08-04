@@ -1,0 +1,3817 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3&_getpagesoffset=300&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:09:24.493382+00:00",
+  "saved_timestamp": "2026-08-04T07:09:26.661736+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:25.959-04:00"
+    },
+    "type": "searchset",
+    "total": 343,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3&_getpagesoffset=300&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2997b95e-3c1c-4d7b-a6d5-9070bd0b95f3&_getpagesoffset=250&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286236",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286236",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "73b97ede-ebda-6de2-483a-14fdde01c7b7"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286176",
+            "display": "Mr. Buddy254 Salvador46 Boyle917"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2016-11-26T06:56:49+00:00",
+                "end": "2016-11-26T10:22:09+00:00"
+              },
+              "individual": {
+                "display": "Dr. Marth98 Mayer370"
+              }
+            }
+          ],
+          "period": {
+            "start": "2016-11-26T06:56:49+00:00",
+            "end": "2016-11-26T10:22:09+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "66383009",
+                  "display": "Gingivitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286252",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286252",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "73b97ede-ebda-6de2-82c1-d14b3e68023f"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185345009",
+                  "display": "Encounter for symptom (procedure)"
+                }
+              ],
+              "text": "Encounter for symptom (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286176",
+            "display": "Mr. Buddy254 Salvador46 Boyle917"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-05-22T07:56:49+00:00",
+                "end": "2018-05-22T08:11:49+00:00"
+              },
+              "individual": {
+                "display": "Dr. Marth98 Mayer370"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-05-22T07:56:49+00:00",
+            "end": "2018-05-22T08:11:49+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "195662009",
+                  "display": "Acute viral pharyngitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286259",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286259",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "73b97ede-ebda-6de2-72b9-5b15f9f4ed50"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286176",
+            "display": "Mr. Buddy254 Salvador46 Boyle917"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2019-11-16T06:56:49+00:00",
+                "end": "2019-11-16T07:53:19+00:00"
+              },
+              "individual": {
+                "display": "Dr. Marth98 Mayer370"
+              }
+            }
+          ],
+          "period": {
+            "start": "2019-11-16T06:56:49+00:00",
+            "end": "2019-11-16T07:53:19+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286300",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286300",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "73b97ede-ebda-6de2-1322-104b47494b10"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "EMER"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "50849002",
+                  "display": "Emergency room admission (procedure)"
+                }
+              ],
+              "text": "Emergency room admission (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286176",
+            "display": "Mr. Buddy254 Salvador46 Boyle917"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-03-23T07:08:40+00:00",
+                "end": "2022-03-23T08:08:40+00:00"
+              },
+              "individual": {
+                "display": "Dr. Marth98 Mayer370"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-03-23T07:08:40+00:00",
+            "end": "2022-03-23T08:08:40+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "125605004",
+                  "display": "Fracture of bone (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286314",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286314",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "73b97ede-ebda-6de2-c224-b417ac8819ec"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286176",
+            "display": "Mr. Buddy254 Salvador46 Boyle917"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-05-15T07:40:20+00:00",
+                "end": "2022-05-15T07:55:20+00:00"
+              },
+              "individual": {
+                "display": "Dr. Marth98 Mayer370"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-05-15T07:40:20+00:00",
+            "end": "2022-05-15T07:55:20+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "263102004",
+                  "display": "Fracture subluxation of wrist (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286318",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286318",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "73b97ede-ebda-6de2-6118-e8052ceaa6e6"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286176",
+            "display": "Mr. Buddy254 Salvador46 Boyle917"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-11-19T06:56:49+00:00",
+                "end": "2022-11-19T07:50:05+00:00"
+              },
+              "individual": {
+                "display": "Dr. Marth98 Mayer370"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-11-19T06:56:49+00:00",
+            "end": "2022-11-19T07:50:05+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286346",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286346",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "73b97ede-ebda-6de2-3f33-68e0c4e466cf"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286176",
+            "display": "Mr. Buddy254 Salvador46 Boyle917"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-12-03T06:56:49+00:00",
+                "end": "2022-12-03T12:11:41+00:00"
+              },
+              "individual": {
+                "display": "Dr. Marth98 Mayer370"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-12-03T06:56:49+00:00",
+            "end": "2022-12-03T12:11:41+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "66383009",
+                  "display": "Gingivitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286370",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286370",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "73b97ede-ebda-6de2-4c78-8abb6db618d2"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286176",
+            "display": "Mr. Buddy254 Salvador46 Boyle917"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2025-09-06T06:56:49+00:00",
+                "end": "2025-09-06T07:47:02+00:00"
+              },
+              "individual": {
+                "display": "Dr. Marth98 Mayer370"
+              }
+            }
+          ],
+          "period": {
+            "start": "2025-09-06T06:56:49+00:00",
+            "end": "2025-09-06T07:47:02+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286414",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286414",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-35e4-ceb4ea200fc5"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2000-07-12T15:42:32+00:00",
+                "end": "2000-07-12T16:33:38+00:00"
+              },
+              "individual": {
+                "display": "Dr. Jodie811 Hermann103"
+              }
+            }
+          ],
+          "period": {
+            "start": "2000-07-12T15:42:32+00:00",
+            "end": "2000-07-12T16:33:38+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "PARADIGM HEALTHCARE, PC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "PARADIGM HEALTHCARE, PC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286421",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286421",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-3f43-450c94e9f625"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2013-07-31T15:42:32+00:00",
+                "end": "2013-07-31T16:21:35+00:00"
+              },
+              "individual": {
+                "display": "Dr. Jodie811 Hermann103"
+              }
+            }
+          ],
+          "period": {
+            "start": "2013-07-31T15:42:32+00:00",
+            "end": "2013-07-31T16:21:35+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "PARADIGM HEALTHCARE, PC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "PARADIGM HEALTHCARE, PC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286433",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286433",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-9cf7-5b26e5e4190b"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185347001",
+                  "display": "Encounter for problem (procedure)"
+                }
+              ],
+              "text": "Encounter for problem (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2014-09-21T15:42:32+00:00",
+                "end": "2014-09-21T15:57:32+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2014-09-21T15:42:32+00:00",
+            "end": "2014-09-21T15:57:32+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "239873007",
+                  "display": "Osteoarthritis of knee (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286445",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286445",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-3699-f58cce307b13"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2016-08-03T15:42:32+00:00",
+                "end": "2016-08-03T16:35:39+00:00"
+              },
+              "individual": {
+                "display": "Dr. Jodie811 Hermann103"
+              }
+            }
+          ],
+          "period": {
+            "start": "2016-08-03T15:42:32+00:00",
+            "end": "2016-08-03T16:35:39+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "PARADIGM HEALTHCARE, PC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "PARADIGM HEALTHCARE, PC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286502",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286502",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-d416-3cffee843b09"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2016-08-17T15:42:32+00:00",
+                "end": "2016-08-17T21:41:10+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2016-08-17T15:42:32+00:00",
+            "end": "2016-08-17T21:41:10+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "66383009",
+                  "display": "Gingivitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286529",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286529",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-0210-1557c740c83b"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "698314001",
+                  "display": "Consultation for treatment (procedure)"
+                }
+              ],
+              "text": "Consultation for treatment (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2017-02-02T10:27:31+00:00",
+                "end": "2017-02-02T10:46:49+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2017-02-02T10:27:31+00:00",
+            "end": "2017-02-02T10:46:49+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "389095005",
+                  "display": "Contraception care (regime/therapy)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286538",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286538",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-a199-ad85ffa94e2a"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "698314001",
+                  "display": "Consultation for treatment (procedure)"
+                }
+              ],
+              "text": "Consultation for treatment (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-01-28T10:46:49+00:00",
+                "end": "2018-01-28T11:01:49+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-01-28T10:46:49+00:00",
+            "end": "2018-01-28T11:01:49+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "389095005",
+                  "display": "Contraception care (regime/therapy)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286546",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286546",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-44ff-da0461d6a3cd"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "308335008",
+                  "display": "Patient encounter procedure (procedure)"
+                }
+              ],
+              "text": "Patient encounter procedure (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-01-31T02:46:49+00:00",
+                "end": "2018-01-31T03:42:50+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-01-31T02:46:49+00:00",
+            "end": "2018-01-31T03:42:50+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "389095005",
+                  "display": "Contraception care (regime/therapy)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286551",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286551",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-9eaf-159fa342fc62"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "308335008",
+                  "display": "Patient encounter procedure (procedure)"
+                }
+              ],
+              "text": "Patient encounter procedure (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2018-03-28T15:42:32+00:00",
+                "end": "2018-03-28T16:30:45+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2018-03-28T15:42:32+00:00",
+            "end": "2018-03-28T16:30:45+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "389095005",
+                  "display": "Contraception care (regime/therapy)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286556",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286556",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-a4f2-f94e9d403bda"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "698314001",
+                  "display": "Consultation for treatment (procedure)"
+                }
+              ],
+              "text": "Consultation for treatment (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2019-01-26T03:42:50+00:00",
+                "end": "2019-01-26T03:57:50+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2019-01-26T03:42:50+00:00",
+            "end": "2019-01-26T03:57:50+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "389095005",
+                  "display": "Contraception care (regime/therapy)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286563",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286563",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-c9cf-6fc9354d4d0f"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2019-08-07T15:42:32+00:00",
+                "end": "2019-08-07T16:19:57+00:00"
+              },
+              "individual": {
+                "display": "Dr. Jodie811 Hermann103"
+              }
+            }
+          ],
+          "period": {
+            "start": "2019-08-07T15:42:32+00:00",
+            "end": "2019-08-07T16:19:57+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "PARADIGM HEALTHCARE, PC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "PARADIGM HEALTHCARE, PC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286606",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286606",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-e36c-4970898c8f8e"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2019-08-21T15:42:32+00:00",
+                "end": "2019-08-21T18:29:23+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2019-08-21T15:42:32+00:00",
+            "end": "2019-08-21T18:29:23+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "66383009",
+                  "display": "Gingivitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286619",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286619",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-2e16-01565be3160c"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "698314001",
+                  "display": "Consultation for treatment (procedure)"
+                }
+              ],
+              "text": "Consultation for treatment (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2020-01-21T03:42:50+00:00",
+                "end": "2020-01-21T03:57:50+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2020-01-21T03:42:50+00:00",
+            "end": "2020-01-21T03:57:50+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "389095005",
+                  "display": "Contraception care (regime/therapy)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286628",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286628",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-56ab-0d6894ebc26e"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "EMER"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "50849002",
+                  "display": "Emergency room admission (procedure)"
+                }
+              ],
+              "text": "Emergency room admission (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2020-04-12T15:42:32+00:00",
+                "end": "2020-04-12T16:42:32+00:00"
+              },
+              "individual": {
+                "display": "Dr. Cherrie404 Conn188"
+              }
+            }
+          ],
+          "period": {
+            "start": "2020-04-12T15:42:32+00:00",
+            "end": "2020-04-12T16:42:32+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "384709000",
+                  "display": "Sprain (morphologic abnormality)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "HOLYOKE VISITING NURSE ASSOC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "HOLYOKE VISITING NURSE ASSOC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286637",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286637",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-3185-1eaa5b6d4ea3"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "162673000",
+                  "display": "General examination of patient (procedure)"
+                }
+              ],
+              "text": "General examination of patient (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-05-25T15:42:32+00:00",
+                "end": "2022-05-25T16:37:12+00:00"
+              },
+              "individual": {
+                "display": "Dr. Jodie811 Hermann103"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-05-25T15:42:32+00:00",
+            "end": "2022-05-25T16:37:12+00:00"
+          },
+          "location": [
+            {
+              "location": {
+                "display": "PARADIGM HEALTHCARE, PC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "PARADIGM HEALTHCARE, PC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286685",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286685",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-ef2a-311bca37d340"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185345009",
+                  "display": "Encounter for symptom (procedure)"
+                }
+              ],
+              "text": "Encounter for symptom (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-06-01T15:42:32+00:00",
+                "end": "2022-06-01T15:57:32+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-06-01T15:42:32+00:00",
+            "end": "2022-06-01T15:57:32+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "10509002",
+                  "display": "Acute bronchitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286695",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286695",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-d069-b8e6088b3e03"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "308335008",
+                  "display": "Patient encounter procedure (procedure)"
+                }
+              ],
+              "text": "Patient encounter procedure (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-06-01T15:42:32+00:00",
+                "end": "2022-06-01T16:25:52+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-06-01T15:42:32+00:00",
+            "end": "2022-06-01T16:25:52+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "389095005",
+                  "display": "Contraception care (regime/therapy)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286700",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286700",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-0e76-6632f24009e3"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185349003",
+                  "display": "Encounter for check up (procedure)"
+                }
+              ],
+              "text": "Encounter for check up (procedure)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-06-08T15:42:32+00:00",
+                "end": "2022-06-08T21:57:31+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-06-08T15:42:32+00:00",
+            "end": "2022-06-08T21:57:31+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "66383009",
+                  "display": "Gingivitis (disorder)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286727",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286727",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-d69e-d5ed16a689da"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "424441002",
+                  "display": "Prenatal initial visit (regime/therapy)"
+                }
+              ],
+              "text": "Prenatal initial visit (regime/therapy)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-07-13T15:42:32+00:00",
+                "end": "2022-07-13T15:57:32+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-07-13T15:42:32+00:00",
+            "end": "2022-07-13T15:57:32+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "72892002",
+                  "display": "Normal pregnancy (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286754",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286754",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-ed38-e48de0706e6f"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "type": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "424619006",
+                  "display": "Prenatal visit (regime/therapy)"
+                }
+              ],
+              "text": "Prenatal visit (regime/therapy)"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/137286413",
+            "display": "Mrs. Caryn49 Gwen761 Greenholt190"
+          },
+          "participant": [
+            {
+              "type": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                      "code": "PPRF",
+                      "display": "primary performer"
+                    }
+                  ],
+                  "text": "primary performer"
+                }
+              ],
+              "period": {
+                "start": "2022-08-10T15:42:32+00:00",
+                "end": "2022-08-10T15:57:32+00:00"
+              },
+              "individual": {
+                "display": "Dr. Saundra460 Kuphal363"
+              }
+            }
+          ],
+          "period": {
+            "start": "2022-08-10T15:42:32+00:00",
+            "end": "2022-08-10T15:57:32+00:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "72892002",
+                  "display": "Normal pregnancy (finding)"
+                }
+              ]
+            }
+          ],
+          "location": [
+            {
+              "location": {
+                "display": "COOLEY DICKINSON HOSPITAL INC"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "display": "COOLEY DICKINSON HOSPITAL INC"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286770",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286770",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T19:07:52.195-04:00",
+            "source": "#GbgWK8YXDybHL3fw",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "d5b5f4d0-983b-425a-95e4-5b0604e0739a"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286772",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286772",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T19:08:10.582-04:00",
+            "source": "#gaHCtcPkX1KKfUbl",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "ec438a68-6dbb-40fc-ade7-22045c1e798f"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286774",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286774",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T19:08:31.502-04:00",
+            "source": "#rmr7AEihBfSytB8P",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "a0291a44-dc96-4e88-89ce-a87f5bc6617a"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286776",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286776",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T19:08:49.517-04:00",
+            "source": "#2SaytW5YA0t1hsyh",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "bf438cc9-e99d-4247-9261-6e9b4322573d"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137286780",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137286780",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T19:09:38.954-04:00",
+            "source": "#ptpyhGtC83CKu9X7",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "ea34b431-5c39-4790-8f97-dbc70a770a79"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137287629",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137287629",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T23:37:51.540-04:00",
+            "source": "#lIRor9rh8cW1oaDU",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "4ad939e5-802d-45af-96c4-e8afee370e40"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137287631",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137287631",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T23:38:16.411-04:00",
+            "source": "#GT1qzMljwABJAJLQ",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "75ee7a9c-2303-47ab-b0bc-d1794cce7436"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137287633",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137287633",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T23:38:34.363-04:00",
+            "source": "#PBU1Qy2OmziwiL74",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "18137df6-a634-4841-9075-a7a3568fc428"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137287635",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137287635",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T23:38:52.200-04:00",
+            "source": "#Go78C0Rv717oDfMO",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "ed416358-502d-4fab-866b-962df0e8d309"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137287639",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137287639",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T23:39:53.657-04:00",
+            "source": "#mPk0AFsycOJnqwat",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCMedicalEvent"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.7.1.15.1",
+              "value": "5f1a504f-8295-4475-a10b-65e3efbdfc54"
+            }
+          ],
+          "status": "in-progress",
+          "class": {
+            "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.34",
+            "code": "1",
+            "display": "Pobyt w oddziale szpitalnym"
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "participant": [
+            {
+              "extension": [
+                {
+                  "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHieFunction",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.80",
+                    "code": "11"
+                  }
+                }
+              ],
+              "individual": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                  "value": "2698040"
+                },
+                "display": "Monika Lecznicza"
+              }
+            }
+          ],
+          "period": {
+            "start": "2024-10-14T07:22:38+02:00"
+          },
+          "hospitalization": {
+            "admitSource": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.11.3.23",
+                  "code": "3"
+                }
+              ]
+            }
+          },
+          "location": [
+            {
+              "location": {
+                "identifier": {
+                  "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.3",
+                  "value": "000000012106-001"
+                }
+              },
+              "period": {
+                "start": "2024-10-14T07:22:38+02:00"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "extension": [
+              {
+                "url": "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaHiePayorReference",
+                "valueReference": {
+                  "identifier": {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.3.1",
+                    "value": "01"
+                  }
+                }
+              }
+            ],
+            "identifier": {
+              "system": "urn:oid:2.16.840.1.113883.3.4424.2.3.1",
+              "value": "000000012106"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137287901",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137287901",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/encounter-id",
+              "value": "58e17cd8-56e4-4f66-acf5-c36eb91baf75"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "IMP",
+            "display": "入院"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137275737",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137275737",
+          "meta": {
+            "versionId": "4",
+            "lastUpdated": "2026-08-04T01:42:37.916-04:00",
+            "source": "#to6ofTxFj9GGiw47"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/encounter",
+              "value": "CB-D7460E01-2026-08-04"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137275319"
+          },
+          "period": {
+            "start": "2026-08-04",
+            "end": "2026-08-04"
+          },
+          "reasonCode": [
+            {
+              "text": "1111"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137275728",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137275728",
+          "meta": {
+            "versionId": "4",
+            "lastUpdated": "2026-08-04T01:51:54.228-04:00",
+            "source": "#qEG4fHvSyNL2JmKX"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/encounter",
+              "value": "CB-A379325F-2026-08-04"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137275608"
+          },
+          "period": {
+            "start": "2026-08-04",
+            "end": "2026-08-04"
+          },
+          "reasonCode": [
+            {
+              "text": "2222"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137288131",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137288131",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:39:19.210-04:00",
+            "source": "#1f4C3SwhCptLzLf5"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/encounter",
+              "value": "CB-06655BC2-13"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          },
+          "subject": {
+            "reference": "Patient/137288076"
+          },
+          "period": {
+            "start": "2026-08-04",
+            "end": "2026-08-04"
+          },
+          "reasonCode": [
+            {
+              "text": "頭痛"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Encounter/137288139",
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "137288139",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:43:32.601-04:00",
+            "source": "#fu6qqs2qlN6NS1D8"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/1234567890/encounter-id",
+              "value": "58e17cd8-56e4-4f66-acf5-c36eb91baf75"
+            }
+          ],
+          "status": "finished",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "IMP",
+            "display": "入院"
+          },
+          "subject": {
+            "reference": "Patient/137288138"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}
