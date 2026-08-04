@@ -1,0 +1,2512 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4/Condition?_count=50&_lastUpdated=ge2026-08-01",
+  "api_call_timestamp": "2026-08-04T07:10:45.270844+00:00",
+  "saved_timestamp": "2026-08-04T07:10:45.470647+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "884b74c4-152a-4bd5-8a47-bb5acdbe5939",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:10:29.047-04:00"
+    },
+    "type": "searchset",
+    "total": 398,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4/Condition?_count=50&_lastUpdated=ge2026-08-01"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=884b74c4-152a-4bd5-8a47-bb5acdbe5939&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265127",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265127",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:29:20.513-04:00",
+            "source": "#gx62zi0v69MFRUaq"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-verstatus",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "I10",
+                "display": "Essential (primary) hypertension"
+              }
+            ],
+            "text": "Essential (primary) hypertension"
+          },
+          "subject": {
+            "reference": "Patient/137265123"
+          },
+          "encounter": {
+            "reference": "Encounter/137265124"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265128",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265128",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:29:20.513-04:00",
+            "source": "#gx62zi0v69MFRUaq"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-verstatus",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E11.9",
+                "display": "Type 2 diabetes mellitus without complications"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus without complications"
+          },
+          "subject": {
+            "reference": "Patient/137265123"
+          },
+          "encounter": {
+            "reference": "Encounter/137265124"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265137",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265137",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:30:36.820-04:00",
+            "source": "#lWfh920nMwP30SfY"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-verstatus",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "I10",
+                "display": "Essential (primary) hypertension"
+              }
+            ],
+            "text": "Essential (primary) hypertension"
+          },
+          "subject": {
+            "reference": "Patient/137265133"
+          },
+          "encounter": {
+            "reference": "Encounter/137265134"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265138",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265138",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:30:36.820-04:00",
+            "source": "#lWfh920nMwP30SfY"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-verstatus",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E11.9",
+                "display": "Type 2 diabetes mellitus without complications"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus without complications"
+          },
+          "subject": {
+            "reference": "Patient/137265133"
+          },
+          "encounter": {
+            "reference": "Encounter/137265134"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265164",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265164",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T09:04:28.415-04:00",
+            "source": "#hBy1DCNej401AyM3"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-verstatus",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "I10",
+                "display": "Essential (primary) hypertension"
+              }
+            ],
+            "text": "Essential (primary) hypertension"
+          },
+          "subject": {
+            "reference": "Patient/137265160"
+          },
+          "encounter": {
+            "reference": "Encounter/137265161"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265165",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265165",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T09:04:28.415-04:00",
+            "source": "#hBy1DCNej401AyM3"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-verstatus",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E11.9",
+                "display": "Type 2 diabetes mellitus without complications"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus without complications"
+          },
+          "subject": {
+            "reference": "Patient/137265160"
+          },
+          "encounter": {
+            "reference": "Encounter/137265161"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265218",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265218",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T09:58:17.258-04:00",
+            "source": "#FkaKr5MKoBZmi58l"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/condition",
+              "value": "CB-52EB1AA4"
+            }
+          ],
+          "code": {
+            "text": "無"
+          },
+          "subject": {
+            "reference": "Patient/137265217"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265249",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265249",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:33:51.496-04:00",
+            "source": "#u0u5B1SppPFd6r4D"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265246-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265246"
+          },
+          "recordedDate": "2026-07-31T15:33:50.321215+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265250",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265250",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:33:52.214-04:00",
+            "source": "#NEsgZ63iI2nH8khs"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265246-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265246"
+          },
+          "recordedDate": "2026-07-31T15:33:50.995527+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265264",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265264",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:04.685-04:00",
+            "source": "#baAapJxvdcg6wqiR"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265261-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265261"
+          },
+          "recordedDate": "2026-07-31T15:34:02.230362+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265265",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265265",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:05.400-04:00",
+            "source": "#6BS4RkMwS2tKHnOj"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265261-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265261"
+          },
+          "recordedDate": "2026-07-31T15:34:02.855715+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265279",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265279",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:16.204-04:00",
+            "source": "#s3xD0lFu5TIYLQ0R"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265276-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265276"
+          },
+          "recordedDate": "2026-07-31T15:34:12.538169+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265280",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265280",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:16.940-04:00",
+            "source": "#MOxnMhDwcfm4MjSS"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265276-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265276"
+          },
+          "recordedDate": "2026-07-31T15:34:13.231421+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265294",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265294",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:37.873-04:00",
+            "source": "#55zRcABYHF6Qkriy"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265291-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265291"
+          },
+          "recordedDate": "2026-07-31T15:34:34.638314+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265295",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265295",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:38.915-04:00",
+            "source": "#2eZ58dMVq7Htujbs"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265291-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265291"
+          },
+          "recordedDate": "2026-07-31T15:34:36.383489+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265309",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265309",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:56.192-04:00",
+            "source": "#8TMv4MmsUadNAsqe"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265306-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265306"
+          },
+          "recordedDate": "2026-07-31T15:34:50.894583+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265310",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265310",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:57.008-04:00",
+            "source": "#K5uNDdRQVh1g0Sxs"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265306-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265306"
+          },
+          "recordedDate": "2026-07-31T15:34:56.392296+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265324",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265324",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:35:11.818-04:00",
+            "source": "#tnc3LagKMqIY9vPJ"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265321-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265321"
+          },
+          "recordedDate": "2026-07-31T15:35:09.748296+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265325",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265325",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:35:12.605-04:00",
+            "source": "#tjlcdRAPHCWpTDlj"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265321-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265321"
+          },
+          "recordedDate": "2026-07-31T15:35:10.455857+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265339",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265339",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:35:31.453-04:00",
+            "source": "#p6lxoa30YRQXIOkS"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265336-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265336"
+          },
+          "recordedDate": "2026-07-31T15:35:27.406791+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265340",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265340",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:35:32.244-04:00",
+            "source": "#NuijkKLtbTjdEvrM"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265336-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265336"
+          },
+          "recordedDate": "2026-07-31T15:35:28.140574+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265354",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265354",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:35:51.150-04:00",
+            "source": "#xz6C7B9Y3V6aGzuB"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265351-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265351"
+          },
+          "recordedDate": "2026-07-31T15:35:48.721645+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265355",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265355",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:35:52.006-04:00",
+            "source": "#ZoRrlrMsr8cdiTtb"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265351-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265351"
+          },
+          "recordedDate": "2026-07-31T15:35:49.446078+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265369",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265369",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:36:06.089-04:00",
+            "source": "#EvxgKcQinlcqypbn"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265366-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265366"
+          },
+          "recordedDate": "2026-07-31T15:36:02.137459+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265370",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265370",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:36:06.883-04:00",
+            "source": "#3uMIp87edQrQ3fA4"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265366-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265366"
+          },
+          "recordedDate": "2026-07-31T15:36:02.884429+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265384",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265384",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:36:19.093-04:00",
+            "source": "#Imhx0tbmeum1YLqK"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265381-0-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "195967001",
+                "display": "Asthma"
+              }
+            ],
+            "text": "Asthma"
+          },
+          "subject": {
+            "reference": "Patient/137265381"
+          },
+          "recordedDate": "2026-07-31T15:36:17.432216+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265385",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265385",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:36:19.928-04:00",
+            "source": "#rcShJfmBOFe25dFy"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.9999.fhir.proceso2.condition",
+              "value": "cond-137265381-1-10e06101ef"
+            }
+          ],
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item",
+                  "display": "Problem List Item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "73211009",
+                "display": "Diabetes mellitus"
+              }
+            ],
+            "text": "Diabetes mellitus"
+          },
+          "subject": {
+            "reference": "Patient/137265381"
+          },
+          "recordedDate": "2026-07-31T15:36:18.194173+00:00"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265626",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265626",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 1"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265627",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265627",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 2"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265628",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265628",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 3"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265629",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265629",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 4"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265630",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265630",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 5"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265631",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265631",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 6"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265632",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265632",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 7"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265633",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265633",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 8"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265634",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265634",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 9"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265635",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265635",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 10"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265636",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265636",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 11"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265637",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265637",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 12"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265638",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265638",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 13"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265639",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265639",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 14"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265640",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265640",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 15"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265641",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265641",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 16"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265642",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265642",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 17"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265643",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265643",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 18"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265644",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265644",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 19"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265645",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265645",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 20"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265646",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265646",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 21"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265647",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265647",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 22"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Condition/137265648",
+        "resource": {
+          "resourceType": "Condition",
+          "id": "137265648",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:59.916-04:00",
+            "source": "#gz4HSxGXkq3Mz7tw"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                  "code": "problem-list-item"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "ZzClearwayProbe condition 23"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}
