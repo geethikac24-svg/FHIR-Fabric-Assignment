@@ -1,0 +1,65 @@
+# FHIR Lakehouse Configuration — no hardcoding in notebooks
+# Override via environment variables: FHIR_BASE_URL, FHIR_LOOKBACK_DAYS, FHIR_PAGE_SIZE, LAKEHOUSE_ROOT
+
+api:
+  base_url: "https://hapi.fhir.org/baseR4"
+  page_size: 50
+  lookback_days: 3
+  request_timeout_seconds: 120
+  max_retries: 3
+  retry_backoff_seconds: 2
+  accept: "application/fhir+json"
+  # Optional: "application/fhir+xml" for XML extension
+
+resources:
+  - name: Patient
+    path: Patient
+    primary_key: id
+    order: 1
+  - name: Encounter
+    path: Encounter
+    primary_key: id
+    order: 2
+  - name: Observation
+    path: Observation
+    primary_key: id
+    order: 3
+  - name: Condition
+    path: Condition
+    primary_key: id
+    order: 4
+
+# Incremental filter uses FHIR _lastUpdated
+incremental:
+  param: "_lastUpdated"
+  operator: "ge"  # greater-or-equal
+
+lakehouse:
+  # Fabric: abfss://... or /lakehouse/default/Files
+  # Local: relative data/ folder
+  root: "data"
+  raw_prefix: "raw/fhir"
+  bronze_prefix: "bronze"
+  silver_prefix: "silver"
+  gold_prefix: "gold"
+  logs_prefix: "logs"
+
+scd2:
+  hash_columns_exclude:
+    - extraction_timestamp
+    - api_url_or_params
+    - raw_json
+    - effective_from
+    - effective_to
+    - is_current
+    - version_hash
+    - load_timestamp
+    - api_call_timestamp
+    - saved_timestamp
+
+spark:
+  # Used when running inside Fabric / Databricks
+  catalog: "fhir_lh"
+  bronze_schema: "bronze"
+  silver_schema: "silver"
+  gold_schema: "gold"
