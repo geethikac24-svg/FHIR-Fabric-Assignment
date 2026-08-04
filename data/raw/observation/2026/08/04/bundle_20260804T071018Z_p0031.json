@@ -1,0 +1,3690 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1550&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:10:18.398046+00:00",
+  "saved_timestamp": "2026-08-04T07:10:25.443459+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "7dda4ea6-c539-4463-83a7-da196a59017a",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:28.677-04:00"
+    },
+    "type": "searchset",
+    "total": 1658,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1550&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1600&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1500&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287960",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287960",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "ca379eca-11da-4c35-97a6-fd99f8c6350a"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3B050000002327201",
+                "display": "LDH"
+              }
+            ],
+            "text": "LDH"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 200,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287912"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 124,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              },
+              "high": {
+                "value": 222,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287961",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287961",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "b3cbaed4-f88c-4663-8b34-b43c854f59a3"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "T-CHO"
+              }
+            ],
+            "text": "T-CHO"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 230,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287913"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 142,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 248,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287962",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287962",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "7c8c24b7-bd31-4034-b103-5a09e036c056"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3F015000002389901",
+                "display": "TG"
+              }
+            ],
+            "text": "TG"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 220,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287914"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 40,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 234,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287963",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287963",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "c472759b-a70f-4dc0-8628-f6c58fa67376"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3F070000001829101",
+                "display": "HDL-C"
+              }
+            ],
+            "text": "HDL-C"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 60.0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287915"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 38,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 90,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287964",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287964",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "328ff86c-3c17-4df4-970b-44b515e01f45"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3F077000002291901",
+                "display": "LDL-C"
+              }
+            ],
+            "text": "LDL-C"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 150,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287916"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 65,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 163,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287965",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287965",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "921479cf-0e79-4f76-86fb-6aa3b23a6364"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "BUN"
+              }
+            ],
+            "text": "BUN"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 10.0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287917"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 8,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 20,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287966",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287966",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "648c45a1-764e-4540-949b-d2c78d327fc9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "CRE"
+              }
+            ],
+            "text": "CRE"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 1.0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287918"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0.65,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 1.07,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287967",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287967",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "b33f45e3-62d1-4fe8-a47e-57d93163489d"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "UA"
+              }
+            ],
+            "text": "UA"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 5.0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287919"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 3.7,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 7.8,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287968",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287968",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "2a613ff8-96a7-4040-868e-885eeb2fe7fa"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3H010000002126101",
+                "display": "Na"
+              }
+            ],
+            "text": "Na"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 140.0,
+            "unit": "mmol/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmol/L"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287920"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 138,
+                "unit": "mmol/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              },
+              "high": {
+                "value": 145,
+                "unit": "mmol/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287969",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287969",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "346d8af2-766c-40c8-bd81-7a1dc11c0915"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3H015000002326101",
+                "display": "K"
+              }
+            ],
+            "text": "K"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 4.0,
+            "unit": "mmol/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmol/L"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287921"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 3.6,
+                "unit": "mmol/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              },
+              "high": {
+                "value": 4.8,
+                "unit": "mmol/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287970",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287970",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "1a9e9cc5-e62a-4796-92f0-d6bef3ecfa40"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3H020000002229101",
+                "display": "Cl"
+              }
+            ],
+            "text": "Cl"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 105.0,
+            "unit": "mmol/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmol/L"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287922"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 101,
+                "unit": "mmol/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              },
+              "high": {
+                "value": 108,
+                "unit": "mmol/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "mmol/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287971",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287971",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "c9cd6f8d-d5f7-45cb-b459-75ea9681d5bd"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3H030000002227101",
+                "display": "Ca"
+              }
+            ],
+            "text": "Ca"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 9.0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287923"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 8.8,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 10.1,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287972",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287972",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "3416ad4b-5935-48c7-8555-34745d074e32"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "CRP"
+              }
+            ],
+            "text": "CRP"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.1,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287924"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 0.14,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287973",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287973",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "b49dda04-076a-4cbe-9728-ce9c4e3d9b73"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "TPHA"
+              }
+            ],
+            "text": "TPHA"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "value_string_code",
+                "code": "01000100-0000-0000-0000-a00019000101",
+                "display": "(-)"
+              }
+            ],
+            "text": "(-)"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287925"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287974",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287974",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "b1bdf09d-75fc-4434-9b1e-f007de39c873"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "RPR"
+              }
+            ],
+            "text": "RPR"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "value_string_code",
+                "code": "01000100-0000-0000-0000-a00019000101",
+                "display": "(-)"
+              }
+            ],
+            "text": "(-)"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287926"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287975",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287975",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "ee7cc967-6660-4c35-866f-bf8b74ab3984"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "HBs抗原[CLIA]"
+              }
+            ],
+            "text": "HBs抗原[CLIA]"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "value_string_code",
+                "code": "01000100-0000-0000-0000-a00019000101",
+                "display": "(-)"
+              }
+            ],
+            "text": "(-)"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287927"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287976",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287976",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "8de43360-ca5e-46cc-b099-090ff6fe5678"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "測定値"
+              }
+            ],
+            "text": "測定値"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.02,
+            "unit": "IU/mL",
+            "system": "http://unitsofmeasure.org",
+            "code": "IU/mL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287928"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0,
+                "unit": "IU/mL",
+                "system": "http://unitsofmeasure.org",
+                "code": "IU/mL"
+              },
+              "high": {
+                "value": 0.04,
+                "unit": "IU/mL",
+                "system": "http://unitsofmeasure.org",
+                "code": "IU/mL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287977",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287977",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "fa21598e-7b84-4d35-b543-759af35b856b"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "HCV抗体[CLIA]"
+              }
+            ],
+            "text": "HCV抗体[CLIA]"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "value_string_code",
+                "code": "01000100-0000-0000-0000-a00019000101",
+                "display": "(-)"
+              }
+            ],
+            "text": "(-)"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287929"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287978",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287978",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "2467a852-ca23-4fc0-a0af-1df07cf96093"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "S/CO"
+              }
+            ],
+            "text": "S/CO"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.45,
+            "system": "http://unitsofmeasure.org"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287930"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0,
+                "system": "http://unitsofmeasure.org"
+              },
+              "high": {
+                "value": 0.99,
+                "system": "http://unitsofmeasure.org"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287979",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287979",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "63586de3-1926-4721-bbc5-7839a30b4af2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "WBC"
+              }
+            ],
+            "text": "WBC"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 6200,
+            "unit": "/μL",
+            "system": "http://unitsofmeasure.org",
+            "code": "/μL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287931"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 3300,
+                "unit": "/μL",
+                "system": "http://unitsofmeasure.org",
+                "code": "/μL"
+              },
+              "high": {
+                "value": 8600,
+                "unit": "/μL",
+                "system": "http://unitsofmeasure.org",
+                "code": "/μL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287980",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287980",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "c52060b3-67b5-44c4-b21a-99f5d2a0fde4"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "RBC"
+              }
+            ],
+            "text": "RBC"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 500,
+            "unit": "×10^4/μL",
+            "system": "http://unitsofmeasure.org",
+            "code": "×10^4/μL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287932"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 435,
+                "unit": "×10^4/μL",
+                "system": "http://unitsofmeasure.org",
+                "code": "×10^4/μL"
+              },
+              "high": {
+                "value": 555,
+                "unit": "×10^4/μL",
+                "system": "http://unitsofmeasure.org",
+                "code": "×10^4/μL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287981",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287981",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "db4dba7f-e0e1-400e-8c57-ddea3100f419"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "Hb"
+              }
+            ],
+            "text": "Hb"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 15.0,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287933"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 13.7,
+                "unit": "g/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/dL"
+              },
+              "high": {
+                "value": 16.8,
+                "unit": "g/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287982",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287982",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "07eba943-f7d7-4da2-a183-fef7f0f30933"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "Ht"
+              }
+            ],
+            "text": "Ht"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 45.0,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287934"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 40.7,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 50.1,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287983",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287983",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "c59126c9-9eca-4500-b2b7-364036f08ac7"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "PLT"
+              }
+            ],
+            "text": "PLT"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 30.0,
+            "unit": "×10^4/μL",
+            "system": "http://unitsofmeasure.org",
+            "code": "×10^4/μL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287935"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 15.8,
+                "unit": "×10^4/μL",
+                "system": "http://unitsofmeasure.org",
+                "code": "×10^4/μL"
+              },
+              "high": {
+                "value": 34.8,
+                "unit": "×10^4/μL",
+                "system": "http://unitsofmeasure.org",
+                "code": "×10^4/μL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287984",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287984",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "abbefef3-fe37-4f7c-b6eb-6b741c6328d3"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "MCV"
+              }
+            ],
+            "text": "MCV"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 90.0,
+            "unit": "fl",
+            "system": "http://unitsofmeasure.org",
+            "code": "fl"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287936"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 83.6,
+                "unit": "fl",
+                "system": "http://unitsofmeasure.org",
+                "code": "fl"
+              },
+              "high": {
+                "value": 98.2,
+                "unit": "fl",
+                "system": "http://unitsofmeasure.org",
+                "code": "fl"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287985",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287985",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "95853c70-8e49-49b2-b0cf-3f1890a1a845"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "MCH"
+              }
+            ],
+            "text": "MCH"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 30.0,
+            "unit": "pg",
+            "system": "http://unitsofmeasure.org",
+            "code": "pg"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287937"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 27.5,
+                "unit": "pg",
+                "system": "http://unitsofmeasure.org",
+                "code": "pg"
+              },
+              "high": {
+                "value": 33.2,
+                "unit": "pg",
+                "system": "http://unitsofmeasure.org",
+                "code": "pg"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287986",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287986",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "f580154a-d979-4a71-ae4b-eb53fa17104f"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "MCHC"
+              }
+            ],
+            "text": "MCHC"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 33.0,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287938"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 31.7,
+                "unit": "g/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/dL"
+              },
+              "high": {
+                "value": 35.3,
+                "unit": "g/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287987",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287987",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "359faa03-b067-4e93-94a8-1f2cd6f846c0"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "NEUT"
+              }
+            ],
+            "text": "NEUT"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 50.0,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287939"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 40,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 74,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287988",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287988",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "82d36473-72e8-4182-8d94-4b44455c52c8"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "LYMPH"
+              }
+            ],
+            "text": "LYMPH"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 50.0,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287940"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 18,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 59,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287989",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287989",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "584aec82-90dc-4d59-9bfd-ea28965fbcda"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "MONO"
+              }
+            ],
+            "text": "MONO"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 5.0,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287941"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 8,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287990",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287990",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "053b1726-c129-487b-b7a9-1c8e250225ae"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "EOS"
+              }
+            ],
+            "text": "EOS"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 5.0,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287942"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 6,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287991",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287991",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "cf5aceee-59be-4175-a52d-4858fee750e9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "BASO"
+              }
+            ],
+            "text": "BASO"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 1.0,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287943"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              },
+              "high": {
+                "value": 2,
+                "unit": "%",
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287992",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287992",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "1c71d36b-ed75-4a08-9b8c-ee577d1282df"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "好中球数"
+              }
+            ],
+            "text": "好中球数"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "value_string_code",
+                "code": "02000032-0000-0000-0000-a00019000101",
+                "display": "2.0-10.0"
+              }
+            ],
+            "text": "2.0-10.0"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287944"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287993",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287993",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "8c34169e-0568-4ecd-8d37-97bb8fbb77ae"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "ﾘﾝﾊﾟ球数"
+              }
+            ],
+            "text": "ﾘﾝﾊﾟ球数"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "value_string_code",
+                "code": "04000021-0000-0000-0000-a00019000101",
+                "display": "<30"
+              }
+            ],
+            "text": "<30"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287945"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287994",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287994",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "df0bc2c2-7f36-4f40-b21b-22247f71dc69"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "単球数"
+              }
+            ],
+            "text": "単球数"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "value_string_code",
+                "code": "04000035-0000-0000-0000-a00019000101",
+                "display": ">=1000"
+              }
+            ],
+            "text": ">=1000"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287946"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287995",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287995",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "90fbe68f-9528-4af6-af4e-9d53731812ff"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "好酸球数"
+              }
+            ],
+            "text": "好酸球数"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "value_string_code",
+                "code": "cefee050-4540-4b5c-89ac-f2b9518b3e6e",
+                "display": "<4.0"
+              }
+            ],
+            "text": "<4.0"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287947"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287996",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287996",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "842e2d70-fee0-4a1e-845b-f23d05f9b22e"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "好塩基球数"
+              }
+            ],
+            "text": "好塩基球数"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:14.602007+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "value_string_code",
+                "code": "01000008-0000-0000-0000-a00019000101",
+                "display": "検出せず"
+              }
+            ],
+            "text": "検出せず"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287948"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287997",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287997",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "7945734c-2ea9-4be0-88a5-b6c352dca704"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "eGFR(計算)"
+              }
+            ],
+            "text": "eGFR(計算)"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 57.8,
+            "system": "http://unitsofmeasure.org"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287949"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137287998",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137287998",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "identifier": [
+            {
+              "system": "http://sysmex-cna.co.jp/fhir/0009819897/observation-id",
+              "value": "d9a5f232-4229-4a63-9dae-018a96fe74f5"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3F070000001829101",
+                "display": "nonHDL-C(計算)"
+              }
+            ],
+            "text": "nonHDL-C(計算)"
+          },
+          "subject": {
+            "reference": "Patient/137287900"
+          },
+          "encounter": {
+            "reference": "Encounter/137287901"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-04T13:19:12.959393+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137287902"
+            }
+          ],
+          "valueQuantity": {
+            "value": 170,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "緊急対応です"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137287950"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 120,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288006",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288006",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:50:24.369-04:00",
+            "source": "#K5FxWztPp6i4Sp6f"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137288004"
+          },
+          "effectiveDateTime": "2026-08-04T10:20:10.281729",
+          "valueQuantity": {
+            "value": 72.0,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288007",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288007",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:50:25.336-04:00",
+            "source": "#u6l6UqcbJGZQR8kp"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137288004"
+          },
+          "effectiveDateTime": "2026-08-04T10:20:11.277088",
+          "valueQuantity": {
+            "value": 118.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288008",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288008",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:50:26.294-04:00",
+            "source": "#fILEDZpzIQy3sLkK"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ],
+            "text": "Diastolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137288004"
+          },
+          "effectiveDateTime": "2026-08-04T10:20:12.277736",
+          "valueQuantity": {
+            "value": 76.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288012",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288012",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:50:31.840-04:00",
+            "source": "#Nc0CBU5CM0ju2k5v"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "882-1",
+                "display": "ABO and Rh group"
+              }
+            ],
+            "text": "Blood Group"
+          },
+          "subject": {
+            "reference": "Patient/137288004"
+          },
+          "effectiveDateTime": "2026-08-04",
+          "valueString": "O+"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288020",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288020",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:16:41.835-04:00",
+            "source": "#kf9IerTGMiLQMHG7"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137288018"
+          },
+          "effectiveDateTime": "2026-08-04T10:46:27.363576",
+          "valueQuantity": {
+            "value": 72.0,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288021",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288021",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:16:43.088-04:00",
+            "source": "#ZIVIGDwDJtnc3ROT"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137288018"
+          },
+          "effectiveDateTime": "2026-08-04T10:46:28.429600",
+          "valueQuantity": {
+            "value": 118.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288022",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288022",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:16:44.386-04:00",
+            "source": "#zD3Z7XpBMZ3mzs4r"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ],
+            "text": "Diastolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137288018"
+          },
+          "effectiveDateTime": "2026-08-04T10:46:29.683320",
+          "valueQuantity": {
+            "value": 76.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288026",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288026",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:16:52.326-04:00",
+            "source": "#IVXCVyyfOEfv2BJ8"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "882-1",
+                "display": "ABO and Rh group"
+              }
+            ],
+            "text": "Blood Group"
+          },
+          "subject": {
+            "reference": "Patient/137288018"
+          },
+          "effectiveDateTime": "2026-08-04",
+          "valueString": "O+"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288032",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288032",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:25:34.748-04:00",
+            "source": "#bgrwnxgXN8ssuEXY"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137288030"
+          },
+          "effectiveDateTime": "2026-08-04T10:55:20.241643",
+          "valueQuantity": {
+            "value": 72.0,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288033",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288033",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:25:35.790-04:00",
+            "source": "#CNSrsSCGQO5x03Ge"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137288030"
+          },
+          "effectiveDateTime": "2026-08-04T10:55:21.330690",
+          "valueQuantity": {
+            "value": 118.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137288034",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137288034",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:25:36.994-04:00",
+            "source": "#m4Cc5e4llJbgNXhD"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ],
+            "text": "Diastolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137288030"
+          },
+          "effectiveDateTime": "2026-08-04T10:55:22.371383",
+          "valueQuantity": {
+            "value": 76.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

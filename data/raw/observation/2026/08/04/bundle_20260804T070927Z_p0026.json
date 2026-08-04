@@ -1,0 +1,2932 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1300&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:09:27.211059+00:00",
+  "saved_timestamp": "2026-08-04T07:09:35.122476+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "7dda4ea6-c539-4463-83a7-da196a59017a",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:28.677-04:00"
+    },
+    "type": "searchset",
+    "total": 1658,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1300&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1350&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1250&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286088",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286088",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ],
+            "text": "Blood pressure panel with all children optional"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286081"
+          },
+          "effectiveDateTime": "2025-04-21T03:38:43+00:00",
+          "issued": "2025-04-21T03:38:43.006+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ],
+                "text": "Diastolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 78,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ],
+                "text": "Systolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 112,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286089",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286089",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286081"
+          },
+          "effectiveDateTime": "2025-04-21T03:38:43+00:00",
+          "issued": "2025-04-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 74,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286090",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286090",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ],
+            "text": "Respiratory rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286081"
+          },
+          "effectiveDateTime": "2025-04-21T03:38:43+00:00",
+          "issued": "2025-04-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 15,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286091",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286091",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "social-history",
+                  "display": "Social history"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ],
+            "text": "Tobacco smoking status"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286081"
+          },
+          "effectiveDateTime": "2025-04-21T03:38:43+00:00",
+          "issued": "2025-04-21T03:38:43.006+00:00",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "266919005",
+                "display": "Never smoked tobacco (finding)"
+              }
+            ],
+            "text": "Never smoked tobacco (finding)"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286103",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286103",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ],
+            "text": "Body Height"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 69.7,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286104",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286104",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ],
+            "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286105",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286105",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 8.4,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286106",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286106",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/pediatric-weight-for-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ],
+            "text": "Weight-for-length Per age and sex"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 49.689,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286107",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286107",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/head-occipital-frontal-circumference-percentile"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ],
+            "text": "Head Occipital-frontal circumference Percentile"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 60.82,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286108",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286108",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-head-circumference"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ],
+            "text": "Head Occipital-frontal circumference"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 44.08,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286109",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286109",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ],
+            "text": "Blood pressure panel with all children optional"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ],
+                "text": "Diastolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 87,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ],
+                "text": "Systolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 107,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286110",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286110",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 79,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286111",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286111",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ],
+            "text": "Respiratory rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 14,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286112",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286112",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "social-history",
+                  "display": "Social history"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ],
+            "text": "Tobacco smoking status"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286101"
+          },
+          "effectiveDateTime": "2025-07-21T03:38:43+00:00",
+          "issued": "2025-07-21T03:38:43.006+00:00",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "266919005",
+                "display": "Never smoked tobacco (finding)"
+              }
+            ],
+            "text": "Never smoked tobacco (finding)"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286122",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286122",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ],
+            "text": "Body Height"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 73.8,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286123",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286123",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ],
+            "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 1,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286124",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286124",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 9.4,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286125",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286125",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/pediatric-weight-for-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ],
+            "text": "Weight-for-length Per age and sex"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 53.137,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286126",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286126",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/head-occipital-frontal-circumference-percentile"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ],
+            "text": "Head Occipital-frontal circumference Percentile"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 60.82,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286127",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286127",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-head-circumference"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ],
+            "text": "Head Occipital-frontal circumference"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 45.23,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286128",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286128",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ],
+            "text": "Blood pressure panel with all children optional"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ],
+                "text": "Diastolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 87,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ],
+                "text": "Systolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 113,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286129",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286129",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 98,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286130",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286130",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ],
+            "text": "Respiratory rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 13,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286131",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286131",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "social-history",
+                  "display": "Social history"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ],
+            "text": "Tobacco smoking status"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286121"
+          },
+          "effectiveDateTime": "2025-10-20T03:38:43+00:00",
+          "issued": "2025-10-20T03:38:43.006+00:00",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "266919005",
+                "display": "Never smoked tobacco (finding)"
+              }
+            ],
+            "text": "Never smoked tobacco (finding)"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286136",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286136",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ],
+            "text": "Body Height"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 77.3,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286137",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286137",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ],
+            "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 3,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286138",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286138",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 10.3,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286139",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286139",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/pediatric-weight-for-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ],
+            "text": "Weight-for-length Per age and sex"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 63.047,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286140",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286140",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/head-occipital-frontal-circumference-percentile"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ],
+            "text": "Head Occipital-frontal circumference Percentile"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 60.82,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286141",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286141",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-head-circumference"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ],
+            "text": "Head Occipital-frontal circumference"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 46.1,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286142",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286142",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ],
+            "text": "Blood pressure panel with all children optional"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ],
+                "text": "Diastolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 81,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ],
+                "text": "Systolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 104,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286143",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286143",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 72,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286144",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286144",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ],
+            "text": "Respiratory rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 16,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286145",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286145",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "social-history",
+                  "display": "Social history"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ],
+            "text": "Tobacco smoking status"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286135"
+          },
+          "effectiveDateTime": "2026-01-19T03:38:43+00:00",
+          "issued": "2026-01-19T03:38:43.006+00:00",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "266919005",
+                "display": "Never smoked tobacco (finding)"
+              }
+            ],
+            "text": "Never smoked tobacco (finding)"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286160",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286160",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ],
+            "text": "Body Height"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 80.5,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286161",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286161",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ],
+            "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 1,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286162",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286162",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 10.9,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286163",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286163",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/pediatric-weight-for-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "77606-2",
+                "display": "Weight-for-length Per age and sex"
+              }
+            ],
+            "text": "Weight-for-length Per age and sex"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 49.5,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286164",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286164",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/head-occipital-frontal-circumference-percentile"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8289-1",
+                "display": "Head Occipital-frontal circumference Percentile"
+              }
+            ],
+            "text": "Head Occipital-frontal circumference Percentile"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 60.82,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286165",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286165",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-head-circumference"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9843-4",
+                "display": "Head Occipital-frontal circumference"
+              }
+            ],
+            "text": "Head Occipital-frontal circumference"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 46.78,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286166",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286166",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ],
+            "text": "Blood pressure panel with all children optional"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ],
+                "text": "Diastolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 79,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ],
+                "text": "Systolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 102,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286167",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286167",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 61,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286168",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286168",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ],
+            "text": "Respiratory rate"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "valueQuantity": {
+            "value": 16,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286169",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286169",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "social-history",
+                  "display": "Social history"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ],
+            "text": "Tobacco smoking status"
+          },
+          "subject": {
+            "reference": "Patient/137286016"
+          },
+          "encounter": {
+            "reference": "Encounter/137286159"
+          },
+          "effectiveDateTime": "2026-04-20T03:38:43+00:00",
+          "issued": "2026-04-20T03:38:43.006+00:00",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "266919005",
+                "display": "Never smoked tobacco (finding)"
+              }
+            ],
+            "text": "Never smoked tobacco (finding)"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286204",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286204",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ],
+            "text": "Body Height"
+          },
+          "subject": {
+            "reference": "Patient/137286176"
+          },
+          "encounter": {
+            "reference": "Encounter/137286202"
+          },
+          "effectiveDateTime": "2016-11-12T06:56:49+00:00",
+          "issued": "2016-11-12T06:56:49.317+00:00",
+          "valueQuantity": {
+            "value": 181.4,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286205",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286205",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ],
+            "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          },
+          "subject": {
+            "reference": "Patient/137286176"
+          },
+          "encounter": {
+            "reference": "Encounter/137286202"
+          },
+          "effectiveDateTime": "2016-11-12T06:56:49+00:00",
+          "issued": "2016-11-12T06:56:49.317+00:00",
+          "valueQuantity": {
+            "value": 4,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286206",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286206",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137286176"
+          },
+          "encounter": {
+            "reference": "Encounter/137286202"
+          },
+          "effectiveDateTime": "2016-11-12T06:56:49+00:00",
+          "issued": "2016-11-12T06:56:49.317+00:00",
+          "valueQuantity": {
+            "value": 90.5,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286207",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286207",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "Body mass index (BMI) [Ratio]"
+              }
+            ],
+            "text": "Body mass index (BMI) [Ratio]"
+          },
+          "subject": {
+            "reference": "Patient/137286176"
+          },
+          "encounter": {
+            "reference": "Encounter/137286202"
+          },
+          "effectiveDateTime": "2016-11-12T06:56:49+00:00",
+          "issued": "2016-11-12T06:56:49.317+00:00",
+          "valueQuantity": {
+            "value": 27.52,
+            "unit": "kg/m2",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg/m2"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286208",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286208",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ],
+            "text": "Blood pressure panel with all children optional"
+          },
+          "subject": {
+            "reference": "Patient/137286176"
+          },
+          "encounter": {
+            "reference": "Encounter/137286202"
+          },
+          "effectiveDateTime": "2016-11-12T06:56:49+00:00",
+          "issued": "2016-11-12T06:56:49.317+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ],
+                "text": "Diastolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 78,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ],
+                "text": "Systolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 118,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137286209",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137286209",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137286176"
+          },
+          "encounter": {
+            "reference": "Encounter/137286202"
+          },
+          "effectiveDateTime": "2016-11-12T06:56:49+00:00",
+          "issued": "2016-11-12T06:56:49.317+00:00",
+          "valueQuantity": {
+            "value": 76,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

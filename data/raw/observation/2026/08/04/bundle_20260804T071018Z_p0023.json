@@ -1,0 +1,3734 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1150&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:10:18.398046+00:00",
+  "saved_timestamp": "2026-08-04T07:10:25.238869+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "7dda4ea6-c539-4463-83a7-da196a59017a",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:28.677-04:00"
+    },
+    "type": "searchset",
+    "total": 1658,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1150&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1200&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=1100&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285621",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285621",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "777-3",
+                "display": "Platelets [#/volume] in Blood by Automated count"
+              }
+            ],
+            "text": "Platelets [#/volume] in Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285601"
+          },
+          "effectiveDateTime": "2020-05-12T22:34:23+00:00",
+          "issued": "2020-05-12T22:34:23.522+00:00",
+          "valueQuantity": {
+            "value": 167.71,
+            "unit": "10*3/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*3/uL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285622",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285622",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "32207-3",
+                "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              }
+            ],
+            "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285601"
+          },
+          "effectiveDateTime": "2020-05-12T22:34:23+00:00",
+          "issued": "2020-05-12T22:34:23.522+00:00",
+          "valueQuantity": {
+            "value": 13.929,
+            "unit": "fL",
+            "system": "http://unitsofmeasure.org",
+            "code": "fL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285623",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285623",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "32623-1",
+                "display": "Platelet [Entitic mean volume] in Blood by Automated count"
+              }
+            ],
+            "text": "Platelet [Entitic mean volume] in Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285601"
+          },
+          "effectiveDateTime": "2020-05-12T22:34:23+00:00",
+          "issued": "2020-05-12T22:34:23.522+00:00",
+          "valueQuantity": {
+            "value": 10.955,
+            "unit": "fL",
+            "system": "http://unitsofmeasure.org",
+            "code": "fL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285624",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285624",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "social-history",
+                  "display": "Social history"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ],
+            "text": "Tobacco smoking status"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285601"
+          },
+          "effectiveDateTime": "2020-05-12T22:34:23+00:00",
+          "issued": "2020-05-12T22:34:23.522+00:00",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "266919005",
+                "display": "Never smoked tobacco (finding)"
+              }
+            ],
+            "text": "Never smoked tobacco (finding)"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285625",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285625",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey",
+                  "display": "Survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "93025-5",
+                "display": "Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]"
+              }
+            ],
+            "text": "Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285601"
+          },
+          "effectiveDateTime": "2020-05-12T23:33:20+00:00",
+          "issued": "2020-05-12T23:33:20.522+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "76501-6",
+                    "display": "Within the last year, have you been afraid of your partner or ex-partner"
+                  }
+                ],
+                "text": "Within the last year, have you been afraid of your partner or ex-partner"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93026-3",
+                    "display": "Do you feel physically and emotionally safe where you currently live [PRAPARE]"
+                  }
+                ],
+                "text": "Do you feel physically and emotionally safe where you currently live [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA33-6",
+                    "display": "Yes"
+                  }
+                ],
+                "text": "Yes"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93027-1",
+                    "display": "Are you a refugee"
+                  }
+                ],
+                "text": "Are you a refugee"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93028-9",
+                    "display": "Have you spent more than 2 nights in a row in a jail, prison, detention center, or juvenile correctional facility in past 1 year [PRAPARE]"
+                  }
+                ],
+                "text": "Have you spent more than 2 nights in a row in a jail, prison, detention center, or juvenile correctional facility in past 1 year [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA33-6",
+                    "display": "Yes"
+                  }
+                ],
+                "text": "Yes"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93038-8",
+                    "display": "Stress level"
+                  }
+                ],
+                "text": "Stress level"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA6568-5",
+                    "display": "Not at all"
+                  }
+                ],
+                "text": "Not at all"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93029-7",
+                    "display": "How often do you see or talk to people that you care about and feel close to [PRAPARE]"
+                  }
+                ],
+                "text": "How often do you see or talk to people that you care about and feel close to [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30131-9",
+                    "display": "3 to 5 times a week"
+                  }
+                ],
+                "text": "3 to 5 times a week"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93030-5",
+                    "display": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
+                  }
+                ],
+                "text": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93031-3",
+                    "display": "Have you or any family members you live with been unable to get any of the following when it was really needed in past 1 year [PRAPARE]"
+                  }
+                ],
+                "text": "Have you or any family members you live with been unable to get any of the following when it was really needed in past 1 year [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA46-8",
+                    "display": "Other"
+                  }
+                ],
+                "text": "Other"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "63586-2",
+                    "display": "What was your best estimate of the total income of all family members from all sources, before taxes, in last year [PhenX]"
+                  }
+                ],
+                "text": "What was your best estimate of the total income of all family members from all sources, before taxes, in last year [PhenX]"
+              },
+              "valueQuantity": {
+                "value": 93948,
+                "unit": "/a",
+                "system": "http://unitsofmeasure.org",
+                "code": "/a"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "76437-3",
+                    "display": "Primary insurance"
+                  }
+                ],
+                "text": "Primary insurance"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA15652-3",
+                    "display": "Medicare"
+                  }
+                ],
+                "text": "Medicare"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "67875-5",
+                    "display": "Employment status - current"
+                  }
+                ],
+                "text": "Employment status - current"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30136-8",
+                    "display": "Full-time work"
+                  }
+                ],
+                "text": "Full-time work"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "82589-3",
+                    "display": "Highest level of education"
+                  }
+                ],
+                "text": "Highest level of education"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30193-9",
+                    "display": "More than high school"
+                  }
+                ],
+                "text": "More than high school"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "56799-0",
+                    "display": "Address"
+                  }
+                ],
+                "text": "Address"
+              },
+              "valueString": "1019 Reilly Orchard Apt 29"
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93033-9",
+                    "display": "Are you worried about losing your housing [PRAPARE]"
+                  }
+                ],
+                "text": "Are you worried about losing your housing [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA33-6",
+                    "display": "Yes"
+                  }
+                ],
+                "text": "Yes"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "71802-3",
+                    "display": "Housing status"
+                  }
+                ],
+                "text": "Housing status"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30189-7",
+                    "display": "I have housing"
+                  }
+                ],
+                "text": "I have housing"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "63512-8",
+                    "display": "How many people are living or staying at this address [#]"
+                  }
+                ],
+                "text": "How many people are living or staying at this address [#]"
+              },
+              "valueQuantity": {
+                "value": 7,
+                "unit": "{#}",
+                "system": "http://unitsofmeasure.org",
+                "code": "{#}"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "54899-0",
+                    "display": "Preferred language"
+                  }
+                ],
+                "text": "Preferred language"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA43-5",
+                    "display": "English"
+                  }
+                ],
+                "text": "English"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93034-7",
+                    "display": "Discharged from the U.S. Armed Forces"
+                  }
+                ],
+                "text": "Discharged from the U.S. Armed Forces"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93035-4",
+                    "display": "Has season or migrant farm work been your or your family's main source of income at any point in past 2 years [PRAPARE]"
+                  }
+                ],
+                "text": "Has season or migrant farm work been your or your family's main source of income at any point in past 2 years [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "32624-9",
+                    "display": "Race"
+                  }
+                ],
+                "text": "Race"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA4457-3",
+                    "display": "White"
+                  }
+                ],
+                "text": "White"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "56051-6",
+                    "display": "Hispanic or Latino"
+                  }
+                ],
+                "text": "Hispanic or Latino"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285626",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285626",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey",
+                  "display": "Survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "70274-6",
+                "display": "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
+              }
+            ],
+            "text": "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285601"
+          },
+          "effectiveDateTime": "2020-05-12T23:57:57+00:00",
+          "issued": "2020-05-12T23:57:57.522+00:00",
+          "valueQuantity": {
+            "value": 9,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285627",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285627",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey",
+                  "display": "Survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "55758-7",
+                "display": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+              }
+            ],
+            "text": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285601"
+          },
+          "effectiveDateTime": "2020-05-13T00:33:42+00:00",
+          "issued": "2020-05-13T00:33:42.522+00:00",
+          "valueQuantity": {
+            "value": 2,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285705",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285705",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "6690-2",
+                "display": "Leukocytes [#/volume] in Blood by Automated count"
+              }
+            ],
+            "text": "Leukocytes [#/volume] in Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 3.5146,
+            "unit": "10*3/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*3/uL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285706",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285706",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "789-8",
+                "display": "Erythrocytes [#/volume] in Blood by Automated count"
+              }
+            ],
+            "text": "Erythrocytes [#/volume] in Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 4.9502,
+            "unit": "10*6/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*6/uL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285707",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285707",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "718-7",
+                "display": "Hemoglobin [Mass/volume] in Blood"
+              }
+            ],
+            "text": "Hemoglobin [Mass/volume] in Blood"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 11.344,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285708",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285708",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "4544-3",
+                "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+              }
+            ],
+            "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 41.768,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285709",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285709",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "787-2",
+                "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+              }
+            ],
+            "text": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 83.493,
+            "unit": "fL",
+            "system": "http://unitsofmeasure.org",
+            "code": "fL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285710",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285710",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "785-6",
+                "display": "MCH [Entitic mass] by Automated count"
+              }
+            ],
+            "text": "MCH [Entitic mass] by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 32.195,
+            "unit": "pg",
+            "system": "http://unitsofmeasure.org",
+            "code": "pg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285711",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285711",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "786-4",
+                "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+              }
+            ],
+            "text": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 34.234,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285712",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285712",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "788-0",
+                "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+              }
+            ],
+            "text": "Erythrocyte [DistWidth] in Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 13.329,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285713",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285713",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "777-3",
+                "display": "Platelets [#/volume] in Blood by Automated count"
+              }
+            ],
+            "text": "Platelets [#/volume] in Blood by Automated count"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 131.1,
+            "unit": "10*3/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*3/uL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285714",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285714",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "2345-7",
+                "display": "Glucose [Mass/volume] in Serum or Plasma"
+              }
+            ],
+            "text": "Glucose [Mass/volume] in Serum or Plasma"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 66.02,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285715",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285715",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "3094-0",
+                "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+              }
+            ],
+            "text": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 16.12,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285716",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285716",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "2160-0",
+                "display": "Creatinine [Mass/volume] in Serum or Plasma"
+              }
+            ],
+            "text": "Creatinine [Mass/volume] in Serum or Plasma"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 2.8193,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285717",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285717",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "17861-6",
+                "display": "Calcium [Mass/volume] in Serum or Plasma"
+              }
+            ],
+            "text": "Calcium [Mass/volume] in Serum or Plasma"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 9.98,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285718",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285718",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "2951-2",
+                "display": "Sodium [Moles/volume] in Serum or Plasma"
+              }
+            ],
+            "text": "Sodium [Moles/volume] in Serum or Plasma"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 142.19,
+            "unit": "mmol/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmol/L"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285719",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285719",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "2823-3",
+                "display": "Potassium [Moles/volume] in Serum or Plasma"
+              }
+            ],
+            "text": "Potassium [Moles/volume] in Serum or Plasma"
+          },
+          "subject": {
+            "reference": "Patient/137285382"
+          },
+          "encounter": {
+            "reference": "Encounter/137285702"
+          },
+          "effectiveDateTime": "2020-11-05T22:52:16+00:00",
+          "issued": "2020-11-05T22:52:16.522+00:00",
+          "valueQuantity": {
+            "value": 3.8,
+            "unit": "mmol/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmol/L"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285728",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285728",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ],
+            "text": "Body Height"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T12:47:19+00:00",
+          "issued": "2016-08-04T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 162.4,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285729",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285729",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ],
+            "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T12:47:19+00:00",
+          "issued": "2016-08-04T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 1,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285730",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285730",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T12:47:19+00:00",
+          "issued": "2016-08-04T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 64.4,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285731",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285731",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "Body mass index (BMI) [Ratio]"
+              }
+            ],
+            "text": "Body mass index (BMI) [Ratio]"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T12:47:19+00:00",
+          "issued": "2016-08-04T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 24.43,
+            "unit": "kg/m2",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg/m2"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285732",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285732",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/pediatric-bmi-for-age"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "59576-9",
+                "display": "Body mass index (BMI) [Percentile] Per age and sex"
+              }
+            ],
+            "text": "Body mass index (BMI) [Percentile] Per age and sex"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T12:47:19+00:00",
+          "issued": "2016-08-04T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 81.733,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285733",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285733",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ],
+            "text": "Blood pressure panel with all children optional"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T12:47:19+00:00",
+          "issued": "2016-08-04T12:47:19.765+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ],
+                "text": "Diastolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 70,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ],
+                "text": "Systolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 120,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285734",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285734",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T12:47:19+00:00",
+          "issued": "2016-08-04T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 64,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285735",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285735",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ],
+            "text": "Respiratory rate"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T12:47:19+00:00",
+          "issued": "2016-08-04T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 15,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285736",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285736",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "social-history",
+                  "display": "Social history"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ],
+            "text": "Tobacco smoking status"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T12:47:19+00:00",
+          "issued": "2016-08-04T12:47:19.765+00:00",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "449868002",
+                "display": "Smokes tobacco daily (finding)"
+              }
+            ],
+            "text": "Smokes tobacco daily (finding)"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285737",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285737",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey",
+                  "display": "Survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "89204-2",
+                "display": "Patient Health Questionnaire-9: Modified for Teens total score [Reported.PHQ.Teen]"
+              }
+            ],
+            "text": "Patient Health Questionnaire-9: Modified for Teens total score [Reported.PHQ.Teen]"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285726"
+          },
+          "effectiveDateTime": "2016-08-04T13:18:33+00:00",
+          "issued": "2016-08-04T13:18:33.765+00:00",
+          "valueQuantity": {
+            "value": 2,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285768",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285768",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey",
+                  "display": "Survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "91148-7",
+                "display": "Pain intensity, Enjoyment of life, General activity scale [PEG]"
+              }
+            ],
+            "text": "Pain intensity, Enjoyment of life, General activity scale [PEG]"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285765"
+          },
+          "effectiveDateTime": "2017-07-22T12:47:19+00:00",
+          "issued": "2017-07-22T12:47:19.765+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "91146-1",
+                    "display": "What number best describes how pain has interfered with your general activity during the past week"
+                  }
+                ],
+                "text": "What number best describes how pain has interfered with your general activity during the past week"
+              },
+              "valueQuantity": {
+                "value": 9.4489,
+                "unit": "{score}",
+                "system": "http://unitsofmeasure.org",
+                "code": "{score}"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "91145-3",
+                    "display": "What number best describes how pain has interfered with your enjoyment of life during the past week"
+                  }
+                ],
+                "text": "What number best describes how pain has interfered with your enjoyment of life during the past week"
+              },
+              "valueQuantity": {
+                "value": 8.0778,
+                "unit": "{score}",
+                "system": "http://unitsofmeasure.org",
+                "code": "{score}"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "75893-8",
+                    "display": "Pain severity in the past week - 0-10 numeric rating [Reported]"
+                  }
+                ],
+                "text": "Pain severity in the past week - 0-10 numeric rating [Reported]"
+              },
+              "valueQuantity": {
+                "value": 8.5079,
+                "unit": "{score}",
+                "system": "http://unitsofmeasure.org",
+                "code": "{score}"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285782",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285782",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ],
+            "text": "Body Height"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T12:47:19+00:00",
+          "issued": "2017-08-10T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 163.5,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285783",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285783",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ],
+            "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T12:47:19+00:00",
+          "issued": "2017-08-10T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 1,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285784",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285784",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T12:47:19+00:00",
+          "issued": "2017-08-10T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 65.9,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285785",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285785",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "Body mass index (BMI) [Ratio]"
+              }
+            ],
+            "text": "Body mass index (BMI) [Ratio]"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T12:47:19+00:00",
+          "issued": "2017-08-10T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 24.65,
+            "unit": "kg/m2",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg/m2"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285786",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285786",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/pediatric-bmi-for-age"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "59576-9",
+                "display": "Body mass index (BMI) [Percentile] Per age and sex"
+              }
+            ],
+            "text": "Body mass index (BMI) [Percentile] Per age and sex"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T12:47:19+00:00",
+          "issued": "2017-08-10T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 78.509,
+            "unit": "%",
+            "system": "http://unitsofmeasure.org",
+            "code": "%"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285787",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285787",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel with all children optional"
+              }
+            ],
+            "text": "Blood pressure panel with all children optional"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T12:47:19+00:00",
+          "issued": "2017-08-10T12:47:19.765+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic Blood Pressure"
+                  }
+                ],
+                "text": "Diastolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 72,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic Blood Pressure"
+                  }
+                ],
+                "text": "Systolic Blood Pressure"
+              },
+              "valueQuantity": {
+                "value": 126,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285788",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285788",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T12:47:19+00:00",
+          "issued": "2017-08-10T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 75,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285789",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285789",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "9279-1",
+                "display": "Respiratory rate"
+              }
+            ],
+            "text": "Respiratory rate"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T12:47:19+00:00",
+          "issued": "2017-08-10T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 13,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285790",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285790",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "social-history",
+                  "display": "Social history"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ],
+            "text": "Tobacco smoking status"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T12:47:19+00:00",
+          "issued": "2017-08-10T12:47:19.765+00:00",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "8517006",
+                "display": "Ex-smoker (finding)"
+              }
+            ],
+            "text": "Ex-smoker (finding)"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285791",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285791",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey",
+                  "display": "Survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "93025-5",
+                "display": "Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]"
+              }
+            ],
+            "text": "Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T13:37:49+00:00",
+          "issued": "2017-08-10T13:37:49.765+00:00",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "76501-6",
+                    "display": "Within the last year, have you been afraid of your partner or ex-partner"
+                  }
+                ],
+                "text": "Within the last year, have you been afraid of your partner or ex-partner"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93026-3",
+                    "display": "Do you feel physically and emotionally safe where you currently live [PRAPARE]"
+                  }
+                ],
+                "text": "Do you feel physically and emotionally safe where you currently live [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA33-6",
+                    "display": "Yes"
+                  }
+                ],
+                "text": "Yes"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93027-1",
+                    "display": "Are you a refugee"
+                  }
+                ],
+                "text": "Are you a refugee"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93028-9",
+                    "display": "Have you spent more than 2 nights in a row in a jail, prison, detention center, or juvenile correctional facility in past 1 year [PRAPARE]"
+                  }
+                ],
+                "text": "Have you spent more than 2 nights in a row in a jail, prison, detention center, or juvenile correctional facility in past 1 year [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93038-8",
+                    "display": "Stress level"
+                  }
+                ],
+                "text": "Stress level"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA13902-4",
+                    "display": "Quite a bit"
+                  }
+                ],
+                "text": "Quite a bit"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93029-7",
+                    "display": "How often do you see or talk to people that you care about and feel close to [PRAPARE]"
+                  }
+                ],
+                "text": "How often do you see or talk to people that you care about and feel close to [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30131-9",
+                    "display": "3 to 5 times a week"
+                  }
+                ],
+                "text": "3 to 5 times a week"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93030-5",
+                    "display": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
+                  }
+                ],
+                "text": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30133-5",
+                    "display": "Yes, it has kept me from medical appointments or from getting my medications"
+                  }
+                ],
+                "text": "Yes, it has kept me from medical appointments or from getting my medications"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93031-3",
+                    "display": "Have you or any family members you live with been unable to get any of the following when it was really needed in past 1 year [PRAPARE]"
+                  }
+                ],
+                "text": "Have you or any family members you live with been unable to get any of the following when it was really needed in past 1 year [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30122-8",
+                    "display": "I choose not to answer this question"
+                  }
+                ],
+                "text": "I choose not to answer this question"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "63586-2",
+                    "display": "What was your best estimate of the total income of all family members from all sources, before taxes, in last year [PhenX]"
+                  }
+                ],
+                "text": "What was your best estimate of the total income of all family members from all sources, before taxes, in last year [PhenX]"
+              },
+              "valueQuantity": {
+                "value": 72851,
+                "unit": "/a",
+                "system": "http://unitsofmeasure.org",
+                "code": "/a"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "76437-3",
+                    "display": "Primary insurance"
+                  }
+                ],
+                "text": "Primary insurance"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA6350-8",
+                    "display": "Private insurance"
+                  }
+                ],
+                "text": "Private insurance"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "67875-5",
+                    "display": "Employment status - current"
+                  }
+                ],
+                "text": "Employment status - current"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30136-8",
+                    "display": "Full-time work"
+                  }
+                ],
+                "text": "Full-time work"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "82589-3",
+                    "display": "Highest level of education"
+                  }
+                ],
+                "text": "Highest level of education"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30192-1",
+                    "display": "High school diploma or GED"
+                  }
+                ],
+                "text": "High school diploma or GED"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "56799-0",
+                    "display": "Address"
+                  }
+                ],
+                "text": "Address"
+              },
+              "valueString": "227 Hintz Hollow"
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93033-9",
+                    "display": "Are you worried about losing your housing [PRAPARE]"
+                  }
+                ],
+                "text": "Are you worried about losing your housing [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "71802-3",
+                    "display": "Housing status"
+                  }
+                ],
+                "text": "Housing status"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA30189-7",
+                    "display": "I have housing"
+                  }
+                ],
+                "text": "I have housing"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "63512-8",
+                    "display": "How many people are living or staying at this address [#]"
+                  }
+                ],
+                "text": "How many people are living or staying at this address [#]"
+              },
+              "valueQuantity": {
+                "value": 3,
+                "unit": "{#}",
+                "system": "http://unitsofmeasure.org",
+                "code": "{#}"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "54899-0",
+                    "display": "Preferred language"
+                  }
+                ],
+                "text": "Preferred language"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA43-5",
+                    "display": "English"
+                  }
+                ],
+                "text": "English"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93034-7",
+                    "display": "Discharged from the U.S. Armed Forces"
+                  }
+                ],
+                "text": "Discharged from the U.S. Armed Forces"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "93035-4",
+                    "display": "Has season or migrant farm work been your or your family's main source of income at any point in past 2 years [PRAPARE]"
+                  }
+                ],
+                "text": "Has season or migrant farm work been your or your family's main source of income at any point in past 2 years [PRAPARE]"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "32624-9",
+                    "display": "Race"
+                  }
+                ],
+                "text": "Race"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA4457-3",
+                    "display": "White"
+                  }
+                ],
+                "text": "White"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "56051-6",
+                    "display": "Hispanic or Latino"
+                  }
+                ],
+                "text": "Hispanic or Latino"
+              },
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                ],
+                "text": "No"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285792",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285792",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey",
+                  "display": "Survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "55758-7",
+                "display": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+              }
+            ],
+            "text": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T14:15:23+00:00",
+          "issued": "2017-08-10T14:15:23.765+00:00",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285793",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285793",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey",
+                  "display": "Survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "75626-2",
+                "display": "Total score [AUDIT-C]"
+              }
+            ],
+            "text": "Total score [AUDIT-C]"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285775"
+          },
+          "effectiveDateTime": "2017-08-10T14:56:21+00:00",
+          "issued": "2017-08-10T14:56:21.765+00:00",
+          "valueQuantity": {
+            "value": 1,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285832",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285832",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8310-5",
+                "display": "Body temperature"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "8331-1",
+                "display": "Oral temperature"
+              }
+            ],
+            "text": "Body temperature"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285830"
+          },
+          "effectiveDateTime": "2018-04-11T21:47:19+00:00",
+          "issued": "2018-04-11T21:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 37.877,
+            "unit": "Cel",
+            "system": "http://unitsofmeasure.org",
+            "code": "Cel"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285841",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285841",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8302-2",
+                "display": "Body Height"
+              }
+            ],
+            "text": "Body Height"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285837"
+          },
+          "effectiveDateTime": "2018-04-19T12:47:19+00:00",
+          "issued": "2018-04-19T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 164,
+            "unit": "cm",
+            "system": "http://unitsofmeasure.org",
+            "code": "cm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285842",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285842",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "72514-3",
+                "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+              }
+            ],
+            "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285837"
+          },
+          "effectiveDateTime": "2018-04-19T12:47:19+00:00",
+          "issued": "2018-04-19T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 3,
+            "unit": "{score}",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285843",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285843",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "29463-7",
+                "display": "Body Weight"
+              }
+            ],
+            "text": "Body Weight"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285837"
+          },
+          "effectiveDateTime": "2018-04-19T12:47:19+00:00",
+          "issued": "2018-04-19T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 65.8,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137285844",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137285844",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-bmi"
+            ]
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "39156-5",
+                "display": "Body mass index (BMI) [Ratio]"
+              }
+            ],
+            "text": "Body mass index (BMI) [Ratio]"
+          },
+          "subject": {
+            "reference": "Patient/137285720"
+          },
+          "encounter": {
+            "reference": "Encounter/137285837"
+          },
+          "effectiveDateTime": "2018-04-19T12:47:19+00:00",
+          "issued": "2018-04-19T12:47:19.765+00:00",
+          "valueQuantity": {
+            "value": 24.49,
+            "unit": "kg/m2",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg/m2"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

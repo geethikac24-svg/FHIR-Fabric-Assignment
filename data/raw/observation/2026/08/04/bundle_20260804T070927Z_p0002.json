@@ -1,0 +1,2923 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=100&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:09:27.211059+00:00",
+  "saved_timestamp": "2026-08-04T07:09:34.682208+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "7dda4ea6-c539-4463-83a7-da196a59017a",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:28.677-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=100&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=150&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274840",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274840",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:30.724-04:00",
+            "source": "#oMkflEfLyMTUTMqM"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "obs-3"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "44261-6"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/meridian-synth-3"
+          },
+          "effectiveDateTime": "2026-07-23T10:00:00Z",
+          "valueQuantity": {
+            "value": 9,
+            "unit": "score"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274841",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274841",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:31.332-04:00",
+            "source": "#0Gjkq9rvf5c0ZF9T"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "obs-4"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "44261-6"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/meridian-synth-4"
+          },
+          "effectiveDateTime": "2026-07-24T10:00:00Z",
+          "valueQuantity": {
+            "value": 11,
+            "unit": "score"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274842",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274842",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:31.939-04:00",
+            "source": "#Bx9VczsN1I9d7pwq"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "obs-5"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "44261-6"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/meridian-synth-5"
+          },
+          "effectiveDateTime": "2026-07-25T10:00:00Z",
+          "valueQuantity": {
+            "value": 13,
+            "unit": "score"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274843",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274843",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:32.927-04:00",
+            "source": "#woNjrHrImrzzfroo"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "obs-6"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "44261-6"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/meridian-synth-6"
+          },
+          "effectiveDateTime": "2026-07-26T10:00:00Z",
+          "valueQuantity": {
+            "value": 15,
+            "unit": "score"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274844",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274844",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:33.534-04:00",
+            "source": "#cJdWwJMOMKQP7sbS"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "obs-7"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "44261-6"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/meridian-synth-7"
+          },
+          "effectiveDateTime": "2026-07-27T10:00:00Z",
+          "valueQuantity": {
+            "value": 17,
+            "unit": "score"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274845",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274845",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:34.361-04:00",
+            "source": "#4Z985XOGY7qXg6SA"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "obs-8"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "44261-6"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/meridian-synth-8"
+          },
+          "effectiveDateTime": "2026-07-20T10:00:00Z",
+          "valueQuantity": {
+            "value": 19,
+            "unit": "score"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274846",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274846",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:35.055-04:00",
+            "source": "#7oVmpVvFu87rWFZe"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "obs-9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "44261-6"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/meridian-synth-9"
+          },
+          "effectiveDateTime": "2026-07-21T10:00:00Z",
+          "valueQuantity": {
+            "value": 21,
+            "unit": "score"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274847",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274847",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:36.068-04:00",
+            "source": "#4e0zrjez2Pnhvqs8"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "obs-10"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "44261-6"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/meridian-synth-10"
+          },
+          "effectiveDateTime": "2026-07-22T10:00:00Z",
+          "valueQuantity": {
+            "value": 3,
+            "unit": "score"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274848",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274848",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:36.674-04:00",
+            "source": "#T862z5LJ0qYiyEUv"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "obs-11"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "44261-6"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/meridian-synth-11"
+          },
+          "effectiveDateTime": "2026-07-23T10:00:00Z",
+          "valueQuantity": {
+            "value": 5,
+            "unit": "score"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274849",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274849",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:49:04.541-04:00",
+            "source": "#2sPgNpn8ilxnomHq"
+          },
+          "status": "final",
+          "code": {
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137208842"
+          },
+          "valueQuantity": {
+            "value": 72,
+            "unit": "bpm"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274851",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274851",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T19:12:09.565-04:00",
+            "source": "#6xgjKv2mcfaFjXH5",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCPregnancyHistory"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "basedOn": [
+            {
+              "identifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.141"
+              },
+              "display": "Program Badań Prenatalnych"
+            }
+          ],
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "82810-3",
+                "display": "Status ciąży"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274850",
+            "type": "Encounter"
+          },
+          "effectiveDateTime": "2024-10-06T10:04:48+02:00",
+          "performer": [
+            {
+              "identifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                "value": "2698040"
+              },
+              "display": "Monika Lecznicza"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "LA15173-0",
+                "display": "Ciąża"
+              }
+            ]
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.6.1",
+                    "code": "11778-8",
+                    "display": "Data porodu wyliczona na podstawie badania"
+                  }
+                ]
+              },
+              "valueDateTime": "2025-02-04T10:04:48+01:00"
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.6.1",
+                    "code": "45371-2",
+                    "display": "Ciąża mnoga"
+                  }
+                ]
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.140",
+                    "code": "P",
+                    "display": "Poród"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274853",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274853",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T19:12:34.199-04:00",
+            "source": "#E9o42fpbSMcQr4w1",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCDiseasesAndAddictions"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "91391-3",
+                "display": "Mental health diagnosis"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274852",
+            "type": "Encounter"
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.90",
+                "code": "F00.0",
+                "display": "Otępienie w chorobie Alzheimera o wczesnym początku"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274861",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274861",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T19:14:16.084-04:00",
+            "source": "#aC8ZDoRjNDv9nqCv",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCSmokingStatus"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274860",
+            "type": "Encounter"
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.73",
+                "code": "6",
+                "display": "Palący codziennie - e-papierosy"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274868",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274868",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T23:22:30.751-04:00",
+            "source": "#dkoiGP8qCdii5eaL",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCPregnancyHistory"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "basedOn": [
+            {
+              "identifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.141"
+              },
+              "display": "Program Badań Prenatalnych"
+            }
+          ],
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "82810-3",
+                "display": "Status ciąży"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274867",
+            "type": "Encounter"
+          },
+          "effectiveDateTime": "2024-10-06T10:04:48+02:00",
+          "performer": [
+            {
+              "identifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                "value": "2698040"
+              },
+              "display": "Monika Lecznicza"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "LA15173-0",
+                "display": "Ciąża"
+              }
+            ]
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.6.1",
+                    "code": "11778-8",
+                    "display": "Data porodu wyliczona na podstawie badania"
+                  }
+                ]
+              },
+              "valueDateTime": "2025-02-04T10:04:48+01:00"
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.6.1",
+                    "code": "45371-2",
+                    "display": "Ciąża mnoga"
+                  }
+                ]
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.140",
+                    "code": "P",
+                    "display": "Poród"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274870",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274870",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T23:22:48.767-04:00",
+            "source": "#t85Ge1RbinZ5sJIf",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCDiseasesAndAddictions"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "91391-3",
+                "display": "Mental health diagnosis"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274869",
+            "type": "Encounter"
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.90",
+                "code": "F00.0",
+                "display": "Otępienie w chorobie Alzheimera o wczesnym początku"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274878",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274878",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T23:24:32.481-04:00",
+            "source": "#hFy9kCyGDlzNbqUx",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCSmokingStatus"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137274877",
+            "type": "Encounter"
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.73",
+                "code": "6",
+                "display": "Palący codziennie - e-papierosy"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274943",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274943",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T01:57:17.864-04:00",
+            "source": "#Kq5bgsHNWWzXMnCH"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137274941"
+          },
+          "effectiveDateTime": "2026-08-03T11:27:09.682787",
+          "valueQuantity": {
+            "value": 72.0,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274944",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274944",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T01:57:18.701-04:00",
+            "source": "#2mcTxs6i8nbrWp0B"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137274941"
+          },
+          "effectiveDateTime": "2026-08-03T11:27:10.522911",
+          "valueQuantity": {
+            "value": 118.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274945",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274945",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T01:57:19.557-04:00",
+            "source": "#tETzROJFNh4kd4to"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ],
+            "text": "Diastolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137274941"
+          },
+          "effectiveDateTime": "2026-08-03T11:27:11.360908",
+          "valueQuantity": {
+            "value": 76.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274968",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274968",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:03:06.408-04:00",
+            "source": "#N1epnk1o9ypcTp38"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137274966"
+          },
+          "effectiveDateTime": "2026-08-03T11:32:58.227207",
+          "valueQuantity": {
+            "value": 72.0,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274969",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274969",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:03:07.242-04:00",
+            "source": "#1Nv6wEuLoXU6KUbE"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137274966"
+          },
+          "effectiveDateTime": "2026-08-03T11:32:59.065841",
+          "valueQuantity": {
+            "value": 118.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274970",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274970",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:03:08.164-04:00",
+            "source": "#lulnj6Q8wB8OQYpG"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ],
+            "text": "Diastolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137274966"
+          },
+          "effectiveDateTime": "2026-08-03T11:32:59.900183",
+          "valueQuantity": {
+            "value": 76.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274974",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274974",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:03:12.945-04:00",
+            "source": "#c97ZnZhokfiX3C4U"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "882-1",
+                "display": "ABO and Rh group"
+              }
+            ],
+            "text": "Blood Group"
+          },
+          "subject": {
+            "reference": "Patient/137274966"
+          },
+          "effectiveDateTime": "2026-08-03",
+          "valueString": "O+"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274980",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274980",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:04:17.734-04:00",
+            "source": "#QrNu1tkOpZN7bwnj"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137274978"
+          },
+          "effectiveDateTime": "2026-08-03T11:34:09.558252",
+          "valueQuantity": {
+            "value": 72.0,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274981",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274981",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:04:18.605-04:00",
+            "source": "#r4KGF34uWmcUF3V0"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137274978"
+          },
+          "effectiveDateTime": "2026-08-03T11:34:10.393081",
+          "valueQuantity": {
+            "value": 118.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274982",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274982",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:04:19.442-04:00",
+            "source": "#JsTr6naK0OXGtbRU"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ],
+            "text": "Diastolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137274978"
+          },
+          "effectiveDateTime": "2026-08-03T11:34:11.271219",
+          "valueQuantity": {
+            "value": 76.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274986",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274986",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:04:24.287-04:00",
+            "source": "#PdueSgyNCYHjW2Fc"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "882-1",
+                "display": "ABO and Rh group"
+              }
+            ],
+            "text": "Blood Group"
+          },
+          "subject": {
+            "reference": "Patient/137274978"
+          },
+          "effectiveDateTime": "2026-08-03",
+          "valueString": "O+"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274992",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274992",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:06:48.245-04:00",
+            "source": "#devl9KjWliw7QX7o"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137274990"
+          },
+          "effectiveDateTime": "2026-08-03T11:36:39.083766",
+          "valueQuantity": {
+            "value": 72.0,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274993",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274993",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:06:49.546-04:00",
+            "source": "#jbi0wTpZICOMKaJ3"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137274990"
+          },
+          "effectiveDateTime": "2026-08-03T11:36:40.897057",
+          "valueQuantity": {
+            "value": 118.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274994",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274994",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:06:51.044-04:00",
+            "source": "#PaSPngLOgu0FEqWa"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ],
+            "text": "Diastolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137274990"
+          },
+          "effectiveDateTime": "2026-08-03T11:36:42.198980",
+          "valueQuantity": {
+            "value": 76.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137274998",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137274998",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:06:57.775-04:00",
+            "source": "#1dg1foBVeUnyFGXm"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "882-1",
+                "display": "ABO and Rh group"
+              }
+            ],
+            "text": "Blood Group"
+          },
+          "subject": {
+            "reference": "Patient/137274990"
+          },
+          "effectiveDateTime": "2026-08-03",
+          "valueString": "O+"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275077",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275077",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:10:49.199-04:00",
+            "source": "#GwU3tQk5WuePcO1h"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137275075"
+          },
+          "effectiveDateTime": "2026-08-03T06:10:48.760286",
+          "valueQuantity": {
+            "value": 72.0,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275078",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275078",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:10:49.522-04:00",
+            "source": "#a6ov3FbHWqnDqmce"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137275075"
+          },
+          "effectiveDateTime": "2026-08-03T06:10:49.257762",
+          "valueQuantity": {
+            "value": 118.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275079",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275079",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:10:50.082-04:00",
+            "source": "#9EXhyWRrMpelprW0"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ],
+            "text": "Diastolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137275075"
+          },
+          "effectiveDateTime": "2026-08-03T06:10:49.578638",
+          "valueQuantity": {
+            "value": 76.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275083",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275083",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:10:58.802-04:00",
+            "source": "#XDPut5L5bInLxbr7"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "laboratory",
+                  "display": "Laboratory"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "882-1",
+                "display": "ABO and Rh group"
+              }
+            ],
+            "text": "Blood Group"
+          },
+          "subject": {
+            "reference": "Patient/137275075"
+          },
+          "effectiveDateTime": "2026-08-03",
+          "valueString": "O+"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275153",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275153",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "740dfae9-d5b1-4a6c-9a3c-71ee87f33341"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3A010000002327101",
+                "display": "TP"
+              }
+            ],
+            "text": "TP"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 7.0,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 6.6,
+                "unit": "g/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/dL"
+              },
+              "high": {
+                "value": 8.1,
+                "unit": "g/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275154",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275154",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "f1f992a2-a8e8-444b-b200-fcbe585e4b93"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3A015000001890101",
+                "display": "ALB"
+              }
+            ],
+            "text": "ALB"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 5.0,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 4.1,
+                "unit": "g/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/dL"
+              },
+              "high": {
+                "value": 5.1,
+                "unit": "g/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "g/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275155",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275155",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "a477bc9c-a5eb-4918-a496-5aca811bdde2"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3J010000001927101",
+                "display": "T-BIL"
+              }
+            ],
+            "text": "T-BIL"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 1.0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0.4,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 1.5,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275156",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275156",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "b569d8b7-2413-4ab6-b7d1-fa3df1eccf08"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "D-BIL"
+              }
+            ],
+            "text": "D-BIL"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 0.2,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 0.1,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 0.3,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275157",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275157",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "a96b2025-f191-4e7d-bbaa-bdd22f99b6ac"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3B035000002302701",
+                "display": "AST"
+              }
+            ],
+            "text": "AST"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 15,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 13,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              },
+              "high": {
+                "value": 30,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275158",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275158",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "729a0aa1-c501-4b54-bc90-0a9347d1907b"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3B045000001827701",
+                "display": "ALT"
+              }
+            ],
+            "text": "ALT"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 30,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 10,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              },
+              "high": {
+                "value": 42,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275159",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275159",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "93841688-e588-4384-81eb-c0409aeb5d44"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3B070000001929101",
+                "display": "ALP"
+              }
+            ],
+            "text": "ALP"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 50,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 38,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              },
+              "high": {
+                "value": 113,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275160",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275160",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "ee74626c-6b5e-4100-b084-160bd24ca8f9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3B090000002392001",
+                "display": "γ-GTP"
+              }
+            ],
+            "text": "γ-GTP"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 50,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 13,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              },
+              "high": {
+                "value": 64,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275161",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275161",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "88bf4544-e84a-4ea6-834d-b8229858b596"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3B110000002227701",
+                "display": "ChE"
+              }
+            ],
+            "text": "ChE"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 400,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 240,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              },
+              "high": {
+                "value": 486,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275162",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275162",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "09a117b1-d8a5-492e-94b4-7c79ef9e95d9"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3B050000002327201",
+                "display": "LDH"
+              }
+            ],
+            "text": "LDH"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 200,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 124,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              },
+              "high": {
+                "value": 222,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275163",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275163",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "ed7d199b-0e74-401c-beeb-101585e2fb1a"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3B160000001827701",
+                "display": "AMY"
+              }
+            ],
+            "text": "AMY"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 100,
+            "unit": "U/L",
+            "system": "http://unitsofmeasure.org",
+            "code": "U/L"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 44,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              },
+              "high": {
+                "value": 132,
+                "unit": "U/L",
+                "system": "http://unitsofmeasure.org",
+                "code": "U/L"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275164",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275164",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "5d576ee6-671c-4525-b254-63a022984ed8"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "99999999999999999",
+                "display": "T-CHO"
+              }
+            ],
+            "text": "T-CHO"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 200,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 142,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 248,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275165",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275165",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "2d463d16-718e-4bc9-98ef-b1dd7eaf6a6c"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3F015000002389901",
+                "display": "TG"
+              }
+            ],
+            "text": "TG"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 60,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 40,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 234,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275166",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275166",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "5f9168b3-e064-4cef-8022-aef82462ebf4"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3F070000001829101",
+                "display": "HDL-C"
+              }
+            ],
+            "text": "HDL-C"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 50.0,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 38,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 90,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137275167",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137275167",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:20:38.221-04:00",
+            "source": "#wIK9Up0b12DdR98u"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.113.0009819897",
+              "value": "9d650bc1-9f91-49ff-bf8b-04546744e6e7"
+            }
+          ],
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
+                  "code": "laboratory",
+                  "display": "laboratory"
+                }
+              ],
+              "text": "laboratory"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationLabResultCode_VS",
+                "code": "3F077000002291901",
+                "display": "LDL-C"
+              }
+            ],
+            "text": "LDL-C"
+          },
+          "subject": {
+            "reference": "Patient/137244372"
+          },
+          "encounter": {
+            "reference": "Encounter/137275150"
+          },
+          "effectiveDateTime": "2026-07-21",
+          "issued": "2026-08-03T14:54:23.315836+09:00",
+          "performer": [
+            {
+              "reference": "Practitioner/137275151"
+            }
+          ],
+          "valueQuantity": {
+            "value": 150,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+          },
+          "note": [
+            {
+              "text": "依頼登録時のコメントです"
+            }
+          ],
+          "specimen": {
+            "reference": "Specimen/137225467"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "value": 65,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              },
+              "high": {
+                "value": 163,
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg/dL"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}
