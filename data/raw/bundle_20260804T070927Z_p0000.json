@@ -1,0 +1,2513 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4/Observation?_count=50&_lastUpdated=ge2026-08-01",
+  "api_call_timestamp": "2026-08-04T07:09:27.211059+00:00",
+  "saved_timestamp": "2026-08-04T07:09:34.630362+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "7dda4ea6-c539-4463-83a7-da196a59017a",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:28.677-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4/Observation?_count=50&_lastUpdated=ge2026-08-01"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=7dda4ea6-c539-4463-83a7-da196a59017a&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265145",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265145",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:39:12.410-04:00",
+            "source": "#vu0Pbraycst2g5Hy"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "survey"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "101440-6",
+                "display": "History of Falls"
+              }
+            ],
+            "text": "跌倒紀錄"
+          },
+          "subject": {
+            "reference": "Patient/137265144"
+          },
+          "effectiveDateTime": "2026-07-31T12:39:11.881Z",
+          "valueCodeableConcept": {
+            "text": "未觀察到跌倒"
+          },
+          "component": [
+            {
+              "code": {
+                "text": "30秒坐站"
+              },
+              "valueQuantity": {
+                "value": 14,
+                "unit": "次"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265150",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265150",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:46:37.703-04:00",
+            "source": "#ppiWhssLs2xtmeGE"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "activity"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "89285-0"
+              }
+            ],
+            "text": "30秒坐站"
+          },
+          "subject": {
+            "reference": "Patient/137265149"
+          },
+          "effectiveDateTime": "2026-07-31T12:46:36.642Z",
+          "valueQuantity": {
+            "value": 14,
+            "unit": "次"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265151",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265151",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:46:37.703-04:00",
+            "source": "#ppiWhssLs2xtmeGE"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "activity"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "站立平衡晃動"
+          },
+          "subject": {
+            "reference": "Patient/137265149"
+          },
+          "effectiveDateTime": "2026-07-31T12:46:36.642Z",
+          "valueQuantity": {
+            "value": 8,
+            "unit": "px"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265152",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265152",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:46:37.703-04:00",
+            "source": "#ppiWhssLs2xtmeGE"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "activity"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "上肢上舉"
+          },
+          "subject": {
+            "reference": "Patient/137265149"
+          },
+          "effectiveDateTime": "2026-07-31T12:46:36.642Z",
+          "valueQuantity": {
+            "value": 12,
+            "unit": "次"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265154",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265154",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:57:22.811-04:00",
+            "source": "#rKq3Gmo5reZL9W0N"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "activity"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "89285-0"
+              }
+            ],
+            "text": "30秒坐站"
+          },
+          "subject": {
+            "reference": "Patient/137265153"
+          },
+          "effectiveDateTime": "2026-07-31T12:57:21.697Z",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "次"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265155",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265155",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:57:22.811-04:00",
+            "source": "#rKq3Gmo5reZL9W0N"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "activity"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "站立平衡晃動"
+          },
+          "subject": {
+            "reference": "Patient/137265153"
+          },
+          "effectiveDateTime": "2026-07-31T12:57:21.697Z",
+          "valueQuantity": {
+            "value": 3.03648900556003,
+            "unit": "px"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265156",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265156",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:57:22.811-04:00",
+            "source": "#rKq3Gmo5reZL9W0N"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "activity"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "上肢上舉"
+          },
+          "subject": {
+            "reference": "Patient/137265153"
+          },
+          "effectiveDateTime": "2026-07-31T12:57:21.697Z",
+          "valueQuantity": {
+            "value": 21,
+            "unit": "次"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265157",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265157",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:57:22.811-04:00",
+            "source": "#rKq3Gmo5reZL9W0N"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "activity"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "原地抬膝"
+          },
+          "subject": {
+            "reference": "Patient/137265153"
+          },
+          "effectiveDateTime": "2026-07-31T12:57:21.697Z",
+          "valueQuantity": {
+            "value": 5,
+            "unit": "次"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265158",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265158",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T08:57:22.811-04:00",
+            "source": "#rKq3Gmo5reZL9W0N"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "activity"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "text": "軀幹側彎ROM"
+          },
+          "subject": {
+            "reference": "Patient/137265153"
+          },
+          "effectiveDateTime": "2026-07-31T12:57:21.697Z",
+          "valueQuantity": {
+            "value": 22.838140625490198,
+            "unit": "deg"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265650",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265650",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 0"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 60,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265651",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265651",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 1"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 61,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265652",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265652",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 2"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 62,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265653",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265653",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 3"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 63,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265654",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265654",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 4"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 64,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265655",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265655",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 5"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 65,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265656",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265656",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 6"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 66,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265657",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265657",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 7"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 67,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265658",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265658",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 8"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 68,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265659",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265659",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 9"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 69,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265660",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265660",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 10"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 70,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265661",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265661",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 11"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 71,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265662",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265662",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 12"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 72,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265663",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265663",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 13"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 73,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265664",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265664",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 14"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 74,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265665",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265665",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 15"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 75,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265666",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265666",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 16"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 76,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265667",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265667",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 17"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 77,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265668",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265668",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 18"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 78,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265669",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265669",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 19"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 79,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265670",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265670",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 20"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 80,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265671",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265671",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 21"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 81,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265672",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265672",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 22"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 82,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265673",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265673",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 23"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 83,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265674",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265674",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:49:01.136-04:00",
+            "source": "#3aSCBdYp322md63w"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "ZzClearwayProbe heart rate 24"
+          },
+          "subject": {
+            "reference": "Patient/137265624"
+          },
+          "effectiveDateTime": "2026-01-01T00:00:00Z",
+          "valueQuantity": {
+            "value": 84,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265677",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265677",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T13:23:34.730-04:00",
+            "source": "#CAni5OhMPsoeKmv2"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://baxter.com/fhir/exam-observation",
+                "code": "exam-finding"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137265610"
+          },
+          "encounter": {
+            "reference": "Encounter/137265676"
+          },
+          "effectiveDateTime": "2026-07-31T17:23:33.756Z",
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-0"
+                  }
+                ]
+              },
+              "valueInteger": 0
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-1"
+                  }
+                ]
+              },
+              "valueInteger": 95
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-2"
+                  }
+                ]
+              },
+              "valueInteger": 12
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-3"
+                  }
+                ]
+              },
+              "valueInteger": 18
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-4"
+                  }
+                ]
+              },
+              "valueInteger": 14
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://baxter.com/fhir/exam-observation",
+                    "code": "exam-finding-5"
+                  }
+                ]
+              },
+              "valueInteger": 43
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265717",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265717",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T15:51:07.970-04:00",
+            "source": "#Wt0DmAivbgliGekg"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "effectiveDateTime": "2026-06-26T03:45:16+00:00",
+          "valueQuantity": {
+            "value": 72,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org",
+            "code": "/min"
+          },
+          "device": {
+            "identifier": {
+              "system": "urn:devicelink:device",
+              "value": "DEV-IT-639211242673757473"
+            }
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137265719",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137265719",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T15:51:10.074-04:00",
+            "source": "#K5LKJIgfbHSLA01v"
+          },
+          "status": "final",
+          "category": [
+            {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ]
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85354-9",
+                "display": "Blood pressure panel"
+              }
+            ],
+            "text": "Blood pressure panel"
+          },
+          "subject": {
+            "reference": "Patient/137265718",
+            "display": "Patient P-IT-639211242694682098"
+          },
+          "effectiveDateTime": "2026-06-26T03:45:16+00:00",
+          "device": {
+            "identifier": {
+              "system": "urn:devicelink:device",
+              "value": "DEV-IT"
+            }
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8480-6",
+                    "display": "Systolic blood pressure"
+                  }
+                ],
+                "text": "Systolic blood pressure"
+              },
+              "valueQuantity": {
+                "value": 120,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8462-4",
+                    "display": "Diastolic blood pressure"
+                  }
+                ],
+                "text": "Diastolic blood pressure"
+              },
+              "valueQuantity": {
+                "value": 80,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "8478-0",
+                    "display": "Mean blood pressure"
+                  }
+                ],
+                "text": "Mean blood pressure"
+              },
+              "valueQuantity": {
+                "value": 93,
+                "unit": "mm[Hg]",
+                "system": "http://unitsofmeasure.org",
+                "code": "mm[Hg]"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137271391",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137271391",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T19:08:58.168-04:00",
+            "source": "#GSKi2g1uNEcnUUH9",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCPregnancyHistory"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "basedOn": [
+            {
+              "identifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.141"
+              },
+              "display": "Program Badań Prenatalnych"
+            }
+          ],
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "82810-3",
+                "display": "Status ciąży"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137271390",
+            "type": "Encounter"
+          },
+          "effectiveDateTime": "2024-10-06T10:04:48+02:00",
+          "performer": [
+            {
+              "identifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                "value": "2698040"
+              },
+              "display": "Monika Lecznicza"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "LA15173-0",
+                "display": "Ciąża"
+              }
+            ]
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.6.1",
+                    "code": "11778-8",
+                    "display": "Data porodu wyliczona na podstawie badania"
+                  }
+                ]
+              },
+              "valueDateTime": "2025-02-04T10:04:48+01:00"
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.6.1",
+                    "code": "45371-2",
+                    "display": "Ciąża mnoga"
+                  }
+                ]
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.140",
+                    "code": "P",
+                    "display": "Poród"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137271393",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137271393",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T19:09:16.617-04:00",
+            "source": "#w3af351e1yOIfjue",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCDiseasesAndAddictions"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "91391-3",
+                "display": "Mental health diagnosis"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137271392",
+            "type": "Encounter"
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.90",
+                "code": "F00.0",
+                "display": "Otępienie w chorobie Alzheimera o wczesnym początku"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137271401",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137271401",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T19:10:51.248-04:00",
+            "source": "#AayV2wQAJC0n1RsI",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCSmokingStatus"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137271400",
+            "type": "Encounter"
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.73",
+                "code": "6",
+                "display": "Palący codziennie - e-papierosy"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272472",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272472",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T00:50:21.458-04:00",
+            "source": "#WXkY8qfuP98mMbqm",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCPregnancyHistory"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "basedOn": [
+            {
+              "identifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.141"
+              },
+              "display": "Program Badań Prenatalnych"
+            }
+          ],
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "82810-3",
+                "display": "Status ciąży"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137272471",
+            "type": "Encounter"
+          },
+          "effectiveDateTime": "2024-10-06T10:04:48+02:00",
+          "performer": [
+            {
+              "identifier": {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.1.6.2",
+                "value": "2698040"
+              },
+              "display": "Monika Lecznicza"
+            }
+          ],
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "LA15173-0",
+                "display": "Ciąża"
+              }
+            ]
+          },
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.6.1",
+                    "code": "11778-8",
+                    "display": "Data porodu wyliczona na podstawie badania"
+                  }
+                ]
+              },
+              "valueDateTime": "2025-02-04T10:04:48+01:00"
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.6.1",
+                    "code": "45371-2",
+                    "display": "Ciąża mnoga"
+                  }
+                ]
+              }
+            },
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.140",
+                    "code": "P",
+                    "display": "Poród"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272474",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272474",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T00:51:02.165-04:00",
+            "source": "#OJnwlVbpkMB65G4B",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCDiseasesAndAddictions"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "91391-3",
+                "display": "Mental health diagnosis"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137272473",
+            "type": "Encounter"
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.90",
+                "code": "F00.0",
+                "display": "Otępienie w chorobie Alzheimera o wczesnym początku"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272482",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272482",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T00:52:33.181-04:00",
+            "source": "#fpRQrhRb81KhEBaM",
+            "profile": [
+              "https://api.rcmc.xxx.gov.pl/fhir/StructureDefinition/PentaRCMCSmokingStatus"
+            ],
+            "security": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.83",
+                "code": "N"
+              }
+            ]
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.6.1",
+                "code": "72166-2",
+                "display": "Tobacco smoking status"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131351884",
+            "type": "Patient",
+            "identifier": {
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "hli603"
+            }
+          },
+          "encounter": {
+            "reference": "Encounter/137272481",
+            "type": "Encounter"
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.3.4424.11.1.73",
+                "code": "6",
+                "display": "Palący codziennie - e-papierosy"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272771",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272771",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T05:32:33.064-04:00",
+            "source": "#ffnvglJ9xmWze4XE"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "80615-8",
+                "display": "Patient Emotion & Urgency"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131990221"
+          },
+          "effectiveDateTime": "2026-08-01T09:32:30.233Z",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "score",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          },
+          "note": [
+            {
+              "text": "AI Summary: AI 分析失敗，請人工檢視"
+            },
+            {
+              "text": "Symptoms: "
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272772",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272772",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T05:32:49.526-04:00",
+            "source": "#lEuSc8SfH9nh1CoQ"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "80615-8",
+                "display": "Patient Emotion & Urgency"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131990221"
+          },
+          "effectiveDateTime": "2026-08-01T09:32:48.618Z",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "score",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          },
+          "note": [
+            {
+              "text": "AI Summary: AI 分析失敗，請人工檢視"
+            },
+            {
+              "text": "Symptoms: "
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272773",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272773",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T05:33:30.394-04:00",
+            "source": "#Kmwk4GCWohIWJXMa"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "80615-8",
+                "display": "Patient Emotion & Urgency"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/131990221"
+          },
+          "effectiveDateTime": "2026-08-01T09:33:29.479Z",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "score",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          },
+          "note": [
+            {
+              "text": "AI Summary: AI 分析失敗，請人工檢視"
+            },
+            {
+              "text": "Symptoms: "
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272774",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272774",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T05:38:49.737-04:00",
+            "source": "#S2xnTEIS4wMIlmB4"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "80615-8",
+                "display": "Patient Emotion & Urgency"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137221108"
+          },
+          "effectiveDateTime": "2026-08-01T09:38:48.790Z",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "score",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          },
+          "note": [
+            {
+              "text": "AI Summary: AI 分析失敗，請人工檢視"
+            },
+            {
+              "text": "Symptoms: "
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272775",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272775",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T05:42:31.725-04:00",
+            "source": "#flTEsdEOpyvrJVoh"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "80615-8",
+                "display": "Patient Emotion & Urgency"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/137221108"
+          },
+          "effectiveDateTime": "2026-08-01T09:42:30.815Z",
+          "valueQuantity": {
+            "value": 0,
+            "unit": "score",
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}"
+          },
+          "note": [
+            {
+              "text": "AI Summary: AI 分析失敗，請人工檢視"
+            },
+            {
+              "text": "Symptoms: "
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272992",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272992",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T07:20:45.606-04:00",
+            "source": "#uY4vG9CqVZ93PhPx"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4",
+                "display": "Heart rate"
+              }
+            ],
+            "text": "Heart rate"
+          },
+          "subject": {
+            "reference": "Patient/137272525"
+          },
+          "effectiveDateTime": "2026-08-01T16:50:35.639712",
+          "valueQuantity": {
+            "value": 70.0,
+            "unit": "/min",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Observation/137272993",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "137272993",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T07:20:47.696-04:00",
+            "source": "#0AUHGaZIYYAaKFRm"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ],
+            "text": "Systolic blood pressure"
+          },
+          "subject": {
+            "reference": "Patient/137272525"
+          },
+          "effectiveDateTime": "2026-08-01T16:50:37.702419",
+          "valueQuantity": {
+            "value": 99.0,
+            "unit": "mmHg",
+            "system": "http://unitsofmeasure.org"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}
