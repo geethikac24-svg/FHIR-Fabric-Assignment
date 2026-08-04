@@ -1,0 +1,1952 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=400&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:10:08.329434+00:00",
+  "saved_timestamp": "2026-08-04T07:10:13.430620+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "2c7e5756-4e24-459b-8816-66123b7b92aa",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:21.033-04:00"
+    },
+    "type": "searchset",
+    "total": 627,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=400&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=450&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=350&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274894",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274894",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T00:41:43.849-04:00",
+            "source": "#MagRFd3mTF2SQ6Tg"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Atomic Test <b>ZERAATOMIC-022603 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1990</span></td></tr></tbody></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "ZeraAtomic-022603",
+              "given": [
+                "Atomic",
+                "Test"
+              ]
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1990-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274936",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274936",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T01:55:12.974-04:00",
+            "source": "#YzN85Nxm4MrLjPAe"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Repro <b>TEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test",
+              "given": [
+                "Repro"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274939",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274939",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T01:56:39.216-04:00",
+            "source": "#ZAsHNLcNghtCJjNZ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Repro2 <b>TEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test",
+              "given": [
+                "Repro2"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274941",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274941",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T01:57:10.577-04:00",
+            "source": "#pXLZkWkVuIZzHIvG"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Repro3 <b>TEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test",
+              "given": [
+                "Repro3"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/a54200c9-8a4e-4c30-8bf6-090f491cb9af",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "a54200c9-8a4e-4c30-8bf6-090f491cb9af",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-03T02:00:26.846-04:00",
+            "source": "#PwL1HlPgM8GCnuok"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Rakesh <b>ANDROID(POS) DEVELOPER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>18 December 1988</span></td></tr></tbody></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "family": "Android(POS) Developer",
+              "given": [
+                "Rakesh"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "978271444"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1988-12-18",
+          "address": [
+            {
+              "city": "Jaipur",
+              "country": "India"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274957",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274957",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:01:26.494-04:00",
+            "source": "#6xyOOABantJBQdrH"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Debug <b>RATETEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "RateTest",
+              "given": [
+                "Debug"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274960",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274960",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:01:56.147-04:00",
+            "source": "#DorskOHP9pc3Zg71"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Debug <b>RATETEST0_1785736907 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "RateTest0_1785736907",
+              "given": [
+                "Debug"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274961",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274961",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:01:57.050-04:00",
+            "source": "#PqHGsWavIElnl3q8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Debug <b>RATETEST1_1785736908 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "RateTest1_1785736908",
+              "given": [
+                "Debug"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274962",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274962",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:01:57.937-04:00",
+            "source": "#k5PqjTIthQvmOy8A"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Debug <b>RATETEST2_1785736909 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "RateTest2_1785736909",
+              "given": [
+                "Debug"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274965",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274965",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:02:56.435-04:00",
+            "source": "#Ceyze3Tm2vUiFlsL"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785736967 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785736967",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274966",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274966",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:02:59.644-04:00",
+            "source": "#VCDeWWezbMOU62hh"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785736970_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785736970_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274977",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274977",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:04:07.753-04:00",
+            "source": "#qnQ3BekwNf7P4By4"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785737038 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785737038",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274978",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274978",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:04:10.847-04:00",
+            "source": "#EFkEyRPfd3WbQdI0"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785737041_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785737041_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274989",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274989",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:06:35.394-04:00",
+            "source": "#Q7GTeEHZSzqYjv2L"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785737186 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785737186",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274990",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274990",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:06:38.817-04:00",
+            "source": "#qYzWPW2xdbyxW4W3"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785737189_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785737189_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275051",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275051",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:10:08.163-04:00",
+            "source": "#FroBb1kJ9lOcalq0"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>4567890123456789</td></tr><tr><td>Address</td><td/></tr><tr><td>Date of birth</td><td><span>07 October 1998</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://nik.kemendagri.go.id",
+              "value": "4567890123456789"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "text": "Anggita Maharani"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1998-10-07",
+          "address": [
+            {
+              "text": "Komplek Mutiara Permai Blok A2 No.7"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275064",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275064",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:10:27.682-04:00",
+            "source": "#3Dr6SIBKC2zr3k4Y"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785737424 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785737424",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275075",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275075",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:10:38.374-04:00",
+            "source": "#C92zrMn9aHgLncpv"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785737435_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785737435_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275102",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275102",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:16:30.543-04:00",
+            "source": "#H056ab41NCsnPR4R"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>5678901234567890</td></tr><tr><td>Address</td><td/></tr><tr><td>Date of birth</td><td><span>08 December 1996</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://nik.kemendagri.go.id",
+              "value": "5678901234567890"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "text": "Rizky Putra"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1996-12-08",
+          "address": [
+            {
+              "text": "Jalan Mekar Wangi No.12"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275119",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275119",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:17:46.715-04:00",
+            "source": "#K99ypb4uIHDZxSkn"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "gender": "male"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275204",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275204",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:22:55.488-04:00",
+            "source": "#kfscOgEZJbxiD1HY"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>8890123456789012</td></tr><tr><td>Address</td><td/></tr><tr><td>Date of birth</td><td><span>12 February 1998</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://nik.kemendagri.go.id",
+              "value": "8890123456789012"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "text": "Hayati "
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1998-02-12",
+          "address": [
+            {
+              "text": "Jalan Pramuka No.12"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/animal",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "animal",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T02:39:11.238-04:00",
+            "source": "#AbO6aHiAKd2Vz4Bt"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      \n      <table>\n        \n        <tbody>\n          \n          <tr>\n            \n            <td>Id</td>\n            \n            <td>Kenzi (Dog: Golden Retriever)</td>\n          \n          </tr>\n          \n          <tr>\n            \n            <td>Owner</td>\n            \n            <td>Peter Chalmers, 534 Erewhon, Pleasantville, Vic, 3999</td>\n          \n          </tr>\n          \n          <tr>\n            \n            <td>Contacts</td>\n            \n            <td>Work: (03) 5555 6473</td>\n          \n          </tr>\n          \n          <tr>\n            \n            <td>Id</td>\n            \n            <td>Dog Tag: 1234123 (Maroondah City Council)</td>\n          \n          </tr>\n        \n        </tbody>\n      \n      </table>\n    \n    </div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "text": "Dog Tag"
+              },
+              "system": "http://www.maroondah.vic.gov.au/AnimalRegFees.aspx",
+              "value": "1234123",
+              "period": {
+                "start": "2010-05-31"
+              },
+              "assigner": {
+                "display": "Maroondah City Council"
+              }
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "usual",
+              "given": [
+                "Kenzi"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2010-03-23",
+          "contact": [
+            {
+              "relationship": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0131",
+                      "code": "C"
+                    }
+                  ]
+                }
+              ],
+              "name": {
+                "family": "Chalmers",
+                "given": [
+                  "Peter",
+                  "James"
+                ]
+              },
+              "telecom": [
+                {
+                  "system": "phone",
+                  "value": "(03) 5555 6473",
+                  "use": "work"
+                }
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "display": "Pete's Vetinary Servicessss"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275208",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275208",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-03T02:49:14.312-04:00",
+            "source": "#E9hwmEzTJIW6Dt6G"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      \n      <table>\n        \n        <tbody>\n          \n          <tr>\n            \n            <td>Id</td>\n            \n            <td>Kenzi (Dog: Golden Retriever)</td>\n          \n          </tr>\n          \n          <tr>\n            \n            <td>Owner</td>\n            \n            <td>Peter Chalmers, 534 Erewhon, Pleasantville, Vic, 3999</td>\n          \n          </tr>\n          \n          <tr>\n            \n            <td>Contacts</td>\n            \n            <td>Work: (03) 5555 6473</td>\n          \n          </tr>\n          \n          <tr>\n            \n            <td>Id</td>\n            \n            <td>Dog Tag: 1234123 (Maroondah City Council)</td>\n          \n          </tr>\n        \n        </tbody>\n      \n      </table>\n    \n    </div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "text": "Dog Tag"
+              },
+              "system": "http://www.maroondah.vic.gov.au/AnimalRegFees.aspx",
+              "value": "1234123",
+              "period": {
+                "start": "2010-05-31"
+              },
+              "assigner": {
+                "display": "Maroondah City Council"
+              }
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "usual",
+              "given": [
+                "Kenzi"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2010-03-23",
+          "contact": [
+            {
+              "relationship": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0131",
+                      "code": "C"
+                    }
+                  ]
+                }
+              ],
+              "name": {
+                "family": "Chalmers",
+                "given": [
+                  "Peter",
+                  "James"
+                ]
+              },
+              "telecom": [
+                {
+                  "system": "phone",
+                  "value": "(03) 5555 6473",
+                  "use": "work"
+                }
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "display": "Pete's Vetinary SSSSServicessss"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137204438",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137204438",
+          "meta": {
+            "versionId": "10",
+            "lastUpdated": "2026-08-03T03:13:58.847-04:00",
+            "source": "#2wo2yKkaodK90lfV"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Loc <b>NGO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>46a12b70-2584-4dd8-a277-ea773e444552</td></tr><tr><td>Address</td><td><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>07 July 1999</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://ncs.health/fhir/sid/ncs-patient-id",
+              "value": "46a12b70-2584-4dd8-a277-ea773e444552"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Ngo",
+              "given": [
+                "Loc"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "5552474982",
+              "use": "home",
+              "rank": 1
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1999-07-07",
+          "address": [
+            {
+              "use": "home",
+              "type": "physical",
+              "country": "USA"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275252",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275252",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:18:56.192-04:00",
+            "source": "#H15olQnnfdfooNW6"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Thomas <b>TESS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2013</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "tess",
+              "given": [
+                "Thomas"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2013-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275254",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275254",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:19:34.724-04:00",
+            "source": "#gVNZszMdeQKw6F7W"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Thomas <b>RET </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2013</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "ret",
+              "given": [
+                "Thomas"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2013-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275256",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275256",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:20:20.083-04:00",
+            "source": "#9xMsPYg15DHyxj4x"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Thomas <b>GHG </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2013</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "ghg",
+              "given": [
+                "Thomas"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2013-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/b8cee46b-bfc3-4e4c-9aca-b7fcd1198ad5",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "b8cee46b-bfc3-4e4c-9aca-b7fcd1198ad5",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:23:38.564-04:00",
+            "source": "#1qZve2zkxcsbeLrF"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Rakesh <b>SHARMA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>18 December 1988</span></td></tr></tbody></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "family": "Sharma",
+              "given": [
+                "Rakesh"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1988-12-18"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275260",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275260",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:23:41.460-04:00",
+            "source": "#2YJKAvpeRGZZnpWL"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785741812 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785741812",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275261",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275261",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:23:45.443-04:00",
+            "source": "#QS8VLzZIVvOYEq9W"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785741815_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785741815_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275270",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275270",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:28:07.103-04:00",
+            "source": "#CmC6O7EoUIYComOW"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>9123456789012345</td></tr><tr><td>Address</td><td/></tr><tr><td>Date of birth</td><td><span>09 September 1999</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://nik.kemendagri.go.id",
+              "value": "9123456789012345"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "text": "Awan Langit"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1999-09-09",
+          "address": [
+            {
+              "text": "Jalan Mawar No.18, Kota Melati"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275279",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275279",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:35:55.726-04:00",
+            "source": "#dTU1x5U1T0SWF4CT"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">亞亞 <b>林111 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "林111 亞亞",
+              "family": "林111",
+              "given": [
+                "亞亞"
+              ]
+            }
+          ],
+          "gender": "male",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137275278"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275277"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275286",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275286",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T03:56:17.774-04:00",
+            "source": "#682JCA8YXspRNSE1"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">亞亞 <b>林123 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "林123 亞亞",
+              "family": "林123",
+              "given": [
+                "亞亞"
+              ]
+            }
+          ],
+          "gender": "male",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137275285"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275284"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275296",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275296",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:03:50.225-04:00",
+            "source": "#Xmg2AgU3g3R3S5AO"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">亞亞 <b>林123 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "林123 亞亞",
+              "family": "林123",
+              "given": [
+                "亞亞"
+              ]
+            }
+          ],
+          "gender": "male",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137275295"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275294"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275305",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275305",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:04:33.947-04:00",
+            "source": "#MPQyOxPqvuUwaWpV"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785744264 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785744264",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275306",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275306",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:04:37.475-04:00",
+            "source": "#nbzNngK063Utmh5o"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785744268_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785744268_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275315",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275315",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:08:33.154-04:00",
+            "source": "#21cNeTSzjMr0LB1t"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jerome <b>THAMPI </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Thampi",
+              "given": [
+                "Jerome"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275319",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275319",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:16:45.507-04:00",
+            "source": "#aDN6xafZmv65a1Y9"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CB-D7460E01</td></tr><tr><td>Date of birth</td><td><span>01 August 2026</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/patient-id",
+              "value": "CB-D7460E01"
+            }
+          ],
+          "name": [
+            {
+              "text": "測試1號"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0911111111"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2026-08-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275322",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275322",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:20:02.695-04:00",
+            "source": "#X2tn6njr7ZMjN3Ug"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785745193 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785745193",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275323",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275323",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:20:06.255-04:00",
+            "source": "#NfpRTf8ssde7AfQF"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785745197_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785745197_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275340",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275340",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:28:04.346-04:00",
+            "source": "#4Lyz6snjaQsiJ7CO"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "fbdfc11f-054d-4005-bae2-d7021ab401a7"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275341",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275341",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:28:04.351-04:00",
+            "source": "#LDdv4MvGPGhQo45o"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "fbdfc11f-054d-4005-bae2-d7021ab401a7"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275343",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275343",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:28:16.949-04:00",
+            "source": "#yHP8ByxwpHPiMMX1"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "6e6e54eb-a461-481a-9bad-6d865ece66f0"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275345",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275345",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:28:20.228-04:00",
+            "source": "#Z4rAUD0PRi9icRp7"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "6e6e54eb-a461-481a-9bad-6d865ece66f0"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275347",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275347",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:31:20.750-04:00",
+            "source": "#85dLBQJ6S0j6PumJ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "296f3255-3823-49b7-a892-6a38af2a85aa"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275349",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275349",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:31:24.551-04:00",
+            "source": "#1AtVIqoC1mDW6DK3"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "296f3255-3823-49b7-a892-6a38af2a85aa"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275351",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275351",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:32:54.748-04:00",
+            "source": "#CErFuX2oXhwirawd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "33f04232-dbfc-4524-93f4-e9912c2b928e"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275352",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275352",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:32:54.748-04:00",
+            "source": "#bi9BY61LvoNZBvay"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "33f04232-dbfc-4524-93f4-e9912c2b928e"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275354",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275354",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:34:38.821-04:00",
+            "source": "#UH9GGnS7d84njqL5"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "94a2ab04-ce99-4a1b-90ea-f3baa4e6b278"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275356",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275356",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:34:42.044-04:00",
+            "source": "#dxkQ2UFl6XDoQ6I3"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "94a2ab04-ce99-4a1b-90ea-f3baa4e6b278"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

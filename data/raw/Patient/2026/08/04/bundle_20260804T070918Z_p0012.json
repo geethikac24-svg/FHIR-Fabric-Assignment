@@ -1,0 +1,1134 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=600&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:09:18.640815+00:00",
+  "saved_timestamp": "2026-08-04T07:09:23.598700+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "2c7e5756-4e24-459b-8816-66123b7b92aa",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:21.033-04:00"
+    },
+    "type": "searchset",
+    "total": 627,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=600&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=550&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287426",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287426",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T22:17:28.601-04:00",
+            "source": "#nzPZaabXed6lzWOa"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "42fcdfba-6b28-4d22-b64e-6afe9734bcf3"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287430",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287430",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T22:25:53.962-04:00",
+            "source": "#HtAyMLlO066cDm0A"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Celestino <b>POPITRONIC </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Asistente IA</td></tr><tr><td>Date of birth</td><td><span>01 January 1968</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://cais.org/kuche26",
+              "value": "Asistente IA"
+            },
+            {
+              "system": "http://cais.org/kuche26/submission-id",
+              "value": "02c1ea9c-4884-4a11-87c4-268691166420"
+            }
+          ],
+          "name": [
+            {
+              "family": "Popitronic",
+              "given": [
+                "Celestino"
+              ]
+            }
+          ],
+          "birthDate": "1968"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287492",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287492",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T22:37:51.785-04:00",
+            "source": "#ms2LBYZM5X5Tpv6M"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sofia <b>WILLIAMS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN176623</td></tr><tr><td>Date of birth</td><td><span>21 August 1963</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "value": "MRN176623"
+            }
+          ],
+          "name": [
+            {
+              "family": "Williams",
+              "given": [
+                "Sofia"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1963-08-21"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287646",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287646",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:06:31.134-04:00",
+            "source": "#CmyLc2y39X1rvZN1"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">OIC-given-1785816004919_oy1mjc <b>OIC-FAMILY-1785816004919_OY1MJC </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2013</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "OIC-family-1785816004919_oy1mjc",
+              "given": [
+                "OIC-given-1785816004919_oy1mjc"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2013-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287730",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287730",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:11:09.358-04:00",
+            "source": "#6B1MMkceJF0pPQY8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Thomas <b>BELL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2013</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Bell",
+              "given": [
+                "Thomas"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2013-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287900",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287900",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:39:34.435-04:00",
+            "source": "#eQHylsjP8rupJHXn"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">外来　0010 </div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>00000010</td></tr><tr><td>Address</td><td/></tr><tr><td>Date of birth</td><td><span>03 March 1958</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.0009819897",
+              "value": "00000010"
+            }
+          ],
+          "name": [
+            {
+              "text": "外来　0010",
+              "given": [
+                "外来　0010"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1958-03-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288003",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288003",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:50:11.925-04:00",
+            "source": "#0ZWarPrkMLPebsSd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785818997 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785818997",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288004",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288004",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:50:16.039-04:00",
+            "source": "#xgjUtUVtIjvyjXzt"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785819001_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785819001_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/pat-example-wang-xiaoming",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "pat-example-wang-xiaoming",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T00:57:29.298-04:00",
+            "source": "#8hPHw3f3vU1eQofL",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Patient-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "NNTWN",
+                    "display": "National Person Identifier"
+                  }
+                ]
+              },
+              "system": "http://www.moi.gov.tw",
+              "value": "U123456789"
+            },
+            {
+              "use": "official",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical record number"
+                  }
+                ]
+              },
+              "system": "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/pas-identifier-type-tw",
+              "value": "88776655"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "text": "王小明",
+              "family": "王",
+              "given": [
+                "小明"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0912345678",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-05-20",
+          "address": [
+            {
+              "text": "花蓮縣吉安鄉吉安路二段100號"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/org-example-hualien"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288017",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288017",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:16:24.359-04:00",
+            "source": "#B600sbal1SjWkrqn"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785820569 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785820569",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288018",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288018",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:16:27.516-04:00",
+            "source": "#c8zkbfWEB6wACYTa"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785820572_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785820572_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288029",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288029",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:25:17.293-04:00",
+            "source": "#x5yZFG07jGsXrxSy"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785821101 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785821101",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288030",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288030",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:25:20.421-04:00",
+            "source": "#1U5RH1XTAcSeZ5sA"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785821104_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785821104_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/nqc-low-confidence-001",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "nqc-low-confidence-001",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:45:04.354-04:00",
+            "source": "#8afbIJ4So03ZIVry",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/DomainResource"
+            ],
+            "tag": [
+              {
+                "system": "https://neurofhir-qc.example.org/fhir/CodeSystem/data-origin",
+                "code": "low-confidence",
+                "display": "NeuroFHIR-QC low-confidence demonstration case"
+              },
+              {
+                "system": "https://neurofhir-qc.example.org/fhir/CodeSystem/data-origin",
+                "code": "synthetic",
+                "display": "Synthetic demonstration record"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "system": "https://neurofhir-qc.example.org/fhir/NamingSystem/demo-patient-id",
+              "value": "NQC-LOW-CONFIDENCE-001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "usual",
+              "family": "Patel",
+              "given": [
+                "Jordan"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1982-02-08",
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en",
+                    "display": "English"
+                  }
+                ],
+                "text": "English"
+              },
+              "preferred": true
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/nqc-progression-001",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "nqc-progression-001",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:45:04.354-04:00",
+            "source": "#8afbIJ4So03ZIVry",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/DomainResource"
+            ],
+            "tag": [
+              {
+                "system": "https://neurofhir-qc.example.org/fhir/CodeSystem/data-origin",
+                "code": "progression",
+                "display": "NeuroFHIR-QC progression demonstration case"
+              },
+              {
+                "system": "https://neurofhir-qc.example.org/fhir/CodeSystem/data-origin",
+                "code": "synthetic",
+                "display": "Synthetic demonstration record"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "system": "https://neurofhir-qc.example.org/fhir/NamingSystem/demo-patient-id",
+              "value": "NQC-PROGRESSION-001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "usual",
+              "family": "Lee",
+              "given": [
+                "Rowan"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1969-09-24",
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en",
+                    "display": "English"
+                  }
+                ],
+                "text": "English"
+              },
+              "preferred": true
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/nqc-stable-001",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "nqc-stable-001",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T01:45:04.354-04:00",
+            "source": "#8afbIJ4So03ZIVry",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/DomainResource"
+            ],
+            "tag": [
+              {
+                "system": "https://neurofhir-qc.example.org/fhir/CodeSystem/data-origin",
+                "code": "stable",
+                "display": "NeuroFHIR-QC stable demonstration case"
+              },
+              {
+                "system": "https://neurofhir-qc.example.org/fhir/CodeSystem/data-origin",
+                "code": "synthetic",
+                "display": "Synthetic demonstration record"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "system": "https://neurofhir-qc.example.org/fhir/NamingSystem/demo-patient-id",
+              "value": "NQC-STABLE-001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "usual",
+              "family": "Morgan",
+              "given": [
+                "Avery"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1976-04-12",
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en",
+                    "display": "English"
+                  }
+                ],
+                "text": "English"
+              },
+              "preferred": true
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288076",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288076",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:01:37.840-04:00",
+            "source": "#QaxnOWUTt6IJ63Wg"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CB-06655BC2</td></tr><tr><td>Date of birth</td><td><span>03 August 1967</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/patient-id",
+              "value": "CB-06655BC2"
+            }
+          ],
+          "name": [
+            {
+              "text": "測試3號"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0933333333"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1967-08-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288087",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288087",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:19:02.320-04:00",
+            "source": "#LbKpndkBjXZFcfJ4"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">浩哲 <b>曾 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "text": "曾浩哲",
+              "family": "曾",
+              "given": [
+                "浩哲"
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288105",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288105",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:30:42.865-04:00",
+            "source": "#p91w0NtlBlvCYzc4"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">E2E <b>MCPGATEWAYPII </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>1234 PII Test Street </span><br/><span>Redwood City </span><span>California </span></td></tr><tr><td>Date of birth</td><td><span>01 January 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "McpGatewayPii",
+              "given": [
+                "E2E"
+              ]
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1990-01-01",
+          "address": [
+            {
+              "line": [
+                "1234 PII Test Street"
+              ],
+              "city": "Redwood City",
+              "state": "California",
+              "postalCode": "94063"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288106",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288106",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:32:12.957-04:00",
+            "source": "#u7ecqZV07taJyBs2"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Thomas-1785825116879_heo22c <b>BELL-1785825116879_HEO22C </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1-1785825116879_heo22c </span><br/><span>ca1058-1785825116879_heo22c </span><span>ss-1785825116879_heo22c </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2013</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Bell-1785825116879_heo22c",
+              "given": [
+                "Thomas-1785825116879_heo22c"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "99999999992c",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir-1785825116879_heo22c@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2013-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1-1785825116879_heo22c"
+              ],
+              "city": "ca1058-1785825116879_heo22c",
+              "state": "ss-1785825116879_heo22c",
+              "postalCode": "333442c"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288138",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288138",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:43:32.601-04:00",
+            "source": "#fu6qqs2qlN6NS1D8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">外来　0010 </div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>00000010</td></tr><tr><td>Address</td><td/></tr><tr><td>Date of birth</td><td><span>03 March 1958</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.51.1234567890",
+              "value": "00000010"
+            }
+          ],
+          "name": [
+            {
+              "text": "外来　0010",
+              "given": [
+                "外来　0010"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1958-03-03"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288237",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288237",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:43:37.230-04:00",
+            "source": "#3W6NN2l1dQxZfVRZ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Direct <b>TEST </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test",
+              "given": [
+                "Direct"
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288240",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288240",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:51:05.195-04:00",
+            "source": "#sOQf9vYs6IIKkx8t"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Xiao Ming <b>WANG </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "Wang",
+              "given": [
+                "Xiao Ming"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137288238"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288288",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288288",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:56:17.391-04:00",
+            "source": "#YWYlJszoba6K0dyg"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Xiao Ming <b>WANG </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "Wang",
+              "given": [
+                "Xiao Ming"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137288286"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288311",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288311",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:56:54.439-04:00",
+            "source": "#OjQk1WxpkwUG1sg2"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST1785826598 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test1785826598",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288314",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288314",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T02:56:57.664-04:00",
+            "source": "#TKeVDEmsuUYuDO5p"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT1785826601_0 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient1785826601_0",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137288330",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137288330",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-04T03:06:36.548-04:00",
+            "source": "#x4vdtHA5vyf6ogZ8",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Patient-twcore"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "http://your-org.tw/patient-id",
+              "value": "mrn-20250804-000X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "鍾",
+              "given": [
+                "清俊"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1966-03-16"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2621 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:10:08.329434+00:00",
+  "saved_timestamp": "2026-08-04T07:10:13.342544+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "2c7e5756-4e24-459b-8816-66123b7b92aa",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:21.033-04:00"
+    },
+    "type": "searchset",
+    "total": 627,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=50&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=100&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=0&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/cds-emrz228-latitude-patient-1785510153924-455020",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "cds-emrz228-latitude-patient-1785510153924-455020",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:02:34.947-04:00",
+            "source": "#kqreW0Ya5NJQr39r"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">EmrzLat <b>TESTLATITUDE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-EMRZ228-LAT-1785510153924-455020</td></tr><tr><td>Date of birth</td><td><span>22 March 1955</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "MRN-EMRZ228-LAT-1785510153924-455020"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "TestLatitude",
+              "given": [
+                "EmrzLat"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1955-03-22"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265241",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265241",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:21:41.883-04:00",
+            "source": "#hv2LXiADzpYMTP2K"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Pruebas <b>EDUARDO INTE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>18</td></tr><tr><td>Date of birth</td><td><span>22 July 1976</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://trilema.pruebas/eoncosalud-sandbox-test",
+              "value": "18"
+            }
+          ],
+          "name": [
+            {
+              "family": "Eduardo Inte",
+              "given": [
+                "Pruebas"
+              ]
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1976-07-22"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265246",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265246",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:33:49.416-04:00",
+            "source": "#exizSprHNfa9upng",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000100"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Reyes"
+                }
+              ],
+              "use": "official",
+              "family": "Martínez",
+              "given": [
+                "Sofía",
+                "Isabel"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1000",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000100@example.org"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2010-01-01",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 1"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265261",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265261",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:02.635-04:00",
+            "source": "#NHB2UrfKQyFXfAd2",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000101"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Cruz"
+                }
+              ],
+              "use": "official",
+              "family": "Santana",
+              "given": [
+                "Luis",
+                "Miguel"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1001",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000101@example.org"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2011-02-02",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 2"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265276",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265276",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:14.079-04:00",
+            "source": "#pFn99sMDlqRqtMhF",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000102"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Vargas"
+                }
+              ],
+              "use": "official",
+              "family": "Gómez",
+              "given": [
+                "Camila",
+                "Rosa"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1002",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000102@example.org"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2012-03-03",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 3"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265291",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265291",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:33.368-04:00",
+            "source": "#IjicXLk2iXhELPfv",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000103"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Mora"
+                }
+              ],
+              "use": "official",
+              "family": "Fernández",
+              "given": [
+                "Diego",
+                "Andrés"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1003",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000103@example.org"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2013-04-04",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 4"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265306",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265306",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:34:52.410-04:00",
+            "source": "#bKpU1xuRnrb3eFpA",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000104"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Soto"
+                }
+              ],
+              "use": "official",
+              "family": "Ramírez",
+              "given": [
+                "Valentina",
+                "Lucía"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1004",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000104@example.org"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2014-05-05",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 5"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265321",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265321",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:35:09.430-04:00",
+            "source": "#aE5NEyOsAaDrSJTX",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000105"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Pena"
+                }
+              ],
+              "use": "official",
+              "family": "Castillo",
+              "given": [
+                "Mateo",
+                "José"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1005",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000105@example.org"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2015-06-06",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 6"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265336",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265336",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:35:27.295-04:00",
+            "source": "#36TJJneRNoIUEKvh",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000106"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Núñez"
+                }
+              ],
+              "use": "official",
+              "family": "Torres",
+              "given": [
+                "Isabella",
+                "María"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1006",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000106@example.org"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2016-07-07",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 7"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265351",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265351",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:35:48.731-04:00",
+            "source": "#XOFEDcqsWEw95Nd8",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000107"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Díaz"
+                }
+              ],
+              "use": "official",
+              "family": "Hernández",
+              "given": [
+                "Sebastián",
+                "Alejandro"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1007",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000107@example.org"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2017-08-08",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 8"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265366",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265366",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:36:03.773-04:00",
+            "source": "#d5UfEBu3cUK5pFCw",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000108"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Rojas"
+                }
+              ],
+              "use": "official",
+              "family": "Jiménez",
+              "given": [
+                "Emma",
+                "Patricia"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1008",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000108@example.org"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2018-09-09",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 9"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265381",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265381",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:36:16.742-04:00",
+            "source": "#3yLVqxAIkvCBCLAg",
+            "profile": [
+              "https://digital.msp.gob.do/fhir/core/StructureDefinition/core-patient-do"
+            ]
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "https://digital.msp.gob.do/fhir/core/CodeSystem/tipo-identificacion-do",
+                    "code": "CED",
+                    "display": "Cédula"
+                  }
+                ]
+              },
+              "system": "https://digital.msp.gob.do/fhir/core/sid/cedula",
+              "value": "00000109"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "extension": [
+                {
+                  "url": "https://digital.msp.gob.do/fhir/core/StructureDefinition/segundo-apellido-do",
+                  "valueString": "Acosta"
+                }
+              ],
+              "use": "official",
+              "family": "Morales",
+              "given": [
+                "Nicolás",
+                "David"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-809-700-1009",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "paciente00000109@example.org"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2019-10-10",
+          "address": [
+            {
+              "line": [
+                "Calle Ejemplo 10"
+              ],
+              "city": "Santo Domingo",
+              "state": "Distrito Nacional",
+              "country": "DO"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265244"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265396",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265396",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T11:59:18.938-04:00",
+            "source": "#gDIQqBB4KHE4ECE6"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">OIC-given-1058 <b>OIC-FAMILY-1058 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2019</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "OIC-family-1058",
+              "given": [
+                "OIC-given-1058"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2019-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265398",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265398",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:02:48.418-04:00",
+            "source": "#aNVlePP7eb65RXtV"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">OIC-given-1058 <b>OIC-FAMILY-1058 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2019</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "OIC-family-1058",
+              "given": [
+                "OIC-given-1058"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "birthDate": "2019-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265401",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265401",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:15:04.890-04:00",
+            "source": "#xcJ6S9WODdsvWp2V"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">OIC-given-10581 <b>OIC-FAMILY-1058 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2019</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "OIC-family-1058",
+              "given": [
+                "OIC-given-10581"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2019-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265610",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265610",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:20:28.771-04:00",
+            "source": "#nw8e3fiSvTBCWPrB"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John Michael 1785514828 <b>DOE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>0011d3b2-a468-4c3c-a004-50ffc63ba2b7</td></tr><tr><td>Address</td><td><span>1785514828 Main St </span><br/><span>Fredericton </span><span>NB </span><span>CA </span></td></tr><tr><td>Date of birth</td><td><span>15 January 1980</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://hospital.example.org/mrn",
+              "value": "0011d3b2-a468-4c3c-a004-50ffc63ba2b7"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Doe",
+              "given": [
+                "John",
+                "Michael",
+                "1785514828"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "506-555-1234",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "john.doe1785514828@example.com",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1980-01-15",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "1785514828 Main St"
+              ],
+              "city": "Fredericton",
+              "state": "NB",
+              "postalCode": "E3B 1A1",
+              "country": "CA"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265612",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265612",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:21:13.045-04:00",
+            "source": "#ZCiw6AB5MzruFC7Z"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">OIC-given-10582 <b>OIC-FAMILY-1058 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2019</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "OIC-family-1058",
+              "given": [
+                "OIC-given-10582"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2019-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265614",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265614",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:26:27.020-04:00",
+            "source": "#tm5Akuvybe6JZkqU"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">OIC-given-10582 <b>OIC-FAMILY-1058 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2019</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "OIC-family-1058",
+              "given": [
+                "OIC-given-10582"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "birthDate": "2019-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265617",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265617",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:32:55.873-04:00",
+            "source": "#thxJi3GN7ZuJe7Zh"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">OIC-given-105821 <b>OIC-FAMILY-1058 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2019</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "OIC-family-1058",
+              "given": [
+                "OIC-given-105821"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "birthDate": "2019-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265620",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265620",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:38:06.673-04:00",
+            "source": "#QGH5XAW4jkC8wO2n"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">小明 <b>王 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "王",
+              "given": [
+                "小明"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137265618"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265624",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265624",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T12:48:58.991-04:00",
+            "source": "#XujN7hWnjuz5R7gp"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Synthetic 20260731T164856Z-88695 <b>ZZCLEARWAYPROBE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>20260731T164856Z-88695</td></tr><tr><td>Date of birth</td><td><span>01 January 1970</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:clearway:poc2:probe",
+              "value": "20260731T164856Z-88695"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "ZzClearwayProbe",
+              "given": [
+                "Synthetic",
+                "20260731T164856Z-88695"
+              ]
+            }
+          ],
+          "gender": "other",
+          "birthDate": "1970-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265679",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265679",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T13:38:24.267-04:00",
+            "source": "#7tDHQWwodKIehkz7"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John Lane <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr><tr><td>Date of birth</td><td><span>15 January 1980</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://example.org",
+              "value": "12345"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Smith",
+              "given": [
+                "John",
+                "Lane"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-555-5555",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1980-01-15"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265686",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265686",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T14:16:56.591-04:00",
+            "source": "#HpZYzpz64VAVEpUh"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John Lane <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6789</td></tr><tr><td>Date of birth</td><td><span>15 January 1980</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://example.org",
+              "value": "6789"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Smith",
+              "given": [
+                "John",
+                "Lane"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-555-5555",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1980-01-15"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265699",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265699",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T14:59:15.177-04:00",
+            "source": "#C2TBKMp4dDkmwl39"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Darshan Darsh <b>MISTRY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr><tr><td>Date of birth</td><td><span>30 August 1993</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://example.org",
+              "value": "12345"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Mistry",
+              "given": [
+                "Darshan",
+                "Darsh"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-555-5555",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1993-08-30"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265706",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265706",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T15:05:50.734-04:00",
+            "source": "#dvhTuG8rXp9bbe8n"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Darshan Darsh <b>MISTRY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>3334455</td></tr><tr><td>Date of birth</td><td><span>30 August 1993</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://example.org",
+              "value": "3334455"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Mistry",
+              "given": [
+                "Darshan",
+                "Darsh"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-555-5555",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1993-08-30"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265716",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265716",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T15:51:05.714-04:00",
+            "source": "#M2mcd7A7TlqH7U6m"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>P-IT-639211242651829014</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:devicelink:patient",
+              "value": "P-IT-639211242651829014"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265718",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265718",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T15:51:09.895-04:00",
+            "source": "#S03thPYumjRPIH7z"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>P-IT-639211242694682098</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:devicelink:patient",
+              "value": "P-IT-639211242694682098"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265720",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265720",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T16:27:18.553-04:00",
+            "source": "#xPH3yrp4JSglfu6g"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Maria <b>ALVAREZ </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-88213</td></tr><tr><td>Date of birth</td><td><span>12 March 1948</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "value": "MRN-88213"
+            }
+          ],
+          "name": [
+            {
+              "family": "Alvarez",
+              "given": [
+                "Maria"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1948-03-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265723",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265723",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T16:55:28.465-04:00",
+            "source": "#2NDO1THJhiHmv1yJ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Adam <b>MIRTHLABTEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>29 January 1956</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "MirthLabTest",
+              "given": [
+                "Adam"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1956-01-29"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265766",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265766",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:22.191-04:00",
+            "source": "#4twVZPZ5H0zTBIDP",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100002"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Rodriguez",
+              "given": [
+                "Maria"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1975-08-22"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265767",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265767",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:22.651-04:00",
+            "source": "#SwimAuM6zNVlOPca",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100003"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Williams",
+              "given": [
+                "Robert"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-01-10"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265769",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265769",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:23.339-04:00",
+            "source": "#YrtVXIzrx3Buf8jU",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100005"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Davis",
+              "given": [
+                "Michael"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1968-06-30"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265770",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265770",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:23.799-04:00",
+            "source": "#RYvaQzmYVCTfJhdv",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100006"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Martinez",
+              "given": [
+                "Sofia"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1945-04-18"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265771",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265771",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:24.259-04:00",
+            "source": "#BYUCpne5ary5EIRj",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100007"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Brown",
+              "given": [
+                "Emily"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2010-09-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265772",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265772",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:24.719-04:00",
+            "source": "#d5KiKO0iunqihtvw",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100008"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Wilson",
+              "given": [
+                "David"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1955-12-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265774",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265774",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:25.403-04:00",
+            "source": "#cqe3nqoF60yIPGrs",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100010"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Taylor",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1965-02-28"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265775",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265775",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:25.863-04:00",
+            "source": "#AaAPkTMTQkkb1XJ8",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100011"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Anderson",
+              "given": [
+                "Kevin"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1988-11-20"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265776",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265776",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:26.319-04:00",
+            "source": "#xnZEmHZYhMWfs2wm",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100012"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Thomas",
+              "given": [
+                "Patricia"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1950-09-08"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265777",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265777",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:26.779-04:00",
+            "source": "#K3b7SaZT6ksmOwVC",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100013"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Jackson",
+              "given": [
+                "Brian"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1995-05-15"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137265780",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137265780",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T17:29:27.695-04:00",
+            "source": "#MkTRkeX1nCoDyduc",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100016"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Clark",
+              "given": [
+                "Donna"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1942-08-10"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137270411",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137270411",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T18:29:07.644-04:00",
+            "source": "#motDLJe94PjWlBF7"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "332a4e0d-f59c-4aff-8d22-26a717d484ad"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137270412",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137270412",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T18:29:07.647-04:00",
+            "source": "#7rjsUonjsonKwHNQ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "332a4e0d-f59c-4aff-8d22-26a717d484ad"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137270414",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137270414",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T18:29:26.426-04:00",
+            "source": "#zKoJYGCBXCgwSE3Q"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "8514e6be-e8f3-4357-ad0b-02e82a01c95e"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137270416",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137270416",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T18:29:29.368-04:00",
+            "source": "#QLJqTRFJ3wm2npXF"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "8514e6be-e8f3-4357-ad0b-02e82a01c95e"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137270418",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137270418",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T18:35:12.087-04:00",
+            "source": "#APZcis3bBTUlrmFp"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "9483df44-829e-42f5-a7e1-eaf31f8c04ad"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137270419",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137270419",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-07-31T18:35:12.087-04:00",
+            "source": "#qFY4xMqZYxfrbYWT"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "9483df44-829e-42f5-a7e1-eaf31f8c04ad"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/perismart-pat-000",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "perismart-pat-000",
+          "meta": {
+            "versionId": "5",
+            "lastUpdated": "2026-07-31T19:13:03.947-04:00",
+            "source": "#BQ7vnUh22yDWkr74",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-501d110b8bff44e4b80c44a44168fe12"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-a93477a4184e4231bc95ee7a23dfdca8"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-d629e35e90db4b628995ffad31ad15f8"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-fhir-update-final"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100001"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Thompson",
+              "given": [
+                "James"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1958-03-15"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/perismart-pat-003",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "perismart-pat-003",
+          "meta": {
+            "versionId": "5",
+            "lastUpdated": "2026-07-31T19:13:04.863-04:00",
+            "source": "#t4zVthbHXF7ckk3x",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-501d110b8bff44e4b80c44a44168fe12"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-a93477a4184e4231bc95ee7a23dfdca8"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-d629e35e90db4b628995ffad31ad15f8"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-fhir-update-final"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100004"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Chen",
+              "given": [
+                "Lisa"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1982-11-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/perismart-pat-008",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "perismart-pat-008",
+          "meta": {
+            "versionId": "5",
+            "lastUpdated": "2026-07-31T19:13:06.463-04:00",
+            "source": "#0Hc46uNfkykKNqW4",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-501d110b8bff44e4b80c44a44168fe12"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-a93477a4184e4231bc95ee7a23dfdca8"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-d629e35e90db4b628995ffad31ad15f8"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-fhir-update-final"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100009"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Garcia",
+              "given": [
+                "Carlos"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1972-07-04"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/perismart-pat-013",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "perismart-pat-013",
+          "meta": {
+            "versionId": "5",
+            "lastUpdated": "2026-07-31T19:13:08.059-04:00",
+            "source": "#TDJXlZkWCuaUZAei",
+            "tag": [
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-501d110b8bff44e4b80c44a44168fe12"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-a93477a4184e4231bc95ee7a23dfdca8"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-d629e35e90db4b628995ffad31ad15f8"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "full-release-fhir-update-final"
+              },
+              {
+                "system": "http://perismart.dev/test",
+                "code": "perismart-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "PS-MRN-100014"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "White",
+              "given": [
+                "Nancy"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1960-12-25"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

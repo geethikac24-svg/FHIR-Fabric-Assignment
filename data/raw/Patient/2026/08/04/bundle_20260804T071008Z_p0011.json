@@ -1,0 +1,4300 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=550&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:10:08.329434+00:00",
+  "saved_timestamp": "2026-08-04T07:10:13.474008+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "2c7e5756-4e24-459b-8816-66123b7b92aa",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:21.033-04:00"
+    },
+    "type": "searchset",
+    "total": 627,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=550&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=600&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=500&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275850",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275850",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T16:17:01.241-04:00",
+            "source": "#drfgkCNjsJUHumX3"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "81370191-c3c9-4cea-9e15-95efee1217d3"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275851",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275851",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T16:17:01.245-04:00",
+            "source": "#oTUq1F1ZiPxjj8am"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "81370191-c3c9-4cea-9e15-95efee1217d3"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275853",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275853",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T16:17:19.323-04:00",
+            "source": "#ivmfHUmpHsJUVF6c"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "e9bf8a6f-5880-49f9-a972-4a260df769a2"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275855",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275855",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T16:17:23.846-04:00",
+            "source": "#HVU6FfnrcWsbvqGw"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "e9bf8a6f-5880-49f9-a972-4a260df769a2"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/pvc-pat-001",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "pvc-pat-001",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:05:28.134-04:00",
+            "source": "#5QePamwNZUx7SCxx"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Michael A <b>JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Johnson",
+              "given": [
+                "Michael",
+                "A"
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/pvc-pat-002",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "pvc-pat-002",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:05:28.512-04:00",
+            "source": "#stUN2vyhkan00Zg8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah E <b>WILLIAMS </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Williams",
+              "given": [
+                "Sarah",
+                "E"
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/pvc-pat-003",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "pvc-pat-003",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:05:28.603-04:00",
+            "source": "#qnHjmdg2YK9cjnwu"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Carlos <b>GARCIA </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Garcia",
+              "given": [
+                "Carlos"
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/pvc-pat-004",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "pvc-pat-004",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:05:28.695-04:00",
+            "source": "#ydVzo3mppXbh4BPn"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lisa M <b>CHEN </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Chen",
+              "given": [
+                "Lisa",
+                "M"
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/pvc-pat-005",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "pvc-pat-005",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:05:28.785-04:00",
+            "source": "#twgZEC0nRfHlqfkj"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ravi <b>PATEL </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "Patel",
+              "given": [
+                "Ravi"
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137277299",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137277299",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:24:59.959-04:00",
+            "source": "#FAwewyBZrenOYV3W",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: -7671450060404359678  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "1002-5",
+                    "display": "American Indian or Alaska Native"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "American Indian or Alaska Native"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Vera718 Halvorson124"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "F"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Lexington",
+                "state": "Massachusetts",
+                "country": "US"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.3506199592957074
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 36.649380040704294
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-722e-f81e0e2cbf47"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "958988d0-ad72-fe02-722e-f81e0e2cbf47"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-37-5661"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99935193"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X96459630X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Terry864",
+              "given": [
+                "Aleida76",
+                "Cordie578"
+              ],
+              "prefix": [
+                "Ms."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-618-2000",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1988-09-13",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.646291939953564
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -70.87915857567856
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "509 Runte Manor"
+              ],
+              "city": "Ipswich",
+              "state": "MA",
+              "postalCode": "01938",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en-US",
+                    "display": "English (United States)"
+                  }
+                ],
+                "text": "English (United States)"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137277587",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137277587",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:25:05.329-04:00",
+            "source": "#l0HTuREGiGAjegkx",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: -6122706811934009643  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2135-2",
+                    "display": "Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Ramona980 Carreón894"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "M"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Tegucigalpa",
+                "state": "Francisco Morazán",
+                "country": "HN"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.26368313793765624
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 66.73631686206234
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-d125-354f3b85b899"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "ab07c698-12cf-16d5-d125-354f3b85b899"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-38-8015"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99948325"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X69457812X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Ulloa39",
+              "given": [
+                "Alfonso758",
+                "Luis Miguel102"
+              ],
+              "prefix": [
+                "Mr."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-550-8997",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1951-02-16",
+          "deceasedDateTime": "2019-10-22T09:22:22+00:00",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.24034523470415
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -71.07994979686487
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "625 Parisian Fort"
+              ],
+              "city": "Milton",
+              "state": "MA",
+              "postalCode": "02186",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "es",
+                    "display": "Spanish"
+                  }
+                ],
+                "text": "Spanish"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137281940",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137281940",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:39.770-04:00",
+            "source": "#ErV2kYdMp4JSds7d",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: 6492823297246363497  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2028-9",
+                    "display": "Asian"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Asian"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2135-2",
+                    "display": "Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Isabel214 Henríquez109"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "F"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Wesley",
+                "state": "Saint Andrew Parish",
+                "country": "DM"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.4094982639153376
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 1.5905017360846623
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-4ab9-fbc24841b9fd"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "5a1b2463-6dbf-ff69-4ab9-fbc24841b9fd"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-90-2978"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Fernández399",
+              "given": [
+                "Ariadna374",
+                "Isabel214"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-106-6301",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2005-10-30",
+          "deceasedDateTime": "2008-03-09T05:33:12+00:00",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.372662380253146
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -70.9543376263957
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "1090 Runte Dam Apt 25"
+              ],
+              "city": "Revere",
+              "state": "MA",
+              "postalCode": "02151",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "es",
+                    "display": "Spanish"
+                  }
+                ],
+                "text": "Spanish"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137282843",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137282843",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:26:54.265-04:00",
+            "source": "#lWEfubc89bZQ4Cl6",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: 1413240122454624271  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Hope196 Kertzmann286"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "F"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Holbrook",
+                "state": "Massachusetts",
+                "country": "US"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.0
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 1.0
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "139cd667-593c-c80f-ece7-7561016c43db"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "139cd667-593c-c80f-ece7-7561016c43db"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-34-4825"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "McClure239",
+              "given": [
+                "Bethann490"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-435-5682",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2024-11-11",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.16968986965115
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -71.25389880057027
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "502 Johnson Camp Suite 56"
+              ],
+              "city": "Norwood",
+              "state": "MA",
+              "postalCode": "02090",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en-US",
+                    "display": "English (United States)"
+                  }
+                ],
+                "text": "English (United States)"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137283829",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137283829",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:27:41.489-04:00",
+            "source": "#OEiCAWsqCjEWxT5z",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: -6189599052376216241  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Rachel885 Metz686"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "M"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Dedham",
+                "state": "Massachusetts",
+                "country": "US"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.01982318368752317
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 42.98017681631248
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "aa1a2074-ad05-6d4f-0063-6188c4f25a12"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "aa1a2074-ad05-6d4f-0063-6188c4f25a12"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-48-3239"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99933497"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X86726849X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Tromp100",
+              "given": [
+                "Alberto639",
+                "Amado512"
+              ],
+              "prefix": [
+                "Mr."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-877-9362",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1982-09-10",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.60250688872575
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -71.29926858126379
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "803 Hane Parade Suite 81"
+              ],
+              "city": "Lowell",
+              "state": "MA",
+              "postalCode": "01850",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en-US",
+                    "display": "English (United States)"
+                  }
+                ],
+                "text": "English (United States)"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137284064",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137284064",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:27:46.670-04:00",
+            "source": "#Z7WZDIBR8xko3oq6",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: -7671450060404359678  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "1002-5",
+                    "display": "American Indian or Alaska Native"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "American Indian or Alaska Native"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Vera718 Halvorson124"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "F"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Lexington",
+                "state": "Massachusetts",
+                "country": "US"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.3506199592957074
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 36.649380040704294
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "958988d0-ad72-fe02-722e-f81e0e2cbf47"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "958988d0-ad72-fe02-722e-f81e0e2cbf47"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-37-5661"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99935193"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X96459630X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Terry864",
+              "given": [
+                "Aleida76",
+                "Cordie578"
+              ],
+              "prefix": [
+                "Ms."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-618-2000",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1988-09-13",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.646291939953564
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -70.87915857567856
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "509 Runte Manor"
+              ],
+              "city": "Ipswich",
+              "state": "MA",
+              "postalCode": "01938",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en-US",
+                    "display": "English (United States)"
+                  }
+                ],
+                "text": "English (United States)"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137284352",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137284352",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:27:52.172-04:00",
+            "source": "#osLaN9g8ctxZOuK2",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: -6122706811934009643  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2135-2",
+                    "display": "Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Ramona980 Carreón894"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "M"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Tegucigalpa",
+                "state": "Francisco Morazán",
+                "country": "HN"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.26368313793765624
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 66.73631686206234
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ab07c698-12cf-16d5-d125-354f3b85b899"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "ab07c698-12cf-16d5-d125-354f3b85b899"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-38-8015"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99948325"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X69457812X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Ulloa39",
+              "given": [
+                "Alfonso758",
+                "Luis Miguel102"
+              ],
+              "prefix": [
+                "Mr."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-550-8997",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1951-02-16",
+          "deceasedDateTime": "2019-10-22T09:22:22+00:00",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.24034523470415
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -71.07994979686487
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "625 Parisian Fort"
+              ],
+              "city": "Milton",
+              "state": "MA",
+              "postalCode": "02186",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "es",
+                    "display": "Spanish"
+                  }
+                ],
+                "text": "Spanish"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137284736",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137284736",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:27:58.084-04:00",
+            "source": "#xviLUHu2GdZaWL2c",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: -7172738595207438685  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Jeannie478 Leffler128"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "M"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "US"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.4284278110524904
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 37.571572188947506
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "9c755040-1ded-1ea3-49e3-9118b2fef47a"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "9c755040-1ded-1ea3-49e3-9118b2fef47a"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-46-2369"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99938466"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X95238241X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "McLaughlin530",
+              "given": [
+                "Antoine384",
+                "Kendall673"
+              ],
+              "prefix": [
+                "Mr."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-818-7759",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1987-12-17",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.44619276278037
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -71.7078492625352
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "133 Goyette Center Apt 2"
+              ],
+              "city": "Clinton",
+              "state": "MA",
+              "postalCode": "01510",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ],
+            "text": "Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en-US",
+                    "display": "English (United States)"
+                  }
+                ],
+                "text": "English (United States)"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137285123",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137285123",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:03.734-04:00",
+            "source": "#jPKdzCeuYD8KJsZB",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: 6492823297246363497  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2028-9",
+                    "display": "Asian"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Asian"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2135-2",
+                    "display": "Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Isabel214 Henríquez109"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "F"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Wesley",
+                "state": "Saint Andrew Parish",
+                "country": "DM"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.4094982639153376
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 1.5905017360846623
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5a1b2463-6dbf-ff69-4ab9-fbc24841b9fd"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "5a1b2463-6dbf-ff69-4ab9-fbc24841b9fd"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-90-2978"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Fernández399",
+              "given": [
+                "Ariadna374",
+                "Isabel214"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-106-6301",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2005-10-30",
+          "deceasedDateTime": "2008-03-09T05:33:12+00:00",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.372662380253146
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -70.9543376263957
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "1090 Runte Dam Apt 25"
+              ],
+              "city": "Revere",
+              "state": "MA",
+              "postalCode": "02151",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "es",
+                    "display": "Spanish"
+                  }
+                ],
+                "text": "Spanish"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137285382",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137285382",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:08.966-04:00",
+            "source": "#rm0qGIjwPy6HqKKa",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: -451903713146038610  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Eula461 Feil794"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "F"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Quincy",
+                "state": "Massachusetts",
+                "country": "US"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 1.4418083452104768
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 52.558191654789525
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "f9ba83f7-9940-16ae-0854-24bd34bf1843"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "f9ba83f7-9940-16ae-0854-24bd34bf1843"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-86-7840"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99961203"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X51581530X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Tromp100",
+              "given": [
+                "Ashlee14",
+                "Catrina144"
+              ],
+              "prefix": [
+                "Mrs."
+              ]
+            },
+            {
+              "use": "maiden",
+              "family": "Larson43",
+              "given": [
+                "Ashlee14",
+                "Catrina144"
+              ],
+              "prefix": [
+                "Mrs."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-954-2559",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1971-11-23",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 41.70601597716205
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -70.31195643376097
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "1019 Reilly Orchard Apt 29"
+              ],
+              "city": "Barnstable",
+              "state": "MA",
+              "postalCode": "02673",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "D",
+                "display": "Divorced"
+              }
+            ],
+            "text": "Divorced"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en-US",
+                    "display": "English (United States)"
+                  }
+                ],
+                "text": "English (United States)"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137285720",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137285720",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:14.552-04:00",
+            "source": "#kc64EnkUjnc65THZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: 5212591210726482358  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Laila673 Schultz619"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "M"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Westfield",
+                "state": "Massachusetts",
+                "country": "US"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.2601066816871027
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 25.739893318312898
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "4856d816-b2ac-e1b6-5ace-4eafd4a8e86e"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "4856d816-b2ac-e1b6-5ace-4eafd4a8e86e"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-88-1000"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99966337"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X29484973X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Lowe577",
+              "given": [
+                "Benny518",
+                "Olin642"
+              ],
+              "prefix": [
+                "Mr."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-789-6000",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1999-06-17",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.38189795024947
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -71.10879972324206
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "227 Hintz Hollow"
+              ],
+              "city": "Boston",
+              "state": "MA",
+              "postalCode": "02210",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en-US",
+                    "display": "English (United States)"
+                  }
+                ],
+                "text": "English (United States)"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137286016",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137286016",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:19.696-04:00",
+            "source": "#AbAQ8YqacmYxNHsZ",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: 1413240122454624271  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Hope196 Kertzmann286"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "F"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Holbrook",
+                "state": "Massachusetts",
+                "country": "US"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.0
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 1.0
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "139cd667-593c-c80f-ece7-7561016c43db"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "139cd667-593c-c80f-ece7-7561016c43db"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-34-4825"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "McClure239",
+              "given": [
+                "Bethann490"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-435-5682",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2024-11-11",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.16968986965115
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -71.25389880057027
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "502 Johnson Camp Suite 56"
+              ],
+              "city": "Norwood",
+              "state": "MA",
+              "postalCode": "02090",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ],
+            "text": "Never Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en-US",
+                    "display": "English (United States)"
+                  }
+                ],
+                "text": "English (United States)"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137286176",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137286176",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:24.233-04:00",
+            "source": "#k1sI9OyYzkSnHrWn",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: 8338835680957984226  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Meghann680 Stracke611"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "M"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Boston",
+                "state": "Massachusetts",
+                "country": "US"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.0
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 40.0
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "73b97ede-ebda-6de2-36c8-c7c6cc9ad9ff"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "73b97ede-ebda-6de2-36c8-c7c6cc9ad9ff"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-67-6544"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99934763"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X22281618X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Boyle917",
+              "given": [
+                "Buddy254",
+                "Salvador46"
+              ],
+              "prefix": [
+                "Mr."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-212-2993",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-08-31",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.59359748577896
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -72.59233770748175
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "820 Moen Bay Apt 78"
+              ],
+              "city": "Turners Falls",
+              "state": "MA",
+              "postalCode": "01376",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ],
+            "text": "Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en-US",
+                    "display": "English (United States)"
+                  }
+                ],
+                "text": "English (United States)"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137286413",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137286413",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T17:28:29.359-04:00",
+            "source": "#RUxfjEUWiX9GgiOz",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7e08387\n .   Person seed: -8490703992145762348  Population seed: 1784730135182</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2028-9",
+                    "display": "Asian"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Asian"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2186-5",
+                    "display": "Not Hispanic or Latino"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+              "valueString": "Francina926 Dietrich576"
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+              "valueCode": "F"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+              "valueAddress": {
+                "city": "Shanghai",
+                "state": "Shanghai Municipality",
+                "country": "CN"
+              }
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+              "valueDecimal": 0.4187947275084588
+            },
+            {
+              "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+              "valueDecimal": 42.581205272491545
+            }
+          ],
+          "identifier": [
+            {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8a2af5b4-6f29-27d4-b5fd-bb687fa2169b"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ],
+                "text": "Medical Record Number"
+              },
+              "system": "http://hospital.smarthealthit.org",
+              "value": "8a2af5b4-6f29-27d4-b5fd-bb687fa2169b"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ],
+                "text": "Social Security Number"
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "999-83-4812"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "DL",
+                    "display": "Driver's license number"
+                  }
+                ],
+                "text": "Driver's license number"
+              },
+              "system": "urn:oid:2.16.840.1.113883.4.3.25",
+              "value": "S99973845"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "PPN",
+                    "display": "Passport Number"
+                  }
+                ],
+                "text": "Passport Number"
+              },
+              "system": "http://hl7.org/fhir/sid/passport-USA",
+              "value": "X58341319X"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Greenholt190",
+              "given": [
+                "Caryn49",
+                "Gwen761"
+              ],
+              "prefix": [
+                "Mrs."
+              ]
+            },
+            {
+              "use": "maiden",
+              "family": "Schmeler639",
+              "given": [
+                "Caryn49",
+                "Gwen761"
+              ],
+              "prefix": [
+                "Mrs."
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-824-9438",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1982-05-19",
+          "address": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                  "extension": [
+                    {
+                      "url": "latitude",
+                      "valueDecimal": 42.34769533124557
+                    },
+                    {
+                      "url": "longitude",
+                      "valueDecimal": -72.75542224655364
+                    }
+                  ]
+                }
+              ],
+              "line": [
+                "469 Schiller Key Suite 5"
+              ],
+              "city": "Northampton",
+              "state": "MA",
+              "postalCode": "01063",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ],
+            "text": "Married"
+          },
+          "multipleBirthBoolean": false,
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "zh",
+                    "display": "Chinese"
+                  }
+                ],
+                "text": "Chinese"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137286767",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137286767",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T18:58:19.767-04:00",
+            "source": "#XimZR27X56Pbnyhw"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "117c579e-9907-4e6e-b9f8-edb7b78200dd"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137286768",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137286768",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T18:58:19.771-04:00",
+            "source": "#ZCudjB0A7LXrD3Mm"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "117c579e-9907-4e6e-b9f8-edb7b78200dd"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287014",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287014",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:24:50.705-04:00",
+            "source": "#0IbhtLGEdjy212C1"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "64462a12-da77-4d0e-972c-a55e005da095"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287016",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287016",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:24:54.427-04:00",
+            "source": "#pG9OdLnfMwlGw9FE"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "64462a12-da77-4d0e-972c-a55e005da095"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287018",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287018",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:29:01.284-04:00",
+            "source": "#VuVTQveNXfbfp1ST"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "1b1dedc1-0d61-4f00-b564-735144a9f007"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287019",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287019",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:29:01.289-04:00",
+            "source": "#aTg13XKyzVI9F6O5"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "1b1dedc1-0d61-4f00-b564-735144a9f007"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287131",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287131",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:32:34.216-04:00",
+            "source": "#Kro42eRLv3NYWo0i"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "2df1157a-4293-4239-ab79-e597d783a11c"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287133",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287133",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:32:37.331-04:00",
+            "source": "#T7rqC4WdF9jfH31g"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "2df1157a-4293-4239-ab79-e597d783a11c"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287135",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287135",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:38:05.226-04:00",
+            "source": "#Unxj5zhJOG3Orplj"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "137f4c9d-7bb4-4c56-977d-518399fa7dc3"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287137",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287137",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:38:08.755-04:00",
+            "source": "#saHp2mTgRPFGUcn0"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "137f4c9d-7bb4-4c56-977d-518399fa7dc3"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287139",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287139",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:38:37.464-04:00",
+            "source": "#K5QgkBKSKQsafckg"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "f2f63ecd-8868-4d1d-b3aa-87440f5e5af0"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287141",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287141",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:38:40.740-04:00",
+            "source": "#RcW8MZTjD0nCflVO"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "f2f63ecd-8868-4d1d-b3aa-87440f5e5af0"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287143",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287143",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:41:45.259-04:00",
+            "source": "#Le5qnawOEEeB4xbd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "32dfba0a-8a80-4eb4-8f95-037ed9cce099"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287144",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287144",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:41:45.261-04:00",
+            "source": "#SvPO1paUfCpcWuH9"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "32dfba0a-8a80-4eb4-8f95-037ed9cce099"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287146",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287146",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:41:54.670-04:00",
+            "source": "#1ji7sJSc8wkxGDWA"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "9987f5bf-848e-4e45-a0dc-fa0ef0069ad1"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287148",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287148",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:41:57.071-04:00",
+            "source": "#hm0DuvlWhgjUpbab"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "9987f5bf-848e-4e45-a0dc-fa0ef0069ad1"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287368",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287368",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T20:52:24.407-04:00",
+            "source": "#jsY1uz2Ehtwmt4f4"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">SHL E2E <b>TEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>061c3c71-5760-41c8-bf9a-4158eae3073b</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:smart-forms-health-links:e2e",
+              "value": "061c3c71-5760-41c8-bf9a-4158eae3073b"
+            }
+          ],
+          "name": [
+            {
+              "family": "Test",
+              "given": [
+                "SHL E2E"
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287398",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287398",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T21:19:40.585-04:00",
+            "source": "#lImB2LiFAHIBr9aG"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>02 March 1948</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "text": "Jane Test"
+            }
+          ],
+          "birthDate": "1948-03-02"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287401",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287401",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T21:26:44.617-04:00",
+            "source": "#OD3GPPGCgjK02onD"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "10df731b-33f6-4655-bfa1-cd6b08382c4a"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287402",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287402",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T21:26:44.618-04:00",
+            "source": "#AhlhQf0KtGGlDJjG"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "10df731b-33f6-4655-bfa1-cd6b08382c4a"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287404",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287404",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T21:38:05.068-04:00",
+            "source": "#Xg0piYoTQWIXvLkM"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "9c9a28b6-8378-49f6-b062-05d4a709fd0c"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287405",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287405",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T21:38:05.071-04:00",
+            "source": "#npjt2eFiFU9rqTo6"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "9c9a28b6-8378-49f6-b062-05d4a709fd0c"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287407",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287407",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T21:38:22.997-04:00",
+            "source": "#ShVP0RmXFaz8VQN6"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "b5343089-9f7d-4837-8dff-6f5701af9cec"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287409",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287409",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T21:38:25.927-04:00",
+            "source": "#54c9Qmh85Pd3pppE"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "b5343089-9f7d-4837-8dff-6f5701af9cec"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287421",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287421",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T22:17:01.941-04:00",
+            "source": "#MqvW4jtDf6mAGq2i"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "8b1e63ca-efc6-4955-90e4-86f751631c3f"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287422",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287422",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T22:17:01.944-04:00",
+            "source": "#8U3fAVikxkbPhPN8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "8b1e63ca-efc6-4955-90e4-86f751631c3f"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137287424",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137287424",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T22:17:24.933-04:00",
+            "source": "#5KaegRfX5Jqlz1hw"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "42fcdfba-6b28-4d22-b64e-6afe9734bcf3"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

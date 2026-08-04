@@ -1,0 +1,2357 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=350&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:09:18.640815+00:00",
+  "saved_timestamp": "2026-08-04T07:09:23.481321+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "2c7e5756-4e24-459b-8816-66123b7b92aa",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:21.033-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=350&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=400&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=300&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274271",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274271",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-01T17:23:57.478-04:00",
+            "source": "#bPOvsaOJwL9uAWZd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Carlos M <b>RIVERA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-1002234</td></tr><tr><td>Address</td><td><span>215 Maple Ave </span><br/><span>Raleigh </span><span>NC </span></td></tr><tr><td>Date of birth</td><td><span>08 November 1990</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://hospital.example.org/mrn",
+              "value": "MRN-1002234"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Rivera",
+              "given": [
+                "Carlos",
+                "M"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-014-8888",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "carlos.rivera@example.com",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-11-08",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "215 Maple Ave"
+              ],
+              "city": "Raleigh",
+              "state": "NC",
+              "postalCode": "27604"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274332",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274332",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T18:09:40.320-04:00",
+            "source": "#gWYuLNgGrHCJge5o"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p>Patient: Fhirman, Sam</p>\n</div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "NI",
+                    "display": "National unique individual identifier"
+                  }
+                ],
+                "text": "IHI"
+              },
+              "system": "http://ns.electronichealth.net.au/id/hi/ihi/1.0",
+              "value": "8003608166690503"
+            },
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "urn:oid:1.2.36.146.595.217.0.1",
+              "value": "6666",
+              "period": {
+                "start": "2001-05-06"
+              },
+              "assigner": {
+                "display": "Acme Healthcare"
+              }
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "text": "Sam Fhirman",
+              "family": "Fhirman",
+              "given": [
+                "Sam"
+              ],
+              "prefix": [
+                "Mr"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+61481059995",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1973-09-30",
+          "address": [
+            {
+              "use": "work",
+              "line": [
+                "400 George Street"
+              ],
+              "city": "Brisbane",
+              "state": "QLD",
+              "postalCode": "4000",
+              "country": "AUS"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274358",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274358",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T20:05:57.352-04:00",
+            "source": "#zAHBn9HkYSDuhz8K"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Create <b>TESTPATIENT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1990</span></td></tr></tbody></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "family": "TestPatient",
+              "given": [
+                "Create"
+              ]
+            }
+          ],
+          "gender": "other",
+          "birthDate": "1990-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274361",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274361",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T20:40:16.179-04:00",
+            "source": "#TWtiAs53jUUUBQTg"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Vijai <b>KRISHNA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1990</span></td></tr></tbody></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Krishna",
+              "given": [
+                "Vijai"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274373",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274373",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-01T23:28:33.361-04:00",
+            "source": "#IrCUNUSYgHIWhyjI"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">小明 <b>王 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "王",
+              "given": [
+                "小明"
+              ]
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274387",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274387",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-02T00:00:36.966-04:00",
+            "source": "#Gtdj21bvu4RiCflM"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Delete Me <b>CDRCLIENTSMOKETEST </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "CdrClientSmokeTest",
+              "given": [
+                "Delete",
+                "Me"
+              ]
+            }
+          ],
+          "gender": "male"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137208839",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137208839",
+          "meta": {
+            "versionId": "10",
+            "lastUpdated": "2026-08-02T00:10:29.027-04:00",
+            "source": "#5nU2rnHza3K9Wff3",
+            "tag": [
+              {
+                "system": "urn:interopx:synthetic",
+                "code": "DEMO",
+                "display": "Synthetic Demo"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Robert James <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ILI-2026-00002</td></tr><tr><td>Date of birth</td><td><span>22 July 1970</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "local/mrn",
+              "value": "ILI-2026-00002"
+            },
+            {
+              "use": "usual",
+              "system": "urn:oid:1.2.840.114350.1.1",
+              "value": "MRN-2002"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Smith",
+              "given": [
+                "Robert",
+                "James"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1970-07-22"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274399",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274399",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T00:12:42.222-04:00",
+            "source": "#EJ7NIXbfejdy31UC"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Auto <b>SIGNOFFTRIGGER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ILI-2026-00003</td></tr><tr><td>Date of birth</td><td><span>05 May 1995</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "local/mrn",
+              "value": "ILI-2026-00003"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "SignoffTrigger",
+              "given": [
+                "Auto"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274404",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274404",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T01:06:25.415-04:00",
+            "source": "#JJjWLtierZ5I6kbC"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">曉 <b>張 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td/></tr><tr><td>Date of birth</td><td><span>08 July 2026</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "張",
+              "given": [
+                "曉"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "09123456789",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2026-07-08",
+          "address": [
+            {
+              "text": "123"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274372",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274372",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-02T01:26:59.940-04:00",
+            "source": "#Npb0jadnKjlxBAdG"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">卡哇 <b>吉伊 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-2026-0802</td></tr><tr><td>Address</td><td><span>信義路四段 100 號 </span><br/><span>台北市 </span><span>大安區 </span><span>TW </span></td></tr><tr><td>Date of birth</td><td><span>01 August 2026</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://hospital.smart.org/fhir/identifier/mrn",
+              "value": "MRN-2026-0802"
+            },
+            {
+              "use": "usual",
+              "system": "https://www.moi.gov.tw/",
+              "value": "A123456789"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "吉伊",
+              "given": [
+                "卡哇"
+              ]
+            },
+            {
+              "use": "nickname",
+              "given": [
+                "薄冰哥"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0912-345-678",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "google.com",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2026-08-01",
+          "address": [
+            {
+              "use": "home",
+              "type": "both",
+              "text": "台北市大安區信義路四段 100 號",
+              "line": [
+                "信義路四段 100 號"
+              ],
+              "city": "台北市",
+              "state": "大安區",
+              "postalCode": "106",
+              "country": "TW"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "photo": [
+            {
+              "contentType": "image/jpeg",
+              "data": "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"
+            }
+          ],
+          "contact": [
+            {
+              "relationship": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                      "code": "N",
+                      "display": "Next of Kin"
+                    }
+                  ]
+                }
+              ],
+              "name": {
+                "family": "林",
+                "given": [
+                  "小美"
+                ]
+              },
+              "telecom": [
+                {
+                  "system": "phone",
+                  "value": "0987-654-321",
+                  "use": "mobile"
+                }
+              ]
+            }
+          ],
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "zh-TW",
+                    "display": "Traditional Chinese"
+                  }
+                ],
+                "text": "繁體中文"
+              },
+              "preferred": true
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137205870",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137205870",
+          "meta": {
+            "versionId": "11",
+            "lastUpdated": "2026-08-02T01:27:33.327-04:00",
+            "source": "#dsUnyAiFItK6cQxl"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">小明 <b>王 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1980</span></td></tr></tbody></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "王小明",
+              "family": "王",
+              "given": [
+                "小明"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0988888888",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1980-01-01",
+          "photo": [
+            {
+              "contentType": "image/jpeg",
+              "data": "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"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137247273",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137247273",
+          "meta": {
+            "versionId": "5",
+            "lastUpdated": "2026-08-02T02:58:47.167-04:00",
+            "source": "#m36tepqu3eDW6WbT",
+            "profile": [
+              "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://nrces.in/demo",
+              "value": "patient-1"
+            }
+          ],
+          "name": [
+            {
+              "family": "Lamkane",
+              "given": [
+                "Ganesh"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2002-01-15"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274413",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274413",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T03:40:36.326-04:00",
+            "source": "#pXGcAWX2VNGL9psC",
+            "profile": [
+              "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient example-01</b></p><a name=\"example-01\"> </a><a name=\"hcexample-01\"> </a><a name=\"example-01-hi-IN\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2020-07-09 14:58:58+0530</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Patient.html\">Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">ABC Male, DoB: 1981-01-12 ( Medical record number: 22-7225-4829-5255)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><a href=\"tel:+919818512600\">+919818512600</a></td></tr></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical record number"
+                  }
+                ]
+              },
+              "system": "https://healthid.ndhm.gov.in",
+              "value": "22-7225-4829-5255"
+            }
+          ],
+          "name": [
+            {
+              "text": "ABC"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+919818512600",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1981-01-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274431",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274431",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:19.826-04:00",
+            "source": "#RdF79QUBSOkFihEL"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sam <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "family": "Smith",
+              "given": [
+                "Sam"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274426"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274432",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274432",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:20.587-04:00",
+            "source": "#dGKChTZM7xUIg7D0"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jane <b>JONES </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "family": "Jones",
+              "given": [
+                "Jane"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274426"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274433",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274433",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:21.405-04:00",
+            "source": "#WN4OKAh0799ntyME"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mike <b>MILLER </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "family": "Miller",
+              "given": [
+                "Mike"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274426"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274434",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274434",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:14:22.163-04:00",
+            "source": "#jIHlJ6J5l7n63s2I"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dana <b>DAVIS </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "family": "Davis",
+              "given": [
+                "Dana"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274426"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274469",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274469",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:27.524-04:00",
+            "source": "#ORDgE6xg0LVhH6ym"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sam <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>123-45-6789</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "123-45-6789"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Smith",
+              "given": [
+                "Sam"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-010-1001",
+              "use": "mobile"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274470",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274470",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:28.305-04:00",
+            "source": "#SzZe2EOiNUIcpKtD"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jane <b>JONES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>234-56-7890</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "234-56-7890"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Jones",
+              "given": [
+                "Jane"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-010-1002",
+              "use": "mobile"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274471",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274471",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:29.078-04:00",
+            "source": "#KXWjFzde6W69vx0e"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mike <b>MILLER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>345-67-8901</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "345-67-8901"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Miller",
+              "given": [
+                "Mike"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-010-1003",
+              "use": "mobile"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274472",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274472",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:21:29.853-04:00",
+            "source": "#rmZfGrrof6mH1wVX"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dana <b>DAVIS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>456-78-9012</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "456-78-9012"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Davis",
+              "given": [
+                "Dana"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-010-1004",
+              "use": "mobile"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274464"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274551",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274551",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:48.809-04:00",
+            "source": "#9a0x2sJaAflmLNiH"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sam <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>123-45-6789</td></tr><tr><td>Address</td><td><span>45 Maple Street </span><br/><span>Cambridge </span><span>MA </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>18 February 1955</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "123-45-6789"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "http://hospital.demo.org/mrn",
+              "value": "MRN-100001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Smith",
+              "given": [
+                "Sam"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-010-1001",
+              "use": "home"
+            },
+            {
+              "system": "phone",
+              "value": "+1-555-010-1101",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "sam.smith@example.com",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1955-02-18",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "45 Maple Street"
+              ],
+              "city": "Cambridge",
+              "state": "MA",
+              "postalCode": "02139",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en",
+                    "display": "English"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274546"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274552",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274552",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:49.573-04:00",
+            "source": "#zTZhvaiThiw3GjCb"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jane <b>JONES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>234-56-7890</td></tr><tr><td>Address</td><td><span>12 Elm Avenue </span><br/><span>Somerville </span><span>MA </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>30 September 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "234-56-7890"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "http://hospital.demo.org/mrn",
+              "value": "MRN-100002"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Jones",
+              "given": [
+                "Jane"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-010-1002",
+              "use": "home"
+            },
+            {
+              "system": "phone",
+              "value": "+1-555-010-1102",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "jane.jones@example.com",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-09-30",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "12 Elm Avenue"
+              ],
+              "city": "Somerville",
+              "state": "MA",
+              "postalCode": "02143",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en",
+                    "display": "English"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274546"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274553",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274553",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:50.369-04:00",
+            "source": "#NnqghR9ta8wOnsRo"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mike <b>MILLER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>345-67-8901</td></tr><tr><td>Address</td><td><span>8 Oak Court </span><br/><span>Brookline </span><span>MA </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>11 May 1970</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "345-67-8901"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "http://hospital.demo.org/mrn",
+              "value": "MRN-100003"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Miller",
+              "given": [
+                "Mike"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-010-1003",
+              "use": "home"
+            },
+            {
+              "system": "phone",
+              "value": "+1-555-010-1103",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "mike.miller@example.com",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1970-05-11",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "8 Oak Court"
+              ],
+              "city": "Brookline",
+              "state": "MA",
+              "postalCode": "02446",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en",
+                    "display": "English"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274546"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274554",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274554",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:28:51.123-04:00",
+            "source": "#dMpqknexGMP5zJ5J"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dana <b>DAVIS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>456-78-9012</td></tr><tr><td>Address</td><td><span>27 Birch Lane </span><br/><span>Newton </span><span>MA </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>02 December 1948</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "SS",
+                    "display": "Social Security Number"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "456-78-9012"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical Record Number"
+                  }
+                ]
+              },
+              "system": "http://hospital.demo.org/mrn",
+              "value": "MRN-100004"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "family": "Davis",
+              "given": [
+                "Dana"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-555-010-1004",
+              "use": "home"
+            },
+            {
+              "system": "phone",
+              "value": "+1-555-010-1104",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "dana.davis@example.com",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1948-12-02",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "27 Birch Lane"
+              ],
+              "city": "Newton",
+              "state": "MA",
+              "postalCode": "02458",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en",
+                    "display": "English"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274546"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274634",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274634",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T05:51:10.138-04:00",
+            "source": "#45wQLqpPXQeAEIxU"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">約翰 <b>黃 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td/></tr><tr><td>Date of birth</td><td><span>09 July 2026</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "黃",
+              "given": [
+                "約翰"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0988020888",
+              "use": "mobile"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "2026-07-09",
+          "address": [
+            {
+              "text": "中正路1號"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274643",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274643",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T07:39:53.889-04:00",
+            "source": "#6X5F4Rd2LHTU2pJm",
+            "profile": [
+              "https://mohw.gov.tw"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://w3.org\"><ul><li>病人姓名: MIMI</li><li>身分證號: Z123456789</li></ul></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org",
+                    "code": "NNTWN",
+                    "display": "National Person Identifier of Taiwan"
+                  }
+                ]
+              },
+              "system": "https://mohw.gov.tw",
+              "value": "Z123456789"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "text": "MIMI"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1998-01-01",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137274642"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274641"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274666",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274666",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T08:38:51.745-04:00",
+            "source": "#TFARaAnBeSIgWmH8",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Patient-twcore"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://w3.org\"><ul><li>病人: 王阿明</li></ul></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "text": "王阿明"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-20",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137274662"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274661"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274669",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274669",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T08:45:41.000-04:00",
+            "source": "#XDs8ohYNW3eUBGFr",
+            "profile": [
+              "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Patient-twcore"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://w3.org\"><ul><li>病人: NINI</li></ul></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "text": "NINI"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-20",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137274668"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137274667"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274673",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274673",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T10:19:07.882-04:00",
+            "source": "#cHxgx35FTY4fpXDj"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>0012-3345</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.392.100495.20.3.61",
+              "value": "0012-3345"
+            }
+          ],
+          "name": [
+            {
+              "text": "青葉 真一"
+            }
+          ],
+          "gender": "male"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274687",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274687",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T10:28:50.258-04:00",
+            "source": "#PPC7DrSAFEDynSi1"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Signup <b>TEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1990</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test",
+              "given": [
+                "Signup"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9998887777"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1990-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274688",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274688",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T10:28:53.619-04:00",
+            "source": "#k3HQzcxvmQ0mTdP8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">CI <b>TESTPATIENT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "TestPatient",
+              "given": [
+                "CI"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274701",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274701",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T10:42:26.997-04:00",
+            "source": "#87pIccRNE428Clmx"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Debug <b>TEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1995</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test",
+              "given": [
+                "Debug"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274714",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274714",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T12:46:06.893-04:00",
+            "source": "#CCDhN7n0QkHYaU46"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mira <b>FAKENHAM </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>HF-131099</td></tr><tr><td>Address</td><td><span>411 Example Street </span><br/><span>Springfield </span><span>IL </span></td></tr><tr><td>Date of birth</td><td><span>21 August 1995</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR",
+                    "display": "Medical record number"
+                  }
+                ]
+              },
+              "system": "https://healthflow-fhir.example.org/mrn",
+              "value": "HF-131099"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Fakenham",
+              "given": [
+                "Mira"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-0176"
+            },
+            {
+              "system": "email",
+              "value": "mira.fakenham@example.org"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1995-08-21",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "411 Example Street"
+              ],
+              "city": "Springfield",
+              "state": "IL",
+              "postalCode": "62701"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "U",
+                "display": "Unmarried"
+              }
+            ]
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274734",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274734",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T15:04:52.432-04:00",
+            "source": "#NwL28noqA0jhLahS"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Margaret <b>CHEN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>opal-margaret-chen-412-v3</td></tr><tr><td>Date of birth</td><td><span>15 January 1958</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:opal:demo",
+              "value": "opal-margaret-chen-412-v3"
+            }
+          ],
+          "name": [
+            {
+              "family": "Chen",
+              "given": [
+                "Margaret"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1958-01-15"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274762",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274762",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T15:32:34.919-04:00",
+            "source": "#LAg7uG9DBAxlDmrx"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>P-IT-639212959545063120</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:devicelink:patient",
+              "value": "P-IT-639212959545063120"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274764",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274764",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T15:32:38.424-04:00",
+            "source": "#nTU0tieEAVr8B8WW"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>P-IT-639212959580915117</td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:devicelink:patient",
+              "value": "P-IT-639212959580915117"
+            }
+          ],
+          "active": true
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-1",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-1",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:44:43.166-04:00",
+            "source": "#p5KjvX0X34wCVFwv"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "gender": "unknown"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-2",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-2",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:15.230-04:00",
+            "source": "#pi3kDMnD6DqGykEp"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-2</td></tr><tr><td>Date of birth</td><td><span>12 March 1972</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-2"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1972-03-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-3",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-3",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:15.846-04:00",
+            "source": "#v2UzGnH9crf8dgBh"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-3</td></tr><tr><td>Date of birth</td><td><span>13 April 1973</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-3"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1973-04-13"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-4",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-4",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:16.453-04:00",
+            "source": "#m5kN9B60m1n6biSU"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-4</td></tr><tr><td>Date of birth</td><td><span>14 May 1974</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-4"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1974-05-14"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-5",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-5",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:17.053-04:00",
+            "source": "#qVT8h2rauqR4ha38"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-5</td></tr><tr><td>Date of birth</td><td><span>15 June 1975</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-5"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1975-06-15"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-6",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-6",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:17.652-04:00",
+            "source": "#QMB8ZXTZANXR3v0i"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-6</td></tr><tr><td>Date of birth</td><td><span>16 July 1976</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-6"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1976-07-16"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-7",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-7",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:18.248-04:00",
+            "source": "#okPDuNkzh1Pvi4pO"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-7</td></tr><tr><td>Date of birth</td><td><span>17 August 1977</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-7"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1977-08-17"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-8",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-8",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:18.860-04:00",
+            "source": "#iiQPCljdCDjbIFH8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-8</td></tr><tr><td>Date of birth</td><td><span>18 September 1978</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-8"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1978-09-18"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-9",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-9",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:19.465-04:00",
+            "source": "#9lm9IdnIvLcx9fAl"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-9</td></tr><tr><td>Date of birth</td><td><span>10 January 1979</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-9"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1979-01-10"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-10",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-10",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:20.069-04:00",
+            "source": "#O5KNbQUDNHZWh3rf"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-10</td></tr><tr><td>Date of birth</td><td><span>11 February 1980</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-10"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1980-02-11"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/meridian-synth-11",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "meridian-synth-11",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-02T18:45:20.728-04:00",
+            "source": "#iyID9pZAzHZnLjpM"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>synth-11</td></tr><tr><td>Date of birth</td><td><span>12 March 1981</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:meridian:synthetic",
+              "value": "synth-11"
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1981-03-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137258888",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137258888",
+          "meta": {
+            "versionId": "3",
+            "lastUpdated": "2026-08-02T23:23:57.716-04:00",
+            "source": "#vS11FQ1g4VTcD4UC",
+            "tag": [
+              {
+                "system": "http://ihuanfhir.org/platform",
+                "code": "team-ihuanfhir"
+              }
+            ]
+          },
+          "extension": [
+            {
+              "url": "http://ihuanfhir.org/StructureDefinition/sport",
+              "valueString": "田徑"
+            },
+            {
+              "url": "http://ihuanfhir.org/StructureDefinition/flow-steps",
+              "valueString": "1,2,3,4,5,6,7,8"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:ihuanfhir:mrn",
+              "value": "MRN999"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "林小白",
+              "family": "林",
+              "given": [
+                "小白"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0900000000",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2000-12-19"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137274886",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137274886",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T00:41:41.154-04:00",
+            "source": "#tyFV0nVhv2Rr9rLD"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Synthetic Test <b>ZERAPOC-565F59 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>MRN-18007d13</td></tr><tr><td>Date of birth</td><td><span>01 January 1980</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://hospital.org/fhir/mrn",
+              "value": "MRN-18007d13"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "ZeraPoC-565f59",
+              "given": [
+                "Synthetic",
+                "Test"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1980-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2420 @@
+{
+  "api_url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=450&_count=50&_pretty=true&_bundletype=searchset",
+  "api_call_timestamp": "2026-08-04T07:09:18.640815+00:00",
+  "saved_timestamp": "2026-08-04T07:09:23.529841+00:00",
+  "bundle": {
+    "resourceType": "Bundle",
+    "id": "2c7e5756-4e24-459b-8816-66123b7b92aa",
+    "meta": {
+      "lastUpdated": "2026-08-04T03:09:21.033-04:00"
+    },
+    "type": "searchset",
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=450&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "next",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=500&_count=50&_pretty=true&_bundletype=searchset"
+      },
+      {
+        "relation": "previous",
+        "url": "https://hapi.fhir.org/baseR4?_getpages=2c7e5756-4e24-459b-8816-66123b7b92aa&_getpagesoffset=400&_count=50&_pretty=true&_bundletype=searchset"
+      }
+    ],
+    "entry": [
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275358",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275358",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:40:31.077-04:00",
+            "source": "#PdtqaCpgYFxZr9aB"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "461be636-194f-42d9-b9e0-06e29f5f41d4"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275359",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275359",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:40:31.079-04:00",
+            "source": "#AW9bfMRjehYwxgUv"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "461be636-194f-42d9-b9e0-06e29f5f41d4"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275361",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275361",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:40:51.466-04:00",
+            "source": "#fd9EgE22HhoDogLS"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "0681ebda-84b4-4fb4-b7e2-122e8b8d92a9"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275363",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275363",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:40:55.101-04:00",
+            "source": "#6MAilazTyG6WZdy2"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "0681ebda-84b4-4fb4-b7e2-122e8b8d92a9"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275365",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275365",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:50:06.087-04:00",
+            "source": "#gPOOZAqPN8eSmILQ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "427d0e59-83f8-400c-9332-e2f62b2babe9"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275367",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275367",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:50:09.317-04:00",
+            "source": "#p1EbhMnp4Mr93Zwo"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "427d0e59-83f8-400c-9332-e2f62b2babe9"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275371",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275371",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:54:46.877-04:00",
+            "source": "#mlJWgC8WbxVAmWS9"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "19810bfc-54b2-486f-8658-2b1a50d7dd4a"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275372",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275372",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:54:47.210-04:00",
+            "source": "#hegWYI3PPZBbw8r2"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">亞亞 <b>林123 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "林123 亞亞",
+              "family": "林123",
+              "given": [
+                "亞亞"
+              ]
+            }
+          ],
+          "gender": "male",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137275370"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275369"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275374",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275374",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:54:50.306-04:00",
+            "source": "#YW1V3WbAPBTUc0xV"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "19810bfc-54b2-486f-8658-2b1a50d7dd4a"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275385",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275385",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:57:40.532-04:00",
+            "source": "#m4f8E2cgekFmL1Qr"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">亞亞 <b>林144 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "林144 亞亞",
+              "family": "林144",
+              "given": [
+                "亞亞"
+              ]
+            }
+          ],
+          "gender": "male",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137275383"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275384"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275393",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275393",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:58:42.271-04:00",
+            "source": "#QNrOTajw3ue4dDRi"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "be9fddac-48c9-4ae1-886f-d37743a894c9"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275392",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275392",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T04:58:42.273-04:00",
+            "source": "#DX6Q8q7uNpucG5B0"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "be9fddac-48c9-4ae1-886f-d37743a894c9"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275399",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275399",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T05:06:03.432-04:00",
+            "source": "#qo7jKZMPvcv2fg4W"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">亞亞3 <b>林1 </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "林1 亞亞3",
+              "family": "林1",
+              "given": [
+                "亞亞3"
+              ]
+            }
+          ],
+          "gender": "male",
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137275398"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275397"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275408",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275408",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T05:14:12.553-04:00",
+            "source": "#iIrJdguRR9KrTQpe"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lukas <b>HUBER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>TEST-0002</td></tr><tr><td>Address</td><td><span>Hauptstraße 12 </span><br/><span>Linz </span><span>AT </span></td></tr><tr><td>Date of birth</td><td><span>18 September 1992</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://example.org/patient-id",
+              "value": "TEST-0002"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Huber",
+              "given": [
+                "Lukas"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+43-664-9876543",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "lukas.huber@example.org"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1992-09-18",
+          "address": [
+            {
+              "line": [
+                "Hauptstraße 12"
+              ],
+              "city": "Linz",
+              "postalCode": "4020",
+              "country": "AT"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275409",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275409",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-03T05:27:16.140-04:00",
+            "source": "#u2Ezbd1NoPdtbiYd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jimmy <b>HALPERT </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>DM-0001</td></tr><tr><td>Address</td><td><span>Scranton </span><span>PA </span><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>01 October 1978</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://dundermifflin.com/employees",
+              "value": "DM-0001"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Halpert",
+              "given": [
+                "Jimmy"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-570-555-0101",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "jim.halpert@dundermifflin.com",
+              "use": "work"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1978-10-01",
+          "address": [
+            {
+              "use": "home",
+              "city": "Scranton",
+              "state": "PA",
+              "country": "USA"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "contact": [
+            {
+              "relationship": [
+                {
+                  "text": "Spouse"
+                }
+              ],
+              "name": {
+                "family": "Halpert",
+                "given": [
+                  "Pam"
+                ]
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275410",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275410",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-03T05:27:28.055-04:00",
+            "source": "#tbwa8wHpuPTHirzp",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://hospital.example.org/patient-ids",
+              "value": "PAT-2026-0731"
+            },
+            {
+              "use": "secondary",
+              "system": "http://www.chipsi.at/versicherung",
+              "value": "AT-1234567890"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Huber",
+              "given": [
+                "Anna",
+                "Maria"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+43 0133",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "anna.huber@example.com",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1985-04-12",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "Musterstraße 15"
+              ],
+              "city": "Linz",
+              "postalCode": "4020",
+              "country": "AT"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "de-AT",
+                    "display": "German (Austria)"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ],
+          "generalPractitioner": [
+            {
+              "display": "Dr. Michael Steiner"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275425",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275425",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:07:15.738-04:00",
+            "source": "#xI9aDEBTd8KelvBj"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "df2331ee-4517-4aa1-bb32-9c6a63bca67e"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275426",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275426",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:07:15.741-04:00",
+            "source": "#WN5nCjFOFzTBTeGd"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "df2331ee-4517-4aa1-bb32-9c6a63bca67e"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275444",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275444",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:28:19.753-04:00",
+            "source": "#W8JHgPCvXzqoPA52"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "6436f3ca-1eb9-470c-9af6-eda5b891ae54"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275445",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275445",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:28:19.756-04:00",
+            "source": "#gMpgRxIL2HAE6oRy"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "6436f3ca-1eb9-470c-9af6-eda5b891ae54"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275454",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275454",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:28:44.308-04:00",
+            "source": "#f8e0sx6bX3dnWhm5"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "890be050-dba5-4847-9d08-0e9a1bbad2dd"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275456",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275456",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:28:47.032-04:00",
+            "source": "#l7hvpMthuOBy1Bfv"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "890be050-dba5-4847-9d08-0e9a1bbad2dd"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275476",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275476",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:49:48.540-04:00",
+            "source": "#3b5KZAbrxMuwcVLT"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "a7ec9ff7-d0f4-4401-a63d-90419e5b732b"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275477",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275477",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:49:48.540-04:00",
+            "source": "#QH4Jj1bwgViZnPbj"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "a7ec9ff7-d0f4-4401-a63d-90419e5b732b"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275485",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275485",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:59:12.979-04:00",
+            "source": "#Orgder067wZDvHQ8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "0fa95c22-1ec5-492d-bd69-0fe97999580b"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275486",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275486",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T06:59:13.188-04:00",
+            "source": "#UDFxqhFFN4S3Ix0Q"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "0fa95c22-1ec5-492d-bd69-0fe97999580b"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275489",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275489",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T07:00:27.552-04:00",
+            "source": "#8QBympeXb6ZOi2Gm"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bundle <b>TEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>05 May 1985</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "family": "Test",
+              "given": [
+                "Bundle"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1985-05-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275491",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275491",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T07:01:27.176-04:00",
+            "source": "#zqqZLrIfArVma2NQ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "3fb1b278-b148-4140-8aec-7a01616c2dfb"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275493",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275493",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T07:01:30.678-04:00",
+            "source": "#vG6dWU7OJQVVeIY8"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "3fb1b278-b148-4140-8aec-7a01616c2dfb"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275529",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275529",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T07:12:04.526-04:00",
+            "source": "#ROZUHVxD60bbHQzr"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">FHIR <b>LEARNER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1990</span></td></tr></tbody></table></div>"
+          },
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Learner",
+              "given": [
+                "FHIR"
+              ]
+            }
+          ],
+          "gender": "unknown",
+          "birthDate": "1990-01-01"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275555",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275555",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T07:57:18.054-04:00",
+            "source": "#pw2VotmyAIel4uOI"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dwight Kurt <b>SCHRUTE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>DM-0002</td></tr><tr><td>Address</td><td><span>Schrute Farms </span><br/><span>Honesdale </span><span>PA </span><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>20 January 1974</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "http://dundermifflin.com/employees",
+              "value": "DM-0002"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Schrute",
+              "given": [
+                "Dwight",
+                "Kurt"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+1-570-555-0202",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "dwight.schrute@dundermifflin.com",
+              "use": "work"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1974-01-20",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "Schrute Farms"
+              ],
+              "city": "Honesdale",
+              "state": "PA",
+              "country": "USA"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "contact": [
+            {
+              "relationship": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                      "code": "SPS",
+                      "display": "Spouse"
+                    }
+                  ]
+                }
+              ],
+              "name": {
+                "family": "Schrute",
+                "given": [
+                  "Angela"
+                ]
+              }
+            }
+          ],
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en",
+                    "display": "English"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275567",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275567",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T08:04:59.466-04:00",
+            "source": "#ri68veywyUZyiVhi"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Lukas <b>WAGNER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>PAT-2026-1142</td></tr><tr><td>Address</td><td><span>Bergweg 8 </span><br/><span>Innsbruck </span><span>AT </span></td></tr><tr><td>Date of birth</td><td><span>23 November 1979</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://hospital.example.org/patient-ids",
+              "value": "PAT-2026-1142"
+            },
+            {
+              "use": "secondary",
+              "system": "http://www.chipsi.at/versicherung",
+              "value": "AT-9876543210"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Wagner",
+              "given": [
+                "Lukas"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+43 664 9871234",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "lukas.wagner@example.com",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1979-11-23",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "Bergweg 8"
+              ],
+              "city": "Innsbruck",
+              "postalCode": "6020",
+              "country": "AT"
+            }
+          ],
+          "generalPractitioner": [
+            {
+              "display": "Dr. Sabine Egger"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275568",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275568",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T08:05:21.567-04:00",
+            "source": "#6wIns2yQSxex9866",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://example.org/patient-id",
+              "value": "PAT-000123"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Mustermann",
+              "given": [
+                "Max"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+49-30-12345678",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "max.mustermann@example.org",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-04-12",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "Musterstraße 1"
+              ],
+              "city": "Berlin",
+              "postalCode": "10115",
+              "country": "DE"
+            }
+          ],
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "de"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275560",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275560",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-03T08:12:57.991-04:00",
+            "source": "#UBf9F2EvQYEE4Qx7"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Michael <b>MUSTERMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>FJ19740405WKIR001</td></tr><tr><td>Date of birth</td><td><span>05 April 2001</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.3.4.5.6.999.21",
+              "value": "FJ19740405WKIR001"
+            }
+          ],
+          "name": [
+            {
+              "family": "Mustermann",
+              "given": [
+                "Michael"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2001-04-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275559",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275559",
+          "meta": {
+            "versionId": "2",
+            "lastUpdated": "2026-08-03T08:16:03.165-04:00",
+            "source": "#eLfJj7IO7TIhyGAP"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Michael <b>MUSTERMANN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>19740405WKIR001</td></tr><tr><td>Date of birth</td><td><span>05 April 2001</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "urn:oid:1.2.3.4.5.6.999.21",
+              "value": "19740405WKIR001"
+            }
+          ],
+          "name": [
+            {
+              "family": "Mustermann",
+              "given": [
+                "Michael"
+              ]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2001-04-05"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275573",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275573",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T08:30:02.035-04:00",
+            "source": "#HELEBPHtSPIghW7X"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>E9002</td></tr><tr><td>Address</td><td><span>6773 Healthcare Drive </span><br/><span>Apt 5B </span><br/><span>Medical City </span><span>TX </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>26 November 1981</span></td></tr></tbody></table></div>"
+          },
+          "extension": [
+            {
+              "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.698084.130.657370.19999000",
+                    "code": "female",
+                    "display": "female"
+                  }
+                ]
+              }
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+              "extension": [
+                {
+                  "url": "text",
+                  "valueString": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          ],
+          "identifier": [
+            {
+              "use": "usual",
+              "type": {
+                "text": "EPIC"
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.0",
+              "value": "E9002"
+            },
+            {
+              "use": "usual",
+              "type": {
+                "text": "EXTERNAL"
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+              "value": "Z7681"
+            },
+            {
+              "use": "usual",
+              "type": {
+                "text": "EPI"
+              },
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.14",
+              "value": "240914"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "text": "Sarah Johnson",
+              "family": "Johnson",
+              "given": [
+                "Sarah"
+              ]
+            },
+            {
+              "use": "usual",
+              "text": "Sarah Johnson",
+              "family": "Johnson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "557-555-7000",
+              "use": "home"
+            },
+            {
+              "system": "phone",
+              "value": "664-888-6188",
+              "use": "work"
+            },
+            {
+              "system": "email",
+              "value": "sarah.johnson@healthcare.com",
+              "rank": 1
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1981-11-26",
+          "deceasedBoolean": false,
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "6773 Healthcare Drive",
+                "Apt 5B"
+              ],
+              "city": "Medical City",
+              "district": "HEALTHCARE",
+              "state": "TX",
+              "postalCode": "93054",
+              "country": "US",
+              "period": {
+                "start": "2019-05-24"
+              }
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ],
+            "text": "Married"
+          },
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "en",
+                    "display": "English"
+                  }
+                ],
+                "text": "English"
+              },
+              "preferred": true
+            }
+          ],
+          "generalPractitioner": [
+            {
+              "reference": "Practitioner/137275572",
+              "type": "Practitioner",
+              "display": "Physician"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275571",
+            "display": "Healthcare Service Area"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275576",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275576",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T08:41:03.423-04:00",
+            "source": "#UFdJkfmDBXVf7V05",
+            "tag": [
+              {
+                "system": "http://example.com/test-system",
+                "code": "vue-express-fhir-test"
+              }
+            ]
+          },
+          "extension": [
+            {
+              "url": "http://example.com/fhir/StructureDefinition/patient-location",
+              "valueReference": {
+                "reference": "Location/137275575"
+              }
+            }
+          ],
+          "name": [
+            {
+              "text": "王曉明"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275580",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275580",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T08:46:36.018-04:00",
+            "source": "#uc4ZrBOIGeeh39uD",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          },
+          "identifier": [
+            {
+              "system": "https://example.org/patient-id",
+              "value": "PAT-2026-00457"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Schneider",
+              "given": [
+                "Laura",
+                "Marie"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+49-40-76543210",
+              "use": "mobile"
+            },
+            {
+              "system": "email",
+              "value": "laura.schneider@example.org",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1992-09-23",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "Birkenweg 17"
+              ],
+              "city": "Hamburg",
+              "postalCode": "22085",
+              "country": "DE"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "S",
+                "display": "Never Married"
+              }
+            ]
+          },
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "urn:ietf:bcp:47",
+                    "code": "de"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275596",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275596",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T09:16:17.446-04:00",
+            "source": "#0ctl1sgxtD6yqYZ6",
+            "tag": [
+              {
+                "system": "http://example.com/test-system",
+                "code": "vue-express-fhir-test"
+              }
+            ]
+          },
+          "extension": [
+            {
+              "url": "http://example.com/fhir/StructureDefinition/patient-location",
+              "valueReference": {
+                "reference": "Location/137275595"
+              }
+            }
+          ],
+          "name": [
+            {
+              "text": "王大大"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275600",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275600",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T09:21:08.948-04:00",
+            "source": "#Gn5ZiZk6JqXKmMka",
+            "tag": [
+              {
+                "system": "http://example.com/test-system",
+                "code": "vue-express-fhir-test"
+              }
+            ]
+          },
+          "extension": [
+            {
+              "url": "http://example.com/fhir/StructureDefinition/patient-location",
+              "valueReference": {
+                "reference": "Location/137275599"
+              }
+            }
+          ],
+          "name": [
+            {
+              "text": "林小小"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/RHOENPATIENTZACHER",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "RHOENPATIENTZACHER",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T09:36:12.097-04:00",
+            "source": "#xsOnfE4vpxiHUVei"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"><b>MUSTERMANN </b></div><table class=\"hapiPropertyTable\"><tbody/></table></div>"
+          },
+          "name": [
+            {
+              "family": "Mustermann"
+            }
+          ],
+          "gender": "male"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275606",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275606",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T09:48:11.376-04:00",
+            "source": "#K2qFnk7H1ic0S0nG",
+            "tag": [
+              {
+                "system": "http://example.com/test-system",
+                "code": "vue-express-fhir-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "http://www.moi.gov.tw",
+              "value": "U123456789"
+            },
+            {
+              "system": "http://example.com/mrn",
+              "value": "88776655"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "text": "王小明",
+              "family": "王",
+              "given": [
+                "小明"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0912345678",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-05-20",
+          "address": [
+            {
+              "text": "花蓮縣吉安鄉吉安路二段100號"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275604"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275608",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275608",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T09:59:36.746-04:00",
+            "source": "#6t5IBNJlWurLEMet"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"/><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CB-A379325F</td></tr><tr><td>Date of birth</td><td><span>02 June 1988</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://carebridge.example/patient-id",
+              "value": "CB-A379325F"
+            }
+          ],
+          "name": [
+            {
+              "text": "測試2號"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0922222222"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1988-06-02"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275618",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275618",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T10:03:44.174-04:00",
+            "source": "#hH9654xoWnxXTi3L",
+            "tag": [
+              {
+                "system": "http://example.com/test-system",
+                "code": "vue-express-fhir-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "http://www.moi.gov.tw",
+              "value": "U123456789"
+            },
+            {
+              "system": "http://example.com/mrn",
+              "value": "88776655"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "text": "王小明",
+              "family": "王",
+              "given": [
+                "小明"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0912345678",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-05-20",
+          "address": [
+            {
+              "text": "花蓮縣吉安鄉吉安路二段100號"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275616"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275622",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275622",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T10:13:13.547-04:00",
+            "source": "#UmvHLpVNnA9fXFaV",
+            "tag": [
+              {
+                "system": "http://example.com/test-system",
+                "code": "vue-express-fhir-test"
+              }
+            ]
+          },
+          "identifier": [
+            {
+              "system": "http://www.moi.gov.tw",
+              "value": "U123456789"
+            },
+            {
+              "system": "http://example.com/mrn",
+              "value": "88776655"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "text": "王小明",
+              "family": "王",
+              "given": [
+                "小明"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "0912345678",
+              "use": "mobile"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1985-05-20",
+          "address": [
+            {
+              "text": "花蓮縣吉安鄉吉安路二段100號"
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/137275620"
+          }
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275625",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275625",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T10:15:54.246-04:00",
+            "source": "#9eIQpohURq6CnMoN"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">OIC-given-1785766327211_n0t8ry <b>OIC-FAMILY-1785766327211_N0T8RY </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>33-d, ave-1 </span><br/><span>ca1058 </span><span>ss </span></td></tr><tr><td>Date of birth</td><td><span>06 February 2013</span></td></tr></tbody></table></div>"
+          },
+          "name": [
+            {
+              "use": "official",
+              "family": "OIC-family-1785766327211_n0t8ry",
+              "given": [
+                "OIC-given-1785766327211_n0t8ry"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "9999999999",
+              "use": "home"
+            },
+            {
+              "system": "email",
+              "value": "fhir@gmail.com"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "2013-02-06",
+          "address": [
+            {
+              "line": [
+                "33-d, ave-1"
+              ],
+              "city": "ca1058",
+              "state": "ss",
+              "postalCode": "33344"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275626",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275626",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T10:16:49.058-04:00",
+            "source": "#j4hM4qRj7BFtkWgK"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "0d786177-0c11-4494-a610-a2531aef3e80"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275627",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275627",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T10:16:49.064-04:00",
+            "source": "#eDq9Fs2qkr10GoT5"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "0d786177-0c11-4494-a610-a2531aef3e80"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275629",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275629",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T10:17:28.807-04:00",
+            "source": "#L1KIIOWKr5gxjDc7"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "cf625271-6911-4b95-ae65-3e5f2f01f3e8"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://hapi.fhir.org/baseR4/Patient/137275630",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "137275630",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-08-03T10:17:35.411-04:00",
+            "source": "#yP8Nh7RaRl44FZXU"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sarah <b>THOMPSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ARC-DEMO-THOMPSON-DOC-001</td></tr><tr><td>Date of birth</td><td><span>12 April 1962</span></td></tr></tbody></table></div>"
+          },
+          "identifier": [
+            {
+              "system": "https://arca.demo/mrn",
+              "value": "ARC-DEMO-THOMPSON-DOC-001"
+            },
+            {
+              "system": "https://arca.demo/seed-token",
+              "value": "cf625271-6911-4b95-ae65-3e5f2f01f3e8"
+            }
+          ],
+          "name": [
+            {
+              "family": "Thompson",
+              "given": [
+                "Sarah"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1962-04-12"
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  }
+}
